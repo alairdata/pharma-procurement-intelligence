@@ -134,15 +134,21 @@ def ingest_global_fund_pqr(url: str) -> tuple[pd.DataFrame, str]:
         return wide[name] if name in wide.columns else pd.Series(default, index=wide.index)
 
     parsed = [_gf_name(p, d) for p, d in zip(wide["Product"], wide["Description"])]
+    quantity = pd.to_numeric(col("Pack quantity"), errors="coerce")
+    total_value = pd.to_numeric(col("Total Product Cost (USD)"), errors="coerce")
+    explicit_pack_price = pd.to_numeric(col("Unit Cost (USD)"), errors="coerce")
+    derived_pack_price = total_value / quantity.replace(0, pd.NA)
+    pack_price = explicit_pack_price.where(explicit_pack_price.gt(0), derived_pack_price)
+
     out = pd.DataFrame({
         "country": wide["Country/Teritorry"].str.strip(),
         "molecule": [x[0] for x in parsed],
         "dosage": [x[1] for x in parsed],
         "dosage_form": [x[2] for x in parsed],
         "units_per_pack": pd.to_numeric(col("Nb of Suom in Pack"), errors="coerce"),
-        "quantity": pd.to_numeric(col("Pack quantity"), errors="coerce"),
-        "line_item_value_usd": pd.to_numeric(col("Total Product Cost (USD)"), errors="coerce"),
-        "pack_price_usd": pd.to_numeric(col("Unit Cost (USD)"), errors="coerce"),
+        "quantity": quantity,
+        "line_item_value_usd": total_value,
+        "pack_price_usd": pack_price,
         "vendor": wide.get("Supplier/Agent/Manufacturer/Intermediatry", pd.Series(index=wide.index, dtype="string")).str.strip(),
         "manufacturing_site": wide.get("Manufacturer", pd.Series(index=wide.index, dtype="string")).str.strip(),
         "delivered_date": pd.to_datetime(col("Actual Delivery Date"), errors="coerce"),
@@ -192,12 +198,16 @@ def run_ingestion(config: dict) -> dict:
             if changed or not staged.exists():
                 df.to_csv(staged, index=False)
             new_state[name] = source_hash
+            usable_rows = int(len(df))
+            status = "ok" if usable_rows > 0 else "empty"
             results[name] = {
-                "status": "ok",
+                "status": status,
                 "changed": changed,
-                "rows": int(len(df)),
+                "rows": usable_rows,
                 "hash": source_hash,
             }
+            if usable_rows == 0 and source.get("required", False):
+                raise ValueError(f"Required source {name} produced zero usable rows")
         except Exception as exc:
             if source.get("required", False):
                 raise
