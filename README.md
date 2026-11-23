@@ -1,172 +1,330 @@
 # Pharmaceutical Procurement Intelligence
 
-A compact, reproducible analytics project that turns public global-health procurement data into decision signals around pricing variation, supplier concentration, market exposure, and delivery performance.
+A reproducible procurement-intelligence system that ingests public pharmaceutical procurement data, validates and standardizes records, builds analytical marts, and surfaces pricing and supplier-concentration signals for human review.
 
-## What this project asks
+## What this project demonstrates
 
-The project is built around three practical questions:
+This is deliberately more than a one-off analysis.
 
-1. **Where do comparable medicines show unusually wide historical price dispersion?**
-2. **Which product-market combinations depend heavily on a small number of manufacturing suppliers?**
-3. **Where do high procurement value, price dispersion, and supplier concentration combine into a useful review signal?**
+The system now includes:
 
-The result is not an "inefficiency detector." Procurement prices can vary for legitimate reasons including contract terms, order size, freight, quality requirements, geography, and timing. The output is a **transparent review-priority system** that tells an analyst where deeper investigation may be worth the effort.
+- **multi-source ingestion** from historical SCMS procurement data and Global Fund PQR transactions
+- **source-level change detection** using SHA-256 hashes
+- **raw → staging → canonical marts** data layers
+- **supplier entity normalization**
+- **hard data-quality gates** before publishing outputs
+- **fact and dimension tables** plus an analytical warehouse
+- **explainable procurement signal scoring**
+- **price and supplier-concentration alerts**
+- **automated executive dashboard + review brief**
+- **daily GitHub Actions orchestration**
+- **unit tests and serialized CI runs** to prevent overlapping pipeline writes
 
-## Dataset
+## Current build
 
-The first build uses the historical **SCMS Delivery History Dataset**, a public USAID/PEPFAR health-commodity procurement and shipment dataset.
+The latest full multi-source build processed:
 
-After cleaning and restricting the analysis to comparable ARV pharmaceutical records, the analytical dataset contains:
-
-- **8,542 transactions**
+- **9,291 procurement records**
+- **2 healthy public data sources**
 - **33 markets**
-- **48 manufacturing suppliers**
-- **92 product formulations**
-- **$1.41B in historical procurement value**
-- deliveries spanning **2006-08-11 to 2015-09-14**
+- **122 normalized supplier entities**
+- **235 product formulations**
+- about **$2.08B in historical procurement value**
+- **430 product-market combinations** scored for review
 
-The repository does not store the raw source file. The pipeline downloads it during execution and writes the cleaned analytical dataset to `data/processed/`.
+The data are historical and are used to demonstrate procurement-intelligence engineering and analysis. They should not be interpreted as current market prices.
 
-## Headline findings
+## Architecture
 
-### 1. South Africa repeatedly appears in the highest review-priority combinations
-
-The top-ranked signal is **Zidovudine 300mg, 60-tablet packs in South Africa**:
-
-- 93 transactions
-- 4 manufacturing suppliers
-- median pack price: **$16.09**
-- normalized IQR price dispersion: **1.07**
-- top manufacturing site represented about **97% of observed procurement value**
-- review-priority score: **84.6 / 100**
-
-This does **not** imply overpricing. It indicates a combination of meaningful historical spend, broad price spread, and concentrated manufacturing exposure that deserves closer contextual review.
-
-### 2. Efavirenz 600mg shows large within-market price variation
-
-For **Efavirenz 600mg, 30-tablet packs in South Africa**:
-
-- 144 transactions
-- 5 manufacturing suppliers
-- median pack price: **$11.27**
-- observed pack prices ranged from **$4.26 to $21.66**
-- normalized IQR price dispersion: **1.01**
-- top supplier share: about **78%**
-- review score: **81.9**
-
-### 3. Supplier concentration and price dispersion do not always move together
-
-For **Tenofovir disoproxil fumarate 300mg in South Africa**, the model finds:
-
-- 129 transactions
-- 6 manufacturing suppliers
-- median pack price: **$7.82**
-- high normalized price dispersion: **1.78**
-- lower supplier concentration than several other top signals
-- top supplier share: about **51%**
-
-That is useful because it separates two very different procurement questions: "Are prices dispersed?" and "Is supply concentrated?"
-
-### 4. Historical procurement value is highly concentrated among a few manufacturing suppliers
-
-The largest manufacturing suppliers by observed procurement value include:
-
-| Manufacturing supplier | Transactions | Markets | Procurement value |
-|---|---:|---:|---:|
-| Mylan (formerly Matrix) Nashik | 1,413 | 26 | $435.7M |
-| Aurobindo Unit III, India | 3,169 | 29 | $335.5M |
-| Hetero Unit III Hyderabad | 869 | 26 | $213.9M |
-| Cipla, Goa, India | 664 | 21 | $130.6M |
-| Strides, Bangalore, India | 540 | 22 | $84.6M |
-
-These figures describe the historical dataset only, not current market share.
-
-## Review-priority framework
-
-Each sufficiently observed product-market combination is scored using three components:
-
+```text
+Public procurement sources
+        |
+        v
++---------------------------+
+| Source adapters           |
+| SCMS + Global Fund PQR    |
++---------------------------+
+        |
+        v
+data/raw/                   (ephemeral / gitignored)
+        |
+        | source hashing + freshness state
+        v
+data/staging/               (source-standardized)
+        |
+        v
++---------------------------+
+| Entity resolution         |
+| product + supplier        |
++---------------------------+
+        |
+        v
++---------------------------+
+| Data quality gates        |
+| nulls / prices / IDs      |
++---------------------------+
+        |
+        v
+data/marts/
+  fact_procurement
+  dim_product
+  dim_supplier
+  dim_market
+        |
+        v
+Analytical warehouse
+        |
+        +-------------------+
+        |                   |
+        v                   v
+Signal engine           Alert engine
+        |                   |
+        +---------+---------+
+                  |
+                  v
+        Executive dashboard
+        Automated review brief
 ```
+
+See [docs/architecture.md](docs/architecture.md) for the implementation details.
+
+## Data sources
+
+### 1. SCMS Delivery History Dataset
+
+Historical USAID/PEPFAR health-commodity procurement and shipment data.
+
+The adapter standardizes:
+
+- market
+- molecule / formulation
+- pack size
+- manufacturing supplier
+- quantity
+- line-item value
+- pack price
+- delivery dates
+- freight and shipment metadata where available
+
+### 2. Global Fund Price & Quality Reporting (PQR)
+
+The pipeline also ingests transaction-level Global Fund procurement data through the public PQR Tableau export.
+
+The current adapter pulls the Kenya transaction view and contributes **749 usable procurement records** to the canonical table.
+
+The source is configured as optional because public Tableau endpoints can change independently of this repository. Source availability is recorded in `data/state/source_health.json`.
+
+## Incremental ingestion
+
+Each source file is hashed after download.
+
+```text
+download
+  → SHA-256
+  → compare with committed source state
+  → refresh staging only when source or adapter output changes
+```
+
+This keeps raw files ephemeral while preserving pipeline state and reproducibility.
+
+The pipeline also checks staged row counts, so an adapter-code change can refresh staging even when the raw source hash is unchanged.
+
+## Data quality
+
+Before signals are generated, the pipeline checks:
+
+- positive prices
+- positive quantities
+- country completeness
+- supplier completeness
+- product-key completeness
+- duplicate source record IDs
+
+A hard quality-gate failure stops downstream publication.
+
+The latest successful build passed all hard checks with:
+
+- **100% country completeness**
+- **100% supplier completeness**
+- **100% product-key completeness**
+- **0 duplicate source IDs**
+
+Results are published to `outputs/data_quality_report.json`.
+
+## Canonical data model
+
+The pipeline writes a small star-style analytical model:
+
+- `fact_procurement.csv`
+- `dim_product.csv`
+- `dim_supplier.csv`
+- `dim_market.csv`
+
+Derived marts include:
+
+- `mart_product_market_signals.csv`
+- `mart_supplier_summary.csv`
+- `mart_country_summary.csv`
+
+An ephemeral SQLite analytical warehouse is rebuilt during each run, with indexed fact tables and views for high-priority signals and large procurement markets.
+
+## Review-priority signal
+
+For product-market combinations with at least five observations:
+
+```text
 Review Priority =
-    35% procurement-value rank
-  + 35% price-dispersion rank
-  + 30% supplier-concentration rank
+    35% procurement-value percentile
+  + 35% normalized price-dispersion percentile
+  + 30% supplier-concentration percentile
 ```
 
 Where:
 
-- **Procurement value** captures commercial significance.
-- **Price dispersion** uses the interquartile range divided by median pack price.
-- **Supplier concentration** uses a value-weighted Herfindahl-Hirschman Index (HHI) across manufacturing sites.
+- **procurement value** captures commercial significance
+- **price dispersion** is IQR / median pack price
+- **supplier concentration** uses a value-weighted HHI
 
-Only product-market combinations with at least **5 transactions** are scored. The current build scores **375 combinations**.
+The score is intentionally transparent.
 
-## Outputs
+A high score means **investigate this combination further**. It does not mean a purchase was inefficient or overpriced.
 
-The pipeline creates:
+## Automated alerts
 
-- `data/processed/arv_procurement_clean.csv` — cleaned analytical dataset
-- `outputs/product_market_signals.csv` — ranked product-market review signals
-- `outputs/supplier_summary.csv` — manufacturing supplier footprint
-- `outputs/country_summary.csv` — market-level procurement and delivery summary
-- `outputs/executive_summary.json` — machine-readable headline metrics
-- `outputs/dashboard.html` — lightweight executive dashboard
-- `outputs/figures/` — decision-oriented charts
-- `presentation/5-slide-story.md` — concise executive presentation narrative
+The first alert layer is configuration-driven.
 
-## Dashboard
+Current defaults flag:
 
-Open `outputs/dashboard.html` locally to explore the headline metrics and ranking table.
+- transaction prices **40%+ above** the historical product-market median
+- supplier HHI above **0.65**
+- top supplier share above **75%**
 
-The dashboard intentionally stays lightweight: the point is to demonstrate the analytical logic and decision workflow, not to bury the user under filters because dashboards apparently become "enterprise" once they have seventeen dropdowns.
+Outputs:
 
-## Automation concept
+- `outputs/price_alerts.csv`
+- `outputs/supplier_concentration_alerts.csv`
+- `outputs/alert_summary.json`
 
-A production version of this workflow could:
+Thresholds live in `config/pipeline.json`, rather than being buried inside analysis code.
 
-1. ingest public tender and procurement feeds,
-2. standardize product and formulation identifiers,
-3. benchmark new observations against historical price distributions,
-4. monitor manufacturing-supplier concentration,
-5. flag unusual price or supply signals,
-6. route high-priority observations into a commercial or procurement review queue.
+## Example signals
 
-That turns a one-off analysis into a repeatable intelligence system.
+The multi-source build surfaces combinations such as:
 
-## Reproducibility
+### Abacavir + Lamivudine, Kenya
 
-The GitHub Actions workflow:
+The Global Fund PQR source pushes this combination to the top of the review queue:
 
-1. downloads the public source dataset,
-2. cleans and standardizes the records,
-3. calculates procurement metrics,
-4. builds review-priority scores,
-5. regenerates output tables, charts, and dashboard,
-6. commits refreshed outputs back to the repository.
+- 22 transactions
+- about **$19.1M** historical procurement value
+- median pack price **$3.59**
+- one recorded manufacturing supplier in this slice
+- review-priority score **84.2**
 
-The build can also be run locally:
+### Zidovudine 300mg, South Africa
+
+- 93 transactions
+- 4 manufacturing suppliers
+- median pack price **$16.09**
+- high historical price dispersion
+- top supplier share about **97%**
+- review-priority score **83.7**
+
+These are screening signals, not procurement verdicts.
+
+## Automated decision outputs
+
+Every successful pipeline run regenerates:
+
+- executive summary JSON
+- product-market signal table
+- supplier summary
+- country summary
+- price alerts
+- concentration alerts
+- data-quality report
+- source-health report
+- HTML executive dashboard
+- automated Markdown review brief
+- charts for markets, suppliers and review priority
+
+## Orchestration
+
+GitHub Actions runs the pipeline:
+
+- on relevant code/config changes
+- manually
+- **daily**
+
+The CI sequence is:
+
+```text
+checkout
+→ install
+→ unit tests
+→ ingestion
+→ transformation
+→ quality gates
+→ marts
+→ warehouse
+→ signal + alert generation
+→ dashboard / brief
+→ publish validated outputs
+```
+
+A concurrency group prevents multiple pipeline runs from trying to publish generated files simultaneously.
+
+## Run locally
 
 ```bash
 pip install -r requirements.txt
-python src/analyze.py
+PYTHONPATH=. python -m src.pipeline.run
 ```
 
-## Important analytical caveats
+Run tests:
 
-- The dataset is **historical**, not current market pricing.
-- Observed price differences can reflect legitimate procurement conditions.
-- Manufacturing site is used as the supplier entity because the source `Vendor` field sometimes contains distribution/intermediary labels such as **SCMS from RDC**.
-- Supplier concentration therefore represents concentration across recorded manufacturing sites, not necessarily corporate-parent market share.
-- Delivery dates may reflect operational revisions not visible in the source.
-- This is a prioritization model for further review, not a causal model or procurement-performance verdict.
+```bash
+PYTHONPATH=. pytest -q
+```
 
-## Data source
+## Repository structure
 
-Historical SCMS Delivery History Dataset:
-https://github.com/MSadriAghdam/Supply-Chain-Prediction_Neural-Network-ML/blob/main/SCMS_Delivery_History_Dataset.csv
+```text
+.
+├── .github/workflows/
+├── config/
+│   └── pipeline.json
+├── data/
+│   ├── staging/
+│   ├── state/
+│   ├── marts/
+│   └── warehouse/
+├── docs/
+│   └── architecture.md
+├── outputs/
+│   └── figures/
+├── presentation/
+├── src/
+│   └── pipeline/
+│       ├── ingest.py
+│       ├── transform.py
+│       ├── quality.py
+│       ├── signals.py
+│       ├── alerts.py
+│       ├── warehouse.py
+│       ├── publish.py
+│       └── run.py
+└── tests/
+```
 
-For future extension, the Global Fund's Price & Quality Reporting database provides public transaction-level procurement information:
-https://www.theglobalfund.org/en/sourcing-management/price-quality-reporting/
+## Important caveats
+
+- The underlying procurement datasets are historical.
+- Price differences can reflect order size, freight, contract terms, quality requirements, geography, timing, or other legitimate conditions.
+- Supplier concentration uses the manufacturing entity/site available in the source data, not necessarily ultimate corporate parent ownership.
+- PQR is a public external endpoint and may change schema or availability.
+- The system prioritizes review. It does not infer causality or procurement wrongdoing.
 
 ## Stack
 
-Python · pandas · NumPy · Matplotlib · GitHub Actions
+Python · pandas · NumPy · Matplotlib · SQLite · pytest · GitHub Actions
