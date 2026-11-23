@@ -195,7 +195,14 @@ def run_ingestion(config: dict) -> dict:
             df, source_hash = adapters[name](source["url"])
             changed = old_state.get(name) != source_hash
             staged = STAGING / f"{name}.csv"
-            if changed or not staged.exists():
+            staged_rows = None
+            if staged.exists():
+                try:
+                    staged_rows = sum(1 for _ in staged.open("r", encoding="utf-8")) - 1
+                except Exception:
+                    staged_rows = None
+            staging_changed = changed or (not staged.exists()) or staged_rows != len(df)
+            if staging_changed:
                 df.to_csv(staged, index=False)
             new_state[name] = source_hash
             usable_rows = int(len(df))
@@ -203,6 +210,7 @@ def run_ingestion(config: dict) -> dict:
             results[name] = {
                 "status": status,
                 "changed": changed,
+                "staging_changed": staging_changed,
                 "rows": usable_rows,
                 "hash": source_hash,
             }
