@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - "src/pipeline/**"
+      - "src/__init__.py"
       - "config/**"
       - "tests/**"
       - "requirements.txt"
