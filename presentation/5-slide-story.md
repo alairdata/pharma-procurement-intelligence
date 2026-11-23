@@ -1,110 +1,122 @@
 # 5-Slide Executive Story
 
-## Slide 1 — The problem: procurement data exist, but decision signals are buried
+## Slide 1 — From public procurement data to decision intelligence
 
-Global-health procurement systems generate transaction-level data on products, suppliers, prices, quantities, delivery, and geography.
+Public procurement datasets contain useful commercial signals, but they are fragmented across sources and often require substantial cleaning before they can support decisions.
 
-The analytical challenge is not simply "find the cheapest price." A useful intelligence layer needs to distinguish between:
+This prototype turns two public procurement sources into a repeatable intelligence workflow.
 
-- meaningful price dispersion,
-- legitimate procurement variation,
-- supplier concentration,
-- commercial scale,
-- and signals worth investigating further.
+### Current build
 
-**Prototype question:** Which product-market combinations should a procurement or commercial analyst review first?
-
----
-
-## Slide 2 — Data and analytical approach
-
-### Historical public procurement data
-
-- 8,542 cleaned ARV procurement transactions
+- 9,291 canonical procurement records
+- 2 healthy public data sources
 - 33 markets
-- 48 manufacturing suppliers
-- 92 comparable formulations
-- $1.41B procurement value
-- 2006–2015 delivery history
+- 122 normalized supplier entities
+- 235 product formulations
+- ~$2.08B historical procurement value
 
-### Method
-
-For each product-market combination with at least 5 observations:
-
-1. standardize medicine + dosage + form + pack size,
-2. calculate median price and interquartile price spread,
-3. measure manufacturing-supplier concentration using HHI,
-4. rank combinations by procurement value,
-5. combine the three into a transparent review-priority score.
+**Question:** Which product-market combinations should a procurement or commercial analyst review first?
 
 ---
 
-## Slide 3 — Signal 1: price dispersion can remain large even within a fixed formulation
+## Slide 2 — The system, not just the analysis
 
-### Efavirenz 600mg, 30 tablets — South Africa
+### Pipeline
 
-- 144 transactions
-- 5 manufacturing suppliers
-- median pack price: $11.27
-- observed range: $4.26–$21.66
-- normalized IQR price dispersion: 1.01
-- top supplier share: ~78%
-- review score: 81.9 / 100
+Public sources  
+→ source adapters  
+→ raw ingestion  
+→ SHA-256 change detection  
+→ staging  
+→ supplier/product normalization  
+→ hard data-quality gates  
+→ canonical fact + dimension tables  
+→ analytical warehouse  
+→ signal engine  
+→ alerts  
+→ dashboard + review brief
 
-**Interpretation**
+### Engineering controls
 
-The spread is large enough to justify asking what explains the difference: timing, contract structure, purchase size, manufacturer, distribution route, or other procurement conditions.
+- required vs optional source behavior
+- source-health reporting
+- incremental staging refresh
+- unit tests
+- duplicate record checks
+- serialized CI runs
+- daily GitHub Actions orchestration
 
-The point is not "this price is wrong." The point is "this pattern deserves explanation."
-
----
-
-## Slide 4 — Signal 2: price dispersion and supplier concentration are different risks
-
-### Tenofovir DF 300mg, 30 tablets — South Africa
-
-- 129 transactions
-- 6 manufacturing suppliers
-- median pack price: $7.82
-- normalized price dispersion: 1.78
-- top supplier share: ~51%
-
-This combination has very high historical price dispersion but materially lower supplier concentration than several other top-ranked signals.
-
-### Why that matters
-
-A decision system should distinguish:
-
-- **price risk / negotiation signal**
-- **supplier concentration / resilience signal**
-- **commercial significance**
-
-Collapsing them into one raw metric hides the reason a market deserves attention.
+This makes the project reproducible and maintainable rather than a one-off notebook.
 
 ---
 
-## Slide 5 — From analysis to an automated procurement-intelligence workflow
+## Slide 3 — Review signals combine commercial scale, price dispersion and supply concentration
 
-### Prototype today
+For each product-market combination with at least five observations:
 
-Public procurement data  
-→ product normalization  
-→ price benchmarking  
-→ supplier concentration  
-→ ranked review signals  
+**Review Priority =**
+- 35% procurement-value percentile
+- 35% normalized price-dispersion percentile
+- 30% supplier-concentration percentile
+
+### Example: Abacavir + Lamivudine, Kenya
+
+- 22 transactions
+- ~$19.1M historical procurement value
+- median pack price: $3.59
+- one recorded manufacturing supplier in this slice
+- review score: 84.2
+
+**Interpretation:** commercially material + concentrated supply + enough price movement to justify deeper review.
+
+This is a screening signal, not a claim of inefficiency.
+
+---
+
+## Slide 4 — Alerts convert analysis into an operating workflow
+
+The pipeline publishes a review queue using configurable thresholds.
+
+### Current alerts
+
+- 763 transaction-level price alerts
+- 226 supplier-concentration alert groups
+
+Default rules flag:
+
+- prices 40%+ above the historical product-market median
+- supplier HHI above 0.65
+- top supplier share above 75%
+
+Thresholds live in configuration rather than being buried in code.
+
+That means the same system can support a different risk appetite without rewriting the analytical logic.
+
+---
+
+## Slide 5 — What this could become in production
+
+### Today
+
+Public procurement feeds  
+→ normalization  
+→ benchmarking  
+→ concentration monitoring  
+→ ranked review queue  
 → executive dashboard
 
-### Production concept
+### Next production layer
 
-Tender and procurement feeds  
-→ automated extraction / agents  
-→ medicine + supplier entity resolution  
-→ historical benchmarking  
-→ anomaly and concentration monitoring  
-→ commercial/procurement review queue
+Tender portals + supplier feeds + internal purchase history  
+→ automated extraction  
+→ entity resolution  
+→ historical benchmark comparison  
+→ anomaly detection  
+→ commercial / procurement review queue  
+→ analyst feedback loop
 
 ### Principle
 
-Use AI and automation to reduce the cost of finding signals.
+Use automation to reduce the cost of finding signals.
 
-Keep the decision logic transparent enough that a human analyst can explain **why** something was flagged.
+Keep the scoring logic transparent enough that a human can explain exactly why a transaction or market was flagged.
