@@ -1,13 +1,13 @@
 {
   "scms": {
     "status": "ok",
-    "changed": true,
+    "changed": false,
     "rows": 8542,
     "hash": "918b992dd3e8d4b64d2a727b2c4ea607603d0c58f19484e73f7b78528c6a8673"
   },
   "global_fund_pqr_kenya": {
     "status": "ok",
-    "changed": true,
+    "changed": false,
     "rows": 0,
     "hash": "604b0f3bc91e930c7f21147e9ea665580cfb7383b6805f58f43e9584d988f454"
   }
