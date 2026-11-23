@@ -5,33 +5,37 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Pharmaceutical Procurement Intelligence</title>
 <style>
-body{font-family:Inter,Arial,sans-serif;margin:0;background:#f6f7f9;color:#15171a}
-main{max-width:1100px;margin:auto;padding:48px 24px}
-h1{font-size:38px;margin-bottom:8px} .sub{color:#5c6570;margin-bottom:32px;max-width:800px}
-.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:28px 0}
-.card{background:white;padding:20px;border-radius:14px;border:1px solid #e4e7eb}
-.card span{display:block;color:#68717d;font-size:13px;margin-bottom:8px} .card strong{font-size:26px}
-section{background:white;padding:24px;border-radius:14px;border:1px solid #e4e7eb;margin:18px 0}
-img{width:100%;max-width:920px}
-.data-table{border-collapse:collapse;width:100%;font-size:13px}
-.data-table th,.data-table td{padding:10px;border-bottom:1px solid #eceff2;text-align:left}
-.note{font-size:13px;color:#68717d;line-height:1.5}
+body{font-family:Inter,Arial,sans-serif;margin:0;background:#f5f6f8;color:#17191d}
+main{max-width:1120px;margin:auto;padding:48px 24px}
+h1{font-size:40px;margin:0 0 8px} .sub{color:#606975;max-width:850px;line-height:1.5}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:28px 0}
+.card,section{background:#fff;border:1px solid #e4e7eb;border-radius:14px}
+.card{padding:20px} .card span{display:block;color:#68717d;font-size:13px;margin-bottom:8px}
+.card strong{font-size:26px} section{padding:24px;margin:18px 0;overflow:auto}
+.data-table,.health{border-collapse:collapse;width:100%;font-size:13px}
+.data-table th,.data-table td,.health th,.health td{padding:10px;border-bottom:1px solid #eceff2;text-align:left}
+img{max-width:100%;height:auto} .note{color:#68717d;font-size:13px;line-height:1.5}
 @media(max-width:800px){.cards{grid-template-columns:repeat(2,1fr)}}
 </style>
 </head>
 <body><main>
 <h1>Pharmaceutical Procurement Intelligence</h1>
-<p class="sub">A compact decision-support prototype using historical public global-health procurement data to identify product-market combinations that deserve deeper pricing and supplier review.</p>
-<div class="cards"><div class="card"><span>Transactions</span><strong>8,542</strong></div><div class="card"><span>Markets</span><strong>33</strong></div><div class="card"><span>Suppliers</span><strong>48</strong></div><div class="card"><span>Procurement value</span><strong>$1,413.2M</strong></div></div>
-<section><h2>Highest review-priority signals</h2><table class="dataframe data-table">
+<p class="sub">A reproducible decision-intelligence pipeline that ingests public procurement sources, validates and standardizes records, builds analytical marts, and surfaces pricing and supplier-concentration signals for human review.</p>
+<div class="cards"><div class="card"><span>Transactions</span><strong>8,542</strong></div><div class="card"><span>Healthy sources</span><strong>1</strong></div><div class="card"><span>Markets</span><strong>33</strong></div><div class="card"><span>Suppliers</span><strong>48</strong></div><div class="card"><span>Procurement value</span><strong>$1.41B</strong></div><div class="card"><span>Signals scored</span><strong>375</strong></div></div>
+
+<section><h2>Source health</h2>
+<table class="health"><thead><tr><th>Source</th><th>Status</th><th>Rows</th><th>Changed this run</th></tr></thead>
+<tbody><tr><td>scms</td><td>ok</td><td>8,542</td><td>False</td></tr><tr><td>global_fund_pqr_kenya</td><td>ok</td><td>0</td><td>False</td></tr></tbody></table></section>
+
+<section><h2>Review queue</h2><table class="dataframe data-table">
   <thead>
     <tr style="text-align: right;">
       <th>Market</th>
       <th>Medicine</th>
       <th>Transactions</th>
       <th>Suppliers</th>
-      <th>Price dispersion (%)</th>
-      <th>Top supplier share (%)</th>
+      <th>Price dispersion</th>
+      <th>Top supplier share</th>
       <th>Review score</th>
     </tr>
   </thead>
@@ -41,8 +45,8 @@ img{width:100%;max-width:920px}
       <td>zidovudine</td>
       <td>93</td>
       <td>4</td>
-      <td>107.4</td>
-      <td>97.0</td>
+      <td>107.4%</td>
+      <td>97.0%</td>
       <td>84.6</td>
     </tr>
     <tr>
@@ -50,8 +54,8 @@ img{width:100%;max-width:920px}
       <td>efavirenz</td>
       <td>144</td>
       <td>5</td>
-      <td>101.0</td>
-      <td>77.7</td>
+      <td>101.0%</td>
+      <td>77.7%</td>
       <td>81.9</td>
     </tr>
     <tr>
@@ -59,8 +63,8 @@ img{width:100%;max-width:920px}
       <td>abacavir</td>
       <td>56</td>
       <td>2</td>
-      <td>76.3</td>
-      <td>98.9</td>
+      <td>76.3%</td>
+      <td>98.9%</td>
       <td>81.7</td>
     </tr>
     <tr>
@@ -68,8 +72,8 @@ img{width:100%;max-width:920px}
       <td>efavirenz/emtricitabine/tenofovir disoproxil fumarate</td>
       <td>38</td>
       <td>5</td>
-      <td>47.7</td>
-      <td>79.1</td>
+      <td>47.7%</td>
+      <td>79.1%</td>
       <td>79.7</td>
     </tr>
     <tr>
@@ -77,8 +81,8 @@ img{width:100%;max-width:920px}
       <td>lamivudine</td>
       <td>112</td>
       <td>5</td>
-      <td>94.9</td>
-      <td>69.4</td>
+      <td>94.9%</td>
+      <td>69.4%</td>
       <td>78.8</td>
     </tr>
     <tr>
@@ -86,8 +90,8 @@ img{width:100%;max-width:920px}
       <td>lopinavir/ritonavir</td>
       <td>27</td>
       <td>1</td>
-      <td>39.7</td>
-      <td>100.0</td>
+      <td>39.7%</td>
+      <td>100.0%</td>
       <td>78.7</td>
     </tr>
     <tr>
@@ -95,8 +99,8 @@ img{width:100%;max-width:920px}
       <td>lamivudine/nevirapine/stavudine</td>
       <td>57</td>
       <td>2</td>
-      <td>33.1</td>
-      <td>82.8</td>
+      <td>33.1%</td>
+      <td>82.8%</td>
       <td>77.6</td>
     </tr>
     <tr>
@@ -104,8 +108,8 @@ img{width:100%;max-width:920px}
       <td>emtricitabine/tenofovir disoproxil fumarate</td>
       <td>30</td>
       <td>3</td>
-      <td>30.9</td>
-      <td>81.7</td>
+      <td>30.9%</td>
+      <td>81.7%</td>
       <td>77.1</td>
     </tr>
     <tr>
@@ -113,8 +117,8 @@ img{width:100%;max-width:920px}
       <td>tenofovir disoproxil fumarate</td>
       <td>129</td>
       <td>6</td>
-      <td>177.9</td>
-      <td>51.2</td>
+      <td>177.9%</td>
+      <td>51.2%</td>
       <td>76.9</td>
     </tr>
     <tr>
@@ -122,8 +126,8 @@ img{width:100%;max-width:920px}
       <td>lopinavir/ritonavir</td>
       <td>58</td>
       <td>2</td>
-      <td>26.0</td>
-      <td>98.0</td>
+      <td>26.0%</td>
+      <td>98.0%</td>
       <td>76.5</td>
     </tr>
     <tr>
@@ -131,8 +135,8 @@ img{width:100%;max-width:920px}
       <td>lamivudine/tenofovir disoproxil fumarate</td>
       <td>17</td>
       <td>6</td>
-      <td>115.5</td>
-      <td>69.9</td>
+      <td>115.5%</td>
+      <td>69.9%</td>
       <td>75.9</td>
     </tr>
     <tr>
@@ -140,20 +144,19 @@ img{width:100%;max-width:920px}
       <td>nevirapine</td>
       <td>33</td>
       <td>3</td>
-      <td>361.6</td>
-      <td>98.0</td>
+      <td>361.6%</td>
+      <td>98.0%</td>
       <td>75.1</td>
     </tr>
   </tbody>
 </table>
-<p class="note">The score combines historical procurement value, within-product price dispersion and supplier concentration. It is a screening signal, not a claim that a transaction is inefficient.</p></section>
-<section><h2>Market footprint</h2><img src="figures/market_value.png" alt="Market procurement value"></section>
-<section><h2>Supplier footprint</h2><img src="figures/supplier_value.png" alt="Supplier procurement value"></section>
-<section><h2>Review-priority ranking</h2><img src="figures/review_priority.png" alt="Review priority"></section>
-<section><h2>What this could become</h2>
-<p>An automated intelligence workflow can ingest tender and procurement feeds, standardize medicine/formulation identifiers, benchmark new purchases against historical ranges, detect supplier-concentration shifts, and surface review alerts to commercial or procurement teams.</p>
-</section>
-<section><h2>Important context</h2>
-<p class="note">This first build is historical and should not be read as a representation of current market prices. Procurement terms, freight, contract structure, quality requirements and geography can legitimately explain price variation. The project is designed to demonstrate a transparent analytical workflow rather than assert procurement wrongdoing.</p>
+<p class="note">Signals prioritize deeper investigation. They do not label a procurement transaction efficient or inefficient.</p></section>
+
+<section><h2>Market footprint</h2><img src="figures/market_value.png"></section>
+<section><h2>Supplier footprint</h2><img src="figures/supplier_value.png"></section>
+<section><h2>Signal ranking</h2><img src="figures/review_priority.png"></section>
+
+<section><h2>Pipeline</h2>
+<p>Sources → raw ingestion → source-level change detection → staging → entity resolution → quality gates → canonical warehouse → analytical marts → signal engine → alerts → executive dashboard.</p>
 </section>
 </main></body></html>
