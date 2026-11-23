@@ -132,6 +132,13 @@ def clean() -> pd.DataFrame:
         ).dt.days
         df["late_delivery"] = df["delivery_delay_days"].gt(0)
 
+    # Use manufacturing site as the supplier entity where available. The raw
+    # Vendor field sometimes contains "SCMS from RDC", which is a distribution
+    # route/intermediary label rather than a true manufacturer.
+    df["supplier_entity"] = df["manufacturing_site"].where(
+        df["manufacturing_site"].notna(), df["vendor"]
+    )
+
     df = df[
         df["country"].notna()
         & df["vendor"].notna()
@@ -168,7 +175,7 @@ def analyse(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame,
         p75_pack_price_usd=("pack_price_usd", lambda x: x.quantile(.75)),
         min_pack_price_usd=("pack_price_usd", "min"),
         max_pack_price_usd=("pack_price_usd", "max"),
-        vendor_count=("vendor", "nunique"),
+        supplier_count=("supplier_entity", "nunique"),
     ).reset_index()
 
     base["iqr_pack_price_usd"] = base["p75_pack_price_usd"] - base["p25_pack_price_usd"]
@@ -176,20 +183,20 @@ def analyse(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame,
         base["iqr_pack_price_usd"] / base["median_pack_price_usd"]
     ).replace([np.inf, -np.inf], np.nan)
 
-    vendor_value = (
-        df.groupby(gcols + ["vendor"], as_index=False)["line_item_value_usd"].sum()
+    supplier_value = (
+        df.groupby(gcols + ["supplier_entity"], as_index=False)["line_item_value_usd"].sum()
     )
 
     conc = (
-        vendor_value.groupby(gcols)
+        supplier_value.groupby(gcols)
         .apply(
             lambda x: pd.Series({
-                "vendor_hhi": hhi(x["line_item_value_usd"]),
-                "top_vendor_share": (
+                "supplier_hhi": hhi(x["line_item_value_usd"]),
+                "top_supplier_share": (
                     x["line_item_value_usd"].max() / x["line_item_value_usd"].sum()
                     if x["line_item_value_usd"].sum() > 0 else np.nan
                 ),
-                "top_vendor": x.loc[x["line_item_value_usd"].idxmax(), "vendor"],
+                "top_supplier": x.loc[x["line_item_value_usd"].idxmax(), "supplier_entity"],
             }),
             include_groups=False,
         )
@@ -202,7 +209,7 @@ def analyse(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame,
     # Transparent review-priority score, not a claim of inefficiency.
     signals["value_rank"] = percentile_rank(np.log1p(signals["total_value_usd"]))
     signals["dispersion_rank"] = percentile_rank(signals["normalized_price_dispersion"].fillna(0))
-    signals["concentration_rank"] = percentile_rank(signals["vendor_hhi"].fillna(0))
+    signals["concentration_rank"] = percentile_rank(signals["supplier_hhi"].fillna(0))
     signals["review_priority_score"] = (
         100 * (
             0.35 * signals["value_rank"]
@@ -216,10 +223,10 @@ def analyse(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame,
     )
     signals.to_csv(OUT / "product_market_signals.csv", index=False)
 
-    vendor_summary = (
-        df.groupby("vendor", as_index=False)
+    supplier_summary = (
+        df.groupby("supplier_entity", as_index=False)
         .agg(
-            transactions=("vendor", "size"),
+            transactions=("supplier_entity", "size"),
             countries=("country", "nunique"),
             products=("product_key", "nunique"),
             total_value_usd=("line_item_value_usd", "sum"),
@@ -228,13 +235,13 @@ def analyse(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame,
         )
         .sort_values("total_value_usd", ascending=False)
     )
-    vendor_summary.to_csv(OUT / "vendor_summary.csv", index=False)
+    supplier_summary.to_csv(OUT / "supplier_summary.csv", index=False)
 
     country_summary = (
         df.groupby("country", as_index=False)
         .agg(
             transactions=("country", "size"),
-            vendors=("vendor", "nunique"),
+            suppliers=("supplier_entity", "nunique"),
             products=("product_key", "nunique"),
             total_value_usd=("line_item_value_usd", "sum"),
             total_quantity=("quantity", "sum"),
@@ -251,7 +258,7 @@ def analyse(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame,
     summary = {
         "records_analyzed": int(len(df)),
         "countries": int(df["country"].nunique()),
-        "vendors": int(df["vendor"].nunique()),
+        "suppliers": int(df["supplier_entity"].nunique()),
         "product_formulations": int(df["product_key"].nunique()),
         "total_procurement_value_usd": round(float(df["line_item_value_usd"].sum()), 2),
         "date_start": None if pd.isna(date_min) else str(date_min.date()),
@@ -259,9 +266,9 @@ def analyse(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame,
         "signal_groups_scored": int(len(signals)),
         "top_review_signals": signals.head(10)[
             [
-                "country", "product_key", "transactions", "vendor_count",
+                "country", "product_key", "transactions", "supplier_count",
                 "median_pack_price_usd", "normalized_price_dispersion",
-                "vendor_hhi", "top_vendor_share", "top_vendor",
+                "supplier_hhi", "top_supplier_share", "top_supplier",
                 "total_value_usd", "review_priority_score"
             ]
         ].replace({np.nan: None}).to_dict(orient="records"),
@@ -270,10 +277,10 @@ def analyse(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame,
     with open(OUT / "executive_summary.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2, ensure_ascii=False)
 
-    return signals, vendor_summary, country_summary, summary
+    return signals, supplier_summary, country_summary, summary
 
 
-def charts(signals: pd.DataFrame, vendor_summary: pd.DataFrame, country_summary: pd.DataFrame) -> None:
+def charts(signals: pd.DataFrame, supplier_summary: pd.DataFrame, country_summary: pd.DataFrame) -> None:
     if not country_summary.empty:
         top = country_summary.head(12).sort_values("total_value_usd")
         plt.figure(figsize=(9, 6))
@@ -284,14 +291,14 @@ def charts(signals: pd.DataFrame, vendor_summary: pd.DataFrame, country_summary:
         plt.savefig(FIG / "market_value.png", dpi=160)
         plt.close()
 
-    if not vendor_summary.empty:
-        top = vendor_summary.head(12).sort_values("total_value_usd")
+    if not supplier_summary.empty:
+        top = supplier_summary.head(12).sort_values("total_value_usd")
         plt.figure(figsize=(9, 6))
-        plt.barh(top["vendor"], top["total_value_usd"] / 1_000_000)
+        plt.barh(top["supplier_entity"], top["total_value_usd"] / 1_000_000)
         plt.xlabel("Procurement value (USD millions)")
-        plt.title("Top vendors by historical procurement value")
+        plt.title("Top manufacturing suppliers by historical procurement value")
         plt.tight_layout()
-        plt.savefig(FIG / "vendor_value.png", dpi=160)
+        plt.savefig(FIG / "supplier_value.png", dpi=160)
         plt.close()
 
     if not signals.empty:
@@ -308,7 +315,7 @@ def charts(signals: pd.DataFrame, vendor_summary: pd.DataFrame, country_summary:
 
 def html_dashboard(
     signals: pd.DataFrame,
-    vendor_summary: pd.DataFrame,
+    supplier_summary: pd.DataFrame,
     country_summary: pd.DataFrame,
     summary: dict,
 ) -> None:
@@ -322,27 +329,27 @@ def html_dashboard(
     cards = [
         ("Transactions", f"{summary['records_analyzed']:,}"),
         ("Markets", f"{summary['countries']:,}"),
-        ("Vendors", f"{summary['vendors']:,}"),
+        ("Suppliers", f"{summary['suppliers']:,}"),
         ("Procurement value", money(summary["total_procurement_value_usd"])),
     ]
 
     top_signals = signals.head(12).copy()
     top_signals["product"] = top_signals["product_key"].str.split(" \| ").str[0]
     top_signals["price_dispersion"] = (100 * top_signals["normalized_price_dispersion"]).round(1)
-    top_signals["top_vendor_pct"] = (100 * top_signals["top_vendor_share"]).round(1)
+    top_signals["top_supplier_pct"] = (100 * top_signals["top_supplier_share"]).round(1)
 
     table = top_signals[
         [
-            "country", "product", "transactions", "vendor_count",
-            "price_dispersion", "top_vendor_pct", "review_priority_score"
+            "country", "product", "transactions", "supplier_count",
+            "price_dispersion", "top_supplier_pct", "review_priority_score"
         ]
     ].rename(columns={
         "country": "Market",
         "product": "Medicine",
         "transactions": "Transactions",
-        "vendor_count": "Vendors",
+        "supplier_count": "Suppliers",
         "price_dispersion": "Price dispersion (%)",
-        "top_vendor_pct": "Top vendor share (%)",
+        "top_supplier_pct": "Top supplier share (%)",
         "review_priority_score": "Review score",
     }).to_html(index=False, classes="data-table", border=0)
 
@@ -379,7 +386,7 @@ img{{width:100%;max-width:920px}}
 <section><h2>Highest review-priority signals</h2>{table}
 <p class="note">The score combines historical procurement value, within-product price dispersion and supplier concentration. It is a screening signal, not a claim that a transaction is inefficient.</p></section>
 <section><h2>Market footprint</h2><img src="figures/market_value.png" alt="Market procurement value"></section>
-<section><h2>Supplier footprint</h2><img src="figures/vendor_value.png" alt="Vendor procurement value"></section>
+<section><h2>Supplier footprint</h2><img src="figures/supplier_value.png" alt="Supplier procurement value"></section>
 <section><h2>Review-priority ranking</h2><img src="figures/review_priority.png" alt="Review priority"></section>
 <section><h2>What this could become</h2>
 <p>An automated intelligence workflow can ingest tender and procurement feeds, standardize medicine/formulation identifiers, benchmark new purchases against historical ranges, detect supplier-concentration shifts, and surface review alerts to commercial or procurement teams.</p>
@@ -395,9 +402,9 @@ def main() -> None:
     ensure_dirs()
     download_source()
     df = clean()
-    signals, vendor_summary, country_summary, summary = analyse(df)
-    charts(signals, vendor_summary, country_summary)
-    html_dashboard(signals, vendor_summary, country_summary, summary)
+    signals, supplier_summary, country_summary, summary = analyse(df)
+    charts(signals, supplier_summary, country_summary)
+    html_dashboard(signals, supplier_summary, country_summary, summary)
     print(json.dumps(summary, indent=2))
 
 
