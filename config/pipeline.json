@@ -1,0 +1,20 @@
+{
+  "sources": {
+    "scms": {
+      "enabled": true,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/MSadriAghdam/Supply-Chain-Prediction_Neural-Network-ML/refs/heads/main/SCMS_Delivery_History_Dataset.csv"
+    },
+    "global_fund_pqr_kenya": {
+      "enabled": true,
+      "required": false,
+      "url": "https://insights.theglobalfund.org/t/Public/views/PriceQualityReportingTransactionSummary/TransactionSummary.csv?Country%20Name=Kenya"
+    }
+  },
+  "signal_thresholds": {
+    "min_transactions": 5,
+    "price_alert_pct_above_median": 40,
+    "supplier_hhi_alert": 0.65,
+    "top_supplier_share_alert": 0.75
+  }
+}
