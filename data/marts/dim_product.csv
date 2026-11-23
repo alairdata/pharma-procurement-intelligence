@@ -1,93 +1,236 @@
 product_key,molecule,dosage,dosage_form,units_per_pack
-abacavir | 20mg/ml | oral solution | 240,Abacavir,20mg/ml,Oral solution,240
-abacavir | 300mg | tablet - blister | 60,Abacavir,300mg,Tablet - blister,60
-abacavir | 300mg | tablet | 60,Abacavir,300mg,Tablet,60
-abacavir | 60mg | chewable/dispersible tablet | 60,Abacavir,60mg,Chewable/dispersible tablet,60
-abacavir/lamivudine | 60/30mg | chewable/dispersible tablet - fdc | 60,Abacavir/Lamivudine,60/30mg,Chewable/dispersible tablet - FDC,60
-abacavir/lamivudine | 60/30mg | tablet - fdc | 30,Abacavir/Lamivudine,60/30mg,Tablet - FDC,30
-abacavir/lamivudine | 60/30mg | tablet - fdc | 60,Abacavir/Lamivudine,60/30mg,Tablet - FDC,60
-abacavir/lamivudine | 600/300mg | tablet - fdc | 30,Abacavir/Lamivudine,600/300mg,Tablet - FDC,30
-abacavir/lamivudine/zidovudine | 300/150/300mg | tablet - fdc | 60,Abacavir/Lamivudine/Zidovudine,300/150/300mg,Tablet - FDC,60
-atazanavir | 150mg | capsule | 60,Atazanavir,150mg,Capsule,60
-atazanavir | 200mg | capsule | 60,Atazanavir,200mg,Capsule,60
-atazanavir | 300mg | capsule | 30,Atazanavir,300mg,Capsule,30
-atazanavir/ritonavir | 300/100mg | tablet | 30,Atazanavir/Ritonavir,300/100mg,Tablet,30
-darunavir | 300mg | tablet | 120,Darunavir,300mg,Tablet,120
-darunavir | 600mg | tablet | 60,Darunavir,600mg,Tablet,60
-didanosine ec | 250mg | delayed-release capsules - blister | 30,Didanosine EC,250mg,Delayed-release capsules - blister,30
-didanosine ec | 400mg | delayed-release capsules - blister | 30,Didanosine EC,400mg,Delayed-release capsules - blister,30
-didanosine | 100mg | chewable/dispersible tablet | 60,Didanosine,100mg,Chewable/dispersible tablet,60
-didanosine | 125mg | delayed-release capsules | 30,Didanosine,125mg,Delayed-release capsules,30
-didanosine | 200mg | chewable/dispersible tablet | 60,Didanosine,200mg,Chewable/dispersible tablet,60
-didanosine | 200mg | delayed-release capsules | 30,Didanosine,200mg,Delayed-release capsules,30
-didanosine | 200mg | tablet | 60,Didanosine,200mg,Tablet,60
-didanosine | 250mg | delayed-release capsules | 30,Didanosine,250mg,Delayed-release capsules,30
-didanosine | 25mg | chewable/dispersible tablet | 60,Didanosine,25mg,Chewable/dispersible tablet,60
-didanosine | 2g | powder for oral solution | 200,Didanosine,2g,Powder for oral solution,200
-didanosine | 400mg | delayed-release capsules | 30,Didanosine,400mg,Delayed-release capsules,30
-didanosine | 50mg | chewable/dispersible tablet | 60,Didanosine,50mg,Chewable/dispersible tablet,60
-efavirenz | 200mg | capsule | 90,Efavirenz,200mg,Capsule,90
-efavirenz | 200mg | tablet | 30,Efavirenz,200mg,Tablet,30
-efavirenz | 200mg | tablet | 90,Efavirenz,200mg,Tablet,90
-efavirenz | 30mg/ml | oral solution | 180,Efavirenz,30mg/ml,Oral solution,180
-efavirenz | 50mg | capsule | 30,Efavirenz,50mg,Capsule,30
-efavirenz | 600mg | tablet | 30,Efavirenz,600mg,Tablet,30
-efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,Efavirenz/Emtricitabine/Tenofovir Disoproxil Fumarate,600/200/300mg,Tablet - FDC,30
-efavirenz/lamivudine/tenofovir disoproxil fumarate | 600/300/300mg | tablet - fdc | 30,Efavirenz/Lamivudine/Tenofovir Disoproxil Fumarate,600/300/300mg,Tablet - FDC,30
-emtricitabine/tenofovir disoproxil fumarate | 200/300mg | tablet - fdc | 30,Emtricitabine/Tenofovir Disoproxil Fumarate,200/300mg,Tablet - FDC,30
-emtricitabine/tenofovir disoproxil fumarate | 300/200mg | tablet - fdc | 30,Emtricitabine/Tenofovir Disoproxil Fumarate,300/200mg,Tablet - FDC,30
-etravirine | 100mg | tablet | 120,Etravirine,100mg,Tablet,120
-indinavir | 400mg | capsule | 180,Indinavir,400mg,Capsule,180
-lamivudine | 10mg/ml | oral solution | 240,Lamivudine,10mg/ml,Oral solution,240
-lamivudine | 150mg | tablet | 60,Lamivudine,150mg,Tablet,60
-lamivudine | 300mg | tablet | 30,Lamivudine,300mg,Tablet,30
-lamivudine/nevirapine/stavudine | 150/200/30mg | tablet - fdc | 60,Lamivudine/Nevirapine/Stavudine,150/200/30mg,Tablet - FDC,60
-lamivudine/nevirapine/stavudine | 150/200/40mg | tablet - fdc | 60,Lamivudine/Nevirapine/Stavudine,150/200/40mg,Tablet - FDC,60
-lamivudine/nevirapine/stavudine | 30/50/6mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Nevirapine/Stavudine,30/50/6mg,Chewable/dispersible tablet - FDC,60
-lamivudine/nevirapine/stavudine | 60/100/12mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Nevirapine/Stavudine,60/100/12mg,Chewable/dispersible tablet - FDC,60
-lamivudine/nevirapine/zidovudine | 150/300/200mg | tablet - fdc | 60,Lamivudine/Nevirapine/Zidovudine,150/300/200mg,Tablet - FDC,60
-lamivudine/nevirapine/zidovudine | 30/50/60mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Nevirapine/Zidovudine,30/50/60mg,Chewable/dispersible tablet - FDC,60
-lamivudine/stavudine | 150/30mg | tablet - fdc | 30,Lamivudine/Stavudine,150/30mg,Tablet - FDC,30
-lamivudine/stavudine | 150/30mg | tablet - fdc | 60,Lamivudine/Stavudine,150/30mg,Tablet - FDC,60
-lamivudine/stavudine | 30/6mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Stavudine,30/6mg,Chewable/dispersible tablet - FDC,60
-lamivudine/stavudine | 60/12mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Stavudine,60/12mg,Chewable/dispersible tablet - FDC,60
-lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Lamivudine/Tenofovir Disoproxil Fumarate,300/300mg,Tablet - FDC,30
-lamivudine/zidovudine | 150/300mg | tablet - fdc | 60,Lamivudine/Zidovudine,150/300mg,Tablet - FDC,60
-lamivudine/zidovudine | 30/60mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Zidovudine,30/60mg,Chewable/dispersible tablet - FDC,60
-lamivudine/zidovudine | 30/60mg | tablet - fdc | 60,Lamivudine/Zidovudine,30/60mg,Tablet - FDC,60
-lamivudine/zidovudine+abacavir | 150/300+300mg | tablet - fdc + co-blister | 120,Lamivudine/Zidovudine+Abacavir,150/300+300mg,Tablet - FDC + co-blister,120
-lamivudine/zidovudine+efavirenz | 150/300mg+600mg | tablet - fdc + co-blister | 90,Lamivudine/Zidovudine+Efavirenz,150/300mg+600mg,Tablet - FDC + co-blister,90
-lamivudine/zidovudine+nevirapine | 150/300+200mg | tablet - fdc + co-blister | 120,Lamivudine/Zidovudine+Nevirapine,150/300+200mg,Tablet - FDC + co-blister,120
-lopinavir/ritonavir | 100/25mg | tablet | 60,Lopinavir/Ritonavir,100/25mg,Tablet,60
-lopinavir/ritonavir | 133.3/33.3mg | capsule | 180,Lopinavir/Ritonavir,133.3/33.3mg,Capsule,180
-lopinavir/ritonavir | 200/50mg | tablet | 120,Lopinavir/Ritonavir,200/50mg,Tablet,120
-lopinavir/ritonavir | 80/20mg/ml | oral solution | 160,Lopinavir/Ritonavir,80/20mg/ml,Oral solution,160
-lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,Lopinavir/Ritonavir,80/20mg/ml,Oral solution,300
-nelfinavir as mesilate | 250mg | tablet | 270,Nelfinavir (as mesilate),250mg,Tablet,270
-nelfinavir | 50mg/g | oral powder | 144,Nelfinavir,50mg/g,Oral powder,144
-nevirapine | 10mg/ml | oral suspension | 100,Nevirapine,10mg/ml,Oral suspension,100
-nevirapine | 10mg/ml | oral suspension | 240,Nevirapine,10mg/ml,Oral suspension,240
-nevirapine | 200mg | tablet | 60,Nevirapine,200mg,Tablet,60
-nevirapine | 50mg | chewable/dispersible tablet | 30,Nevirapine,50mg,Chewable/dispersible tablet,30
-nevirapine | 50mg | chewable/dispersible tablet | 60,Nevirapine,50mg,Chewable/dispersible tablet,60
-raltegravir | 400mg | tablet | 60,Raltegravir,400mg,Tablet,60
-ritonavir | 100mg | capsule | 168,Ritonavir,100mg,Capsule,168
-ritonavir | 100mg | capsule | 336,Ritonavir,100mg,Capsule,336
-ritonavir | 100mg | capsule | 84,Ritonavir,100mg,Capsule,84
-ritonavir | 100mg | tablet | 30,Ritonavir,100mg,Tablet,30
-ritonavir | 100mg | tablet | 60,Ritonavir,100mg,Tablet,60
-ritonavir | 80mg/ml | oral solution | 90,Ritonavir,80mg/ml,Oral solution,90
-saquinavir | 200mg | capsule | 270,Saquinavir,200mg,Capsule,270
-saquinavir | 500mg | tablet | 120,Saquinavir,500mg,Tablet,120
-stavudine | 15mg | capsule | 60,Stavudine,15mg,Capsule,60
-stavudine | 1mg/ml | oral solution | 200,Stavudine,1mg/ml,Oral solution,200
-stavudine | 1mg/ml | powder for oral solution | 200,Stavudine,1mg/ml,Powder for oral solution,200
-stavudine | 20mg | capsule | 60,Stavudine,20mg,Capsule,60
-stavudine | 30mg | capsule | 60,Stavudine,30mg,Capsule,60
-stavudine | 40mg | capsule | 60,Stavudine,40mg,Capsule,60
-tenofovir disoproxil fumarate | 300mg | tablet | 30,Tenofovir Disoproxil Fumarate,300mg,Tablet,30
-zidovudine | 100mg | capsule | 100,Zidovudine,100mg,Capsule,100
-zidovudine | 10mg/ml | injection | 5,Zidovudine,10mg/ml,Injection,5
-zidovudine | 10mg/ml | oral solution | 200,Zidovudine,10mg/ml,Oral solution,200
-zidovudine | 10mg/ml | oral solution | 240,Zidovudine,10mg/ml,Oral solution,240
-zidovudine | 300mg | tablet | 60,Zidovudine,300mg,Tablet,60
+abacavir abc | 300mg | tab | 60.0,Abacavir (ABC),300mg,tab,60.0
+abacavir | 20mg/ml | oral solution | 240,Abacavir,20mg/ml,Oral solution,240.0
+abacavir | 300mg | tablet - blister | 60,Abacavir,300mg,Tablet - blister,60.0
+abacavir | 300mg | tablet | 60,Abacavir,300mg,Tablet,60.0
+abacavir | 60mg | chewable/dispersible tablet | 60,Abacavir,60mg,Chewable/dispersible tablet,60.0
+abacavir+lamivudine - fdc | 120mg+60mg | dispers tab | 30.0,Abacavir+Lamivudine - FDC,120mg+60mg,dispers tab,30.0
+abacavir+lamivudine - fdc | 600mg+300mg | tab | 30.0,Abacavir+Lamivudine - FDC,600mg+300mg,tab,30.0
+abacavir+lamivudine - fdc | 60mg+30mg | dispers tab | 60.0,Abacavir+Lamivudine - FDC,60mg+30mg,dispers tab,60.0
+abacavir+lamivudine - fdc | 60mg+30mg | tab | 60.0,Abacavir+Lamivudine - FDC,60mg+30mg,tab,60.0
+abacavir/lamivudine | 60/30mg | chewable/dispersible tablet - fdc | 60,Abacavir/Lamivudine,60/30mg,Chewable/dispersible tablet - FDC,60.0
+abacavir/lamivudine | 60/30mg | tablet - fdc | 30,Abacavir/Lamivudine,60/30mg,Tablet - FDC,30.0
+abacavir/lamivudine | 60/30mg | tablet - fdc | 60,Abacavir/Lamivudine,60/30mg,Tablet - FDC,60.0
+abacavir/lamivudine | 600/300mg | tablet - fdc | 30,Abacavir/Lamivudine,600/300mg,Tablet - FDC,30.0
+abacavir/lamivudine/zidovudine | 300/150/300mg | tablet - fdc | 60,Abacavir/Lamivudine/Zidovudine,300/150/300mg,Tablet - FDC,60.0
+amoxicillin | 500mg | powder for inj | 20.0,Amoxicillin,500mg,powder for inj,20.0
+amoxicillin+clavulanate - fdc | 500mg+125mg | tab | 36.0,Amoxicillin+Clavulanate - FDC,500mg+125mg,tab,36.0
+amoxicillin+clavulanate - fdc | 875mg+125mg | tab | 12.0,Amoxicillin+Clavulanate - FDC,875mg+125mg,tab,12.0
+artemether+lumefantrine - fdc | 20mg+120mg - 12 | dispers tab | 12.0,Artemether+Lumefantrine - FDC,20mg+120mg - 12,dispers tab,12.0
+artemether+lumefantrine - fdc | 20mg+120mg - 12 | dispers tab | 360.0,Artemether+Lumefantrine - FDC,20mg+120mg - 12,dispers tab,360.0
+artemether+lumefantrine - fdc | 20mg+120mg - 12 | tab | 12.0,Artemether+Lumefantrine - FDC,20mg+120mg - 12,tab,12.0
+artemether+lumefantrine - fdc | 20mg+120mg - 12 | tab | 360.0,Artemether+Lumefantrine - FDC,20mg+120mg - 12,tab,360.0
+artemether+lumefantrine - fdc | 20mg+120mg - 18 | tab | 18.0,Artemether+Lumefantrine - FDC,20mg+120mg - 18,tab,18.0
+artemether+lumefantrine - fdc | 20mg+120mg - 18 | tab | 540.0,Artemether+Lumefantrine - FDC,20mg+120mg - 18,tab,540.0
+artemether+lumefantrine - fdc | 20mg+120mg - 24 | tab | 24.0,Artemether+Lumefantrine - FDC,20mg+120mg - 24,tab,24.0
+artemether+lumefantrine - fdc | 20mg+120mg - 24 | tab | 720.0,Artemether+Lumefantrine - FDC,20mg+120mg - 24,tab,720.0
+artemether+lumefantrine - fdc | 20mg+120mg - 6 | dispers tab | 180.0,Artemether+Lumefantrine - FDC,20mg+120mg - 6,dispers tab,180.0
+artemether+lumefantrine - fdc | 20mg+120mg - 6 | dispers tab | 6.0,Artemether+Lumefantrine - FDC,20mg+120mg - 6,dispers tab,6.0
+artemether+lumefantrine - fdc | 20mg+120mg - 6 | tab | 180.0,Artemether+Lumefantrine - FDC,20mg+120mg - 6,tab,180.0
+artemether+lumefantrine - fdc | 20mg+120mg - 6 | tab | 6.0,Artemether+Lumefantrine - FDC,20mg+120mg - 6,tab,6.0
+artemether+lumefantrine - fdc | 20mg+120mg - 8 | tab | 16.0,Artemether+Lumefantrine - FDC,20mg+120mg - 8,tab,16.0
+artemether+lumefantrine - fdc | 20mg+120mg - 8 | tab | 24.0,Artemether+Lumefantrine - FDC,20mg+120mg - 8,tab,24.0
+artesunate | 60mg | powder for inj | 1.0,Artesunate,60mg,powder for inj,1.0
+atazanavir | 150mg | capsule | 60,Atazanavir,150mg,Capsule,60.0
+atazanavir | 200mg | capsule | 60,Atazanavir,200mg,Capsule,60.0
+atazanavir | 300mg | capsule | 30,Atazanavir,300mg,Capsule,30.0
+atazanavir+ritonavir - fdc | 300mg+100mg | tab | 30.0,Atazanavir+Ritonavir - FDC,300mg+100mg,tab,30.0
+atazanavir/ritonavir | 300/100mg | tablet | 30,Atazanavir/Ritonavir,300/100mg,Tablet,30.0
+bedaquiline | 100mg | tab | 188.0,Bedaquiline,100mg,tab,188.0
+capreomycin | 1g | powder for inj | 1.0,Capreomycin,1g,powder for inj,1.0
+clofazimine | 100mg | capsule | 100.0,Clofazimine,100mg,capsule,100.0
+cycloserine | 250mg | capsule | 100.0,Cycloserine,250mg,capsule,100.0
+cycloserine | 250mg | tab | 100.0,Cycloserine,250mg,tab,100.0
+darunavir tcm | 150mg | tab | 240.0,Darunavir (TCM),150mg,tab,240.0
+darunavir tcm | 600mg | tab | 60.0,Darunavir (TCM),600mg,tab,60.0
+darunavir | 300mg | tablet | 120,Darunavir,300mg,Tablet,120.0
+darunavir | 600mg | tablet | 60,Darunavir,600mg,Tablet,60.0
+dawa-plus 2.0 | rectangular |  | 1.0,Dawa-Plus 2.0,Rectangular,,1.0
+delamanid | 50mg | tab | 672.0,Delamanid,50mg,tab,672.0
+didanosine ec | 250mg | delayed-release capsules - blister | 30,Didanosine EC,250mg,Delayed-release capsules - blister,30.0
+didanosine ec | 400mg | delayed-release capsules - blister | 30,Didanosine EC,400mg,Delayed-release capsules - blister,30.0
+didanosine | 100mg | chewable/dispersible tablet | 60,Didanosine,100mg,Chewable/dispersible tablet,60.0
+didanosine | 125mg | delayed-release capsules | 30,Didanosine,125mg,Delayed-release capsules,30.0
+didanosine | 200mg | chewable/dispersible tablet | 60,Didanosine,200mg,Chewable/dispersible tablet,60.0
+didanosine | 200mg | delayed-release capsules | 30,Didanosine,200mg,Delayed-release capsules,30.0
+didanosine | 200mg | tablet | 60,Didanosine,200mg,Tablet,60.0
+didanosine | 250mg | delayed-release capsules | 30,Didanosine,250mg,Delayed-release capsules,30.0
+didanosine | 25mg | chewable/dispersible tablet | 60,Didanosine,25mg,Chewable/dispersible tablet,60.0
+didanosine | 2g | powder for oral solution | 200,Didanosine,2g,Powder for oral solution,200.0
+didanosine | 400mg | delayed-release capsules | 30,Didanosine,400mg,Delayed-release capsules,30.0
+didanosine | 50mg | chewable/dispersible tablet | 60,Didanosine,50mg,Chewable/dispersible tablet,60.0
+dolutegravir + lamivudine + tenofovir df - fdc | 50mg+300mg+300mg | tab | 30.0,Dolutegravir + Lamivudine + Tenofovir DF - FDC,50mg+300mg+300mg,tab,30.0
+dolutegravir + lamivudine + tenofovir df - fdc | 50mg+300mg+300mg | tab | 90.0,Dolutegravir + Lamivudine + Tenofovir DF - FDC,50mg+300mg+300mg,tab,90.0
+dolutegravir as sodium salt | 50mg | tab | 30.0,Dolutegravir (as sodium salt),50mg,tab,30.0
+duranet | rectangular |  | 1.0,Duranet,Rectangular,,1.0
+efavirenz efv | 200mg | tab | 90.0,Efavirenz (EFV),200mg,tab,90.0
+efavirenz efv | 600mg | tab | 30.0,Efavirenz (EFV),600mg,tab,30.0
+efavirenz | 200mg | capsule | 90,Efavirenz,200mg,Capsule,90.0
+efavirenz | 200mg | tablet | 30,Efavirenz,200mg,Tablet,30.0
+efavirenz | 200mg | tablet | 90,Efavirenz,200mg,Tablet,90.0
+efavirenz | 30mg/ml | oral solution | 180,Efavirenz,30mg/ml,Oral solution,180.0
+efavirenz | 50mg | capsule | 30,Efavirenz,50mg,Capsule,30.0
+efavirenz | 600mg | tablet | 30,Efavirenz,600mg,Tablet,30.0
+efavirenz+lamivudine+tenofovir - fdc | 400mg+300mg+300mg | tab | 30.0,Efavirenz+Lamivudine+Tenofovir - FDC,400mg+300mg+300mg,tab,30.0
+efavirenz+lamivudine+tenofovir - fdc | 600mg+300mg+300mg | tab | 30.0,Efavirenz+Lamivudine+Tenofovir - FDC,600mg+300mg+300mg,tab,30.0
+efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,Efavirenz/Emtricitabine/Tenofovir Disoproxil Fumarate,600/200/300mg,Tablet - FDC,30.0
+efavirenz/lamivudine/tenofovir disoproxil fumarate | 600/300/300mg | tablet - fdc | 30,Efavirenz/Lamivudine/Tenofovir Disoproxil Fumarate,600/300/300mg,Tablet - FDC,30.0
+emtricitabine+tenofovir - fdc | 200mg+300mg | tab | 30.0,Emtricitabine+Tenofovir - FDC,200mg+300mg,tab,30.0
+emtricitabine/tenofovir disoproxil fumarate | 200/300mg | tablet - fdc | 30,Emtricitabine/Tenofovir Disoproxil Fumarate,200/300mg,Tablet - FDC,30.0
+emtricitabine/tenofovir disoproxil fumarate | 300/200mg | tablet - fdc | 30,Emtricitabine/Tenofovir Disoproxil Fumarate,300/200mg,Tablet - FDC,30.0
+ethambutol | 400mg | tab | 672.0,Ethambutol,400mg,tab,672.0
+ethambutol+isoniazid+pyrazinamide+rifampicin rhze- fdc | 275mg+75mg+400mg+150mg | tab | 500.0,Ethambutol+Isoniazid+Pyrazinamide+Rifampicin (RHZE)- FDC,275mg+75mg+400mg+150mg,tab,500.0
+etravirine etv | 100mg | tab | 120.0,Etravirine (ETV),100mg,tab,120.0
+etravirine | 100mg | tablet | 120,Etravirine,100mg,Tablet,120.0
+hepatitis b assays | bioline hbsag wb 30s/kit 01fk10w |  | 30.0,Hepatitis B assays,Bioline HBsAg WB 30s/kit [01FK10W],,30.0
+hepatitis b assays | murex hbsag v3 with confirm. v3 96s 480s 9f80-01 9f80-05 2g27-01 |  | 480.0,Hepatitis B assays,"Murex HBsAg V3 with Confirm. V3 96s, 480s [9F80-01, 9F80-05, 2G27-01]",,480.0
+hepatitis c assays | bioline hcv 30s 02fk10 |  | 1.0,Hepatitis C assays,"Bioline HCV, 30s [02FK10]",,1.0
+hepatitis c assays | murex anti-hcv version 4.0 96s 480s 7f51-01 7f51-02 |  | 480.0,Hepatitis C assays,"Murex anti-HCV (version 4.0), 96s, 480s [7F51-01, 7F51-02]",,480.0
+hepatitis c assays | xpert hcv viral load 10 cartridges gxhcv-vl-ce-10 |  | 10.0,Hepatitis C assays,"Xpert® HCV Viral Load, 10 cartridges [GXHCV-VL-CE-10]",,10.0
+hiv cd4 testing consumables/test kits | bd tritest d3/d4/d45 with trucount tubes 50 tests 1 ml 342444 |  | 50.0,HIV CD4 testing consumables/test kits,"BD Tritest СD3/СD4/СD45 with Trucount Tubes, 50 tests, 1 ml [342444]",,50.0
+hiv cd4 testing consumables/test kits | partec cd4 easy count kit 100s 05-8405 |  | 100.0,HIV CD4 testing consumables/test kits,Partec CD4% easy count kit 100s [05-8405],,100.0
+hiv rdt and eia | determine hiv 1/2 ag/ab combo rapid test |  | 100.0,HIV RDT and EIA,Determine™ HIV 1/2 Ag/Ab Combo Rapid Test,,100.0
+hiv rdt and eia | determine hiv-1/2 serum/plasma kit 100 tests 7d23-13 |  | 100.0,HIV RDT and EIA,Determine™ HIV-1/2 Serum/Plasma Kit 100 tests [7D23-13],,100.0
+hiv rdt and eia | determine hiv-1/2 whole blood assay 7d2343 |  | 100.0,HIV RDT and EIA,Determine HIV-1/2 Whole blood Assay [7D2343],,100.0
+hiv rdt and eia | determine hiv-1/2 |  | 100.0,HIV RDT and EIA,Determine HIV-1/2,,100.0
+hiv rdt and eia | first response hiv 1-2-0 v3.0 card test i05frc30 |  | 30.0,HIV RDT and EIA,First Response HIV 1-2-0 v3.0 Card Test [I05FRC30],,30.0
+hiv rdt and eia | first response hiv 1-2-0 v3.0 card test i05frc30 |  | 5.0,HIV RDT and EIA,First Response HIV 1-2-0 v3.0 Card Test [I05FRC30],,5.0
+hiv rdt and eia | hiv 1+2 determine 7d23 |  | 100.0,HIV RDT and EIA,HIV 1+2 Determine [7D23],,100.0
+hiv rdt and eia | oraquick advance rapid hiv-1/2 |  | 1.0,HIV RDT and EIA,OraQuick ADVANCE Rapid HIV-1/2,,1.0
+hiv rdt and eia | oraquick hiv 1/2 -rapid antibody test 5x4-0010 5x4-0012 |  | 25.0,HIV RDT and EIA,"OraQuick HIV 1/2 -Rapid Antibody Test [5X4-0010, 5X4-0012]",,25.0
+hiv rdt and eia | oraquick hiv 1/2 -rapid antibody test 5x4-0010 5x4-0012 |  | 250.0,HIV RDT and EIA,"OraQuick HIV 1/2 -Rapid Antibody Test [5X4-0010, 5X4-0012]",,250.0
+hiv rdt and eia | sd bioline hiv-1/2 3.0 03fk10 |  | 25.0,HIV RDT and EIA,SD Bioline HIV-1/2 3.0 [03FK10],,25.0
+hiv rdt and eia | sd bioline hiv-1/2 rapid |  | 25.0,HIV RDT and EIA,SD Bioline HIV-1/2 Rapid,,25.0
+hiv rdt and eia | uni-gold hiv-1/hiv-2 1206502 |  | 20.0,HIV RDT and EIA,Uni-Gold HIV-1/HIV-2 [1206502],,20.0
+hiv virological testing consumables/test kits | xpert hiv-1 viral load 10 tests gxhiv-vl-ce-10 |  | 10.0,HIV virological testing consumables/test kits,Xpert HIV-1 Viral Load 10 tests [GXHIV-VL-CE-10],,10.0
+indinavir | 400mg | capsule | 180,Indinavir,400mg,Capsule,180.0
+isoniazid | 100mg | tab | 100.0,Isoniazid,100mg,tab,100.0
+isoniazid | 300mg | tab | 672.0,Isoniazid,300mg,tab,672.0
+kanamycin | 1g | powder for inj | 50.0,Kanamycin,1g,powder for inj,50.0
+kanamycin | 1g/4ml | inj | 10.0,Kanamycin,1g/4ml,inj,10.0
+lamivudine 3tc | 150mg | tab | 60.0,Lamivudine (3TC),150mg,tab,60.0
+lamivudine | 10mg/ml | oral solution | 240,Lamivudine,10mg/ml,Oral solution,240.0
+lamivudine | 150mg | tablet | 60,Lamivudine,150mg,Tablet,60.0
+lamivudine | 300mg | tablet | 30,Lamivudine,300mg,Tablet,30.0
+lamivudine+nevirapine+stavudine - fdc | 150mg+200mg+30mg | tab | 30.0,Lamivudine+Nevirapine+Stavudine - FDC,150mg+200mg+30mg,tab,30.0
+lamivudine+nevirapine+stavudine - fdc | 150mg+200mg+30mg | tab | 60.0,Lamivudine+Nevirapine+Stavudine - FDC,150mg+200mg+30mg,tab,60.0
+lamivudine+nevirapine+zidovudine - fdc | 150mg+200mg+300mg | tab | 60.0,Lamivudine+Nevirapine+Zidovudine - FDC,150mg+200mg+300mg,tab,60.0
+lamivudine+nevirapine+zidovudine - fdc | 30mg+50mg+60mg | dispers tab | 60.0,Lamivudine+Nevirapine+Zidovudine - FDC,30mg+50mg+60mg,dispers tab,60.0
+lamivudine+stavudine - fdc | 150mg+30mg | tab | 30.0,Lamivudine+Stavudine - FDC,150mg+30mg,tab,30.0
+lamivudine+stavudine - fdc | 150mg+30mg | tab | 60.0,Lamivudine+Stavudine - FDC,150mg+30mg,tab,60.0
+lamivudine+tenofovir - fdc | 300mg+300mg | tab | 30.0,Lamivudine+Tenofovir - FDC,300mg+300mg,tab,30.0
+lamivudine+zidovudine - fdc | 150mg+300mg | tab | 60.0,Lamivudine+Zidovudine - FDC,150mg+300mg,tab,60.0
+lamivudine+zidovudine - fdc | 30mg+60mg | dispers tab | 60.0,Lamivudine+Zidovudine - FDC,30mg+60mg,dispers tab,60.0
+lamivudine+zidovudine - fdc | 30mg+60mg | tab | 60.0,Lamivudine+Zidovudine - FDC,30mg+60mg,tab,60.0
+lamivudine/nevirapine/stavudine | 150/200/30mg | tablet - fdc | 60,Lamivudine/Nevirapine/Stavudine,150/200/30mg,Tablet - FDC,60.0
+lamivudine/nevirapine/stavudine | 150/200/40mg | tablet - fdc | 60,Lamivudine/Nevirapine/Stavudine,150/200/40mg,Tablet - FDC,60.0
+lamivudine/nevirapine/stavudine | 30/50/6mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Nevirapine/Stavudine,30/50/6mg,Chewable/dispersible tablet - FDC,60.0
+lamivudine/nevirapine/stavudine | 60/100/12mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Nevirapine/Stavudine,60/100/12mg,Chewable/dispersible tablet - FDC,60.0
+lamivudine/nevirapine/zidovudine | 150/300/200mg | tablet - fdc | 60,Lamivudine/Nevirapine/Zidovudine,150/300/200mg,Tablet - FDC,60.0
+lamivudine/nevirapine/zidovudine | 30/50/60mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Nevirapine/Zidovudine,30/50/60mg,Chewable/dispersible tablet - FDC,60.0
+lamivudine/stavudine | 150/30mg | tablet - fdc | 30,Lamivudine/Stavudine,150/30mg,Tablet - FDC,30.0
+lamivudine/stavudine | 150/30mg | tablet - fdc | 60,Lamivudine/Stavudine,150/30mg,Tablet - FDC,60.0
+lamivudine/stavudine | 30/6mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Stavudine,30/6mg,Chewable/dispersible tablet - FDC,60.0
+lamivudine/stavudine | 60/12mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Stavudine,60/12mg,Chewable/dispersible tablet - FDC,60.0
+lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Lamivudine/Tenofovir Disoproxil Fumarate,300/300mg,Tablet - FDC,30.0
+lamivudine/zidovudine | 150/300mg | tablet - fdc | 60,Lamivudine/Zidovudine,150/300mg,Tablet - FDC,60.0
+lamivudine/zidovudine | 30/60mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Zidovudine,30/60mg,Chewable/dispersible tablet - FDC,60.0
+lamivudine/zidovudine | 30/60mg | tablet - fdc | 60,Lamivudine/Zidovudine,30/60mg,Tablet - FDC,60.0
+lamivudine/zidovudine+abacavir | 150/300+300mg | tablet - fdc + co-blister | 120,Lamivudine/Zidovudine+Abacavir,150/300+300mg,Tablet - FDC + co-blister,120.0
+lamivudine/zidovudine+efavirenz | 150/300mg+600mg | tablet - fdc + co-blister | 90,Lamivudine/Zidovudine+Efavirenz,150/300mg+600mg,Tablet - FDC + co-blister,90.0
+lamivudine/zidovudine+nevirapine | 150/300+200mg | tablet - fdc + co-blister | 120,Lamivudine/Zidovudine+Nevirapine,150/300+200mg,Tablet - FDC + co-blister,120.0
+levofloxacin | 250mg | tab | 100.0,Levofloxacin,250mg,tab,100.0
+levofloxacin | 500mg | tab | 100.0,Levofloxacin,500mg,tab,100.0
+levofloxacin | 500mg | tab | 80.0,Levofloxacin,500mg,tab,80.0
+linezolid | 600mg | tab | 10.0,Linezolid,600mg,tab,10.0
+linezolid | 600mg | tab | 20.0,Linezolid,600mg,tab,20.0
+long-lasting insecticidal net llin | circular |  | 1.0,Long-Lasting Insecticidal Net (LLIN),Circular,,1.0
+long-lasting insecticidal net llin | rectangular |  | 1.0,Long-Lasting Insecticidal Net (LLIN),Rectangular,,1.0
+lopinavir+ritonavir - fdc | 100mg+25mg | tab | 60.0,Lopinavir+Ritonavir - FDC,100mg+25mg,tab,60.0
+lopinavir+ritonavir - fdc | 200mg+50mg | tab | 120.0,Lopinavir+Ritonavir - FDC,200mg+50mg,tab,120.0
+lopinavir+ritonavir - fdc | 80mg+20mg/ml | oral liquid | 300.0,Lopinavir+Ritonavir - FDC,80mg+20mg/ml,oral liquid,300.0
+lopinavir+ritonavir - fdc | 80mg+20mg/ml | oral liquid | 60.0,Lopinavir+Ritonavir - FDC,80mg+20mg/ml,oral liquid,60.0
+lopinavir/ritonavir | 100/25mg | tablet | 60,Lopinavir/Ritonavir,100/25mg,Tablet,60.0
+lopinavir/ritonavir | 133.3/33.3mg | capsule | 180,Lopinavir/Ritonavir,133.3/33.3mg,Capsule,180.0
+lopinavir/ritonavir | 200/50mg | tablet | 120,Lopinavir/Ritonavir,200/50mg,Tablet,120.0
+lopinavir/ritonavir | 80/20mg/ml | oral solution | 160,Lopinavir/Ritonavir,80/20mg/ml,Oral solution,160.0
+lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,Lopinavir/Ritonavir,80/20mg/ml,Oral solution,300.0
+magnet | rectangular |  | 1.0,MAGNet,Rectangular,,1.0
+malaria rapid diagnostic test | do not use malaria rapid diagnostic test |  | 25.0,Malaria Rapid Diagnostic Test,(DO NOT USE) Malaria rapid diagnostic test,,25.0
+malaria rapid diagnostic test | malaria rdt please upload invoice |  | 25.0,Malaria Rapid Diagnostic Test,Malaria RDT (please upload invoice),,25.0
+malaria rdt p.f. | carestart malaria hrp2 g0141 |  | 60.0,Malaria RDT: P.f.,CareStart Malaria HRP2 [G0141],,60.0
+malaria rdt p.f. | carestart malaria hrp2 g0141-sk |  | 25.0,Malaria RDT: P.f.,CareStart Malaria HRP2 [G0141-SK],,25.0
+malaria rdt p.f. | carestart malaria hrp2 g0141-sk |  | 40.0,Malaria RDT: P.f.,CareStart Malaria HRP2 [G0141-SK],,40.0
+malaria rdt p.f. | ict malaria pf cassette test ml01 |  | 25.0,Malaria RDT: P.f.,ICT Malaria Pf Cassette Test [ML01],,25.0
+malaria rdt p.f. | sd bioline malaria ag pf 25s 05fk50 |  | 25.0,Malaria RDT: P.f.,SD Bioline Malaria Ag Pf 25s [05FK50],,25.0
+male latex condom | male latex condom |  | 1.0,Male Latex Condom,Male Latex Condom,,1.0
+mask/respirator type unknown | disposable medical non- sterile mask |  | 50.0,Mask/Respirator Type Unknown,Disposable medical non- sterile mask,,50.0
+mask/respirator type unknown | model 30582 |  | 1.0,Mask/Respirator Type Unknown,Model 30582,,1.0
+medical mask type iir single use ce marked | disposable 3-ply medical face mask |  | 50.0,"Medical Mask, Type IIR, single use, CE marked",Disposable 3-Ply Medical Face Mask,,50.0
+miranet | rectangular |  | 1.0,MiraNet,Rectangular,,1.0
+moxifloxacin | 400mg | tab | 100.0,Moxifloxacin,400mg,tab,100.0
+nelfinavir as mesilate | 250mg | tablet | 270,Nelfinavir (as mesilate),250mg,Tablet,270.0
+nelfinavir | 50mg/g | oral powder | 144,Nelfinavir,50mg/g,Oral powder,144.0
+nevirapine nvp | 10mg/ml | oral liquid | 100.0,Nevirapine (NVP),10mg/ml,oral liquid,100.0
+nevirapine nvp | 10mg/ml | oral liquid | 240.0,Nevirapine (NVP),10mg/ml,oral liquid,240.0
+nevirapine nvp | 200mg | tab | 60.0,Nevirapine (NVP),200mg,tab,60.0
+nevirapine | 10mg/ml | oral suspension | 100,Nevirapine,10mg/ml,Oral suspension,100.0
+nevirapine | 10mg/ml | oral suspension | 240,Nevirapine,10mg/ml,Oral suspension,240.0
+nevirapine | 200mg | tablet | 60,Nevirapine,200mg,Tablet,60.0
+nevirapine | 50mg | chewable/dispersible tablet | 30,Nevirapine,50mg,Chewable/dispersible tablet,30.0
+nevirapine | 50mg | chewable/dispersible tablet | 60,Nevirapine,50mg,Chewable/dispersible tablet,60.0
+ofloxacin | 200mg | tab | 100.0,Ofloxacin,200mg,tab,100.0
+olyset | rectangular |  | 1.0,Olyset,Rectangular,,1.0
+pas sodium | 4g | granules | 120.0,PAS Sodium,4g,granules,120.0
+pas sodium | 5.52g equiv 4g pas | powder for oral sol/susp | 100.0,PAS Sodium,5.52g (equiv 4g PAS),powder for oral sol/susp,100.0
+pas sodium | 60w/w | delayed release granules | 166.0,PAS Sodium,60%w/w,delayed release granules,166.0
+protionamide | 250mg | tab | 100.0,Protionamide,250mg,tab,100.0
+pyrazinamide | 400mg | tab | 100.0,Pyrazinamide,400mg,tab,100.0
+pyrazinamide | 500mg | tab | 672.0,Pyrazinamide,500mg,tab,672.0
+raltegravir | 100mg | chewable tablet | 60.0,Raltegravir,100mg,chewable tablet,60.0
+raltegravir | 25mg | chewable tablet | 60.0,Raltegravir,25mg,chewable tablet,60.0
+raltegravir | 400mg | tab | 60.0,Raltegravir,400mg,tab,60.0
+raltegravir | 400mg | tablet | 60,Raltegravir,400mg,Tablet,60.0
+rifampicin | 150mg | capsule | 100.0,Rifampicin,150mg,capsule,100.0
+ritonavir rtv | 100mg | tab | 30.0,Ritonavir (RTV),100mg,tab,30.0
+ritonavir rtv | 100mg | tab | 60.0,Ritonavir (RTV),100mg,tab,60.0
+ritonavir rtv | 100mg | tab | 84.0,Ritonavir (RTV),100mg,tab,84.0
+ritonavir rtv | 80mg/ml | oral liquid | 90.0,Ritonavir (RTV),80mg/ml,oral liquid,90.0
+ritonavir | 100mg | capsule | 168,Ritonavir,100mg,Capsule,168.0
+ritonavir | 100mg | capsule | 336,Ritonavir,100mg,Capsule,336.0
+ritonavir | 100mg | capsule | 84,Ritonavir,100mg,Capsule,84.0
+ritonavir | 100mg | tablet | 30,Ritonavir,100mg,Tablet,30.0
+ritonavir | 100mg | tablet | 60,Ritonavir,100mg,Tablet,60.0
+ritonavir | 80mg/ml | oral solution | 90,Ritonavir,80mg/ml,Oral solution,90.0
+saquinavir sqv | 200mg | capsule | 270.0,Saquinavir (SQV),200mg,capsule,270.0
+saquinavir | 200mg | capsule | 270,Saquinavir,200mg,Capsule,270.0
+saquinavir | 500mg | tablet | 120,Saquinavir,500mg,Tablet,120.0
+stavudine | 15mg | capsule | 60,Stavudine,15mg,Capsule,60.0
+stavudine | 1mg/ml | oral solution | 200,Stavudine,1mg/ml,Oral solution,200.0
+stavudine | 1mg/ml | powder for oral solution | 200,Stavudine,1mg/ml,Powder for oral solution,200.0
+stavudine | 20mg | capsule | 60,Stavudine,20mg,Capsule,60.0
+stavudine | 30mg | capsule | 60,Stavudine,30mg,Capsule,60.0
+stavudine | 40mg | capsule | 60,Stavudine,40mg,Capsule,60.0
+streptomycin | 1g | powder for inj | 1.0,Streptomycin,1g,powder for inj,1.0
+syphilis tests | bioline syphilis 3.0 30s 06fk10 |  | 25.0,Syphilis tests,"Bioline Syphilis 3.0, 30s [06FK10]",,25.0
+syphilis tests | syphilis rpr test- ntp 100s 50001 pqr |  | 100.0,Syphilis tests,"Syphilis RPR test- NTP, 100s [50001] PQR",,100.0
+tb cat. i+iii patient kit a | 4-fdc 6x28tabsr150/h75/z400/e275+2-fdc 12x28tabs r150/h75 | tab | 1.0,TB Cat. I+III Patient Kit A,4-FDC 6x28tabs(R150/H75/Z400/E275)+2-FDC 12x28tabs (R150/H75),tab,1.0
+tb molecular diagnostics | cepheid xpert mtb/rif ultra 50s gxmtb/rif-ultra-50 |  | 50.0,TB molecular diagnostics,Cepheid Xpert MTB/RIF Ultra (50s) [GXMTB/RIF-ULTRA-50],,50.0
+tb molecular diagnostics | cepheid xpert mtb/xdr kit 10s gxmtb/xdr-10 |  | 10.0,TB molecular diagnostics,Cepheid Xpert MTB/XDR kit (10s) [GXMTB/XDR-10],,10.0
+tb molecular diagnostics | genotype mtbdrsl version 2.0 31796a |  | 96.0,TB molecular diagnostics,GenoType MTBDRsl Version 2.0 [31796A],,96.0
+tb testing consumables/test kits | bactec mgit 960 pza drug kit 50s 245128 |  | 1.0,TB testing consumables/test kits,BACTEC MGIT  960 PZA Drug Kit 50s [245128],,1.0
+tb testing consumables/test kits | bactec mgit 960 pza medium 25s 245115 |  | 25.0,TB testing consumables/test kits,BACTEC MGIT 960 PZA Medium 25s [245115],,25.0
+tb testing consumables/test kits | bactec mgit 960 sire kit 40s 245123 |  | 1.0,TB testing consumables/test kits,BACTEC MGIT  960 SIRE Kit 40s [245123],,1.0
+tb testing consumables/test kits | bbl mgit 7 ml tube 100 tests 245122 |  | 100.0,TB testing consumables/test kits,BBL MGIT 7 ml Tube (100 tests) [245122],,100.0
+tb testing consumables/test kits | determine tb lam ag 25 test/kit 7d2741 |  | 25.0,TB testing consumables/test kits,Determine TB LAM Ag (25 test/kit) [7D2741],,25.0
+tb testing consumables/test kits | loopamp mtbc detection kit 2 x 48 tests 972000 |  | 48.0,TB testing consumables/test kits,"Loopamp™ MTBC Detection Kit, 2 x 48 tests [972000]",,48.0
+tb testing consumables/test kits | xpertcheck 1 kit xpertcheck-ce-5 |  | 50.0,TB testing consumables/test kits,XPERTCHECK 1 kit [XPERTCHECK-CE-5],,50.0
+tenofovir disoproxil fumarate | 300mg | tablet | 30,Tenofovir Disoproxil Fumarate,300mg,Tablet,30.0
+yorkool ln | conical |  | 1.0,Yorkool LN,Conical,,1.0
+yorkool ln | rectangular |  | 1.0,Yorkool LN,Rectangular,,1.0
+zidovudine azt or zdv | 10mg/ml | oral liquid | 240.0,Zidovudine (AZT or ZDV),10mg/ml,oral liquid,240.0
+zidovudine | 100mg | capsule | 100,Zidovudine,100mg,Capsule,100.0
+zidovudine | 10mg/ml | injection | 5,Zidovudine,10mg/ml,Injection,5.0
+zidovudine | 10mg/ml | oral solution | 200,Zidovudine,10mg/ml,Oral solution,200.0
+zidovudine | 10mg/ml | oral solution | 240,Zidovudine,10mg/ml,Oral solution,240.0
+zidovudine | 300mg | tablet | 60,Zidovudine,300mg,Tablet,60.0

@@ -1,6 +1,6 @@
 {
-  "price_alert_records": 728,
-  "concentration_alert_groups": 195,
+  "price_alert_records": 763,
+  "concentration_alert_groups": 226,
   "thresholds": {
     "min_transactions": 5,
     "price_alert_pct_above_median": 40,

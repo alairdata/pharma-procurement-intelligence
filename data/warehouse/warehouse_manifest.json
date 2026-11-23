@@ -1,0 +1,9 @@
+{
+  "engine": "SQLite",
+  "tables": {
+    "fact_procurement": 9291,
+    "mart_product_market_signals": 430,
+    "mart_supplier_summary": 122,
+    "mart_country_summary": 33
+  }
+}
