@@ -1,0 +1,10 @@
+{
+  "rows_positive": true,
+  "no_negative_prices": true,
+  "no_negative_quantities": true,
+  "country_completeness": 1.0,
+  "supplier_completeness": 1.0,
+  "product_key_completeness": 1.0,
+  "duplicate_source_ids": 0,
+  "passed": true
+}

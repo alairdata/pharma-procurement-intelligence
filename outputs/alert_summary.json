@@ -1,0 +1,10 @@
+{
+  "price_alert_records": 728,
+  "concentration_alert_groups": 195,
+  "thresholds": {
+    "min_transactions": 5,
+    "price_alert_pct_above_median": 40,
+    "supplier_hhi_alert": 0.65,
+    "top_supplier_share_alert": 0.75
+  }
+}

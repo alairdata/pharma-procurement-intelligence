@@ -1,0 +1,93 @@
+product_key,molecule,dosage,dosage_form,units_per_pack
+abacavir | 20mg/ml | oral solution | 240,Abacavir,20mg/ml,Oral solution,240
+abacavir | 300mg | tablet - blister | 60,Abacavir,300mg,Tablet - blister,60
+abacavir | 300mg | tablet | 60,Abacavir,300mg,Tablet,60
+abacavir | 60mg | chewable/dispersible tablet | 60,Abacavir,60mg,Chewable/dispersible tablet,60
+abacavir/lamivudine | 60/30mg | chewable/dispersible tablet - fdc | 60,Abacavir/Lamivudine,60/30mg,Chewable/dispersible tablet - FDC,60
+abacavir/lamivudine | 60/30mg | tablet - fdc | 30,Abacavir/Lamivudine,60/30mg,Tablet - FDC,30
+abacavir/lamivudine | 60/30mg | tablet - fdc | 60,Abacavir/Lamivudine,60/30mg,Tablet - FDC,60
+abacavir/lamivudine | 600/300mg | tablet - fdc | 30,Abacavir/Lamivudine,600/300mg,Tablet - FDC,30
+abacavir/lamivudine/zidovudine | 300/150/300mg | tablet - fdc | 60,Abacavir/Lamivudine/Zidovudine,300/150/300mg,Tablet - FDC,60
+atazanavir | 150mg | capsule | 60,Atazanavir,150mg,Capsule,60
+atazanavir | 200mg | capsule | 60,Atazanavir,200mg,Capsule,60
+atazanavir | 300mg | capsule | 30,Atazanavir,300mg,Capsule,30
+atazanavir/ritonavir | 300/100mg | tablet | 30,Atazanavir/Ritonavir,300/100mg,Tablet,30
+darunavir | 300mg | tablet | 120,Darunavir,300mg,Tablet,120
+darunavir | 600mg | tablet | 60,Darunavir,600mg,Tablet,60
+didanosine ec | 250mg | delayed-release capsules - blister | 30,Didanosine EC,250mg,Delayed-release capsules - blister,30
+didanosine ec | 400mg | delayed-release capsules - blister | 30,Didanosine EC,400mg,Delayed-release capsules - blister,30
+didanosine | 100mg | chewable/dispersible tablet | 60,Didanosine,100mg,Chewable/dispersible tablet,60
+didanosine | 125mg | delayed-release capsules | 30,Didanosine,125mg,Delayed-release capsules,30
+didanosine | 200mg | chewable/dispersible tablet | 60,Didanosine,200mg,Chewable/dispersible tablet,60
+didanosine | 200mg | delayed-release capsules | 30,Didanosine,200mg,Delayed-release capsules,30
+didanosine | 200mg | tablet | 60,Didanosine,200mg,Tablet,60
+didanosine | 250mg | delayed-release capsules | 30,Didanosine,250mg,Delayed-release capsules,30
+didanosine | 25mg | chewable/dispersible tablet | 60,Didanosine,25mg,Chewable/dispersible tablet,60
+didanosine | 2g | powder for oral solution | 200,Didanosine,2g,Powder for oral solution,200
+didanosine | 400mg | delayed-release capsules | 30,Didanosine,400mg,Delayed-release capsules,30
+didanosine | 50mg | chewable/dispersible tablet | 60,Didanosine,50mg,Chewable/dispersible tablet,60
+efavirenz | 200mg | capsule | 90,Efavirenz,200mg,Capsule,90
+efavirenz | 200mg | tablet | 30,Efavirenz,200mg,Tablet,30
+efavirenz | 200mg | tablet | 90,Efavirenz,200mg,Tablet,90
+efavirenz | 30mg/ml | oral solution | 180,Efavirenz,30mg/ml,Oral solution,180
+efavirenz | 50mg | capsule | 30,Efavirenz,50mg,Capsule,30
+efavirenz | 600mg | tablet | 30,Efavirenz,600mg,Tablet,30
+efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,Efavirenz/Emtricitabine/Tenofovir Disoproxil Fumarate,600/200/300mg,Tablet - FDC,30
+efavirenz/lamivudine/tenofovir disoproxil fumarate | 600/300/300mg | tablet - fdc | 30,Efavirenz/Lamivudine/Tenofovir Disoproxil Fumarate,600/300/300mg,Tablet - FDC,30
+emtricitabine/tenofovir disoproxil fumarate | 200/300mg | tablet - fdc | 30,Emtricitabine/Tenofovir Disoproxil Fumarate,200/300mg,Tablet - FDC,30
+emtricitabine/tenofovir disoproxil fumarate | 300/200mg | tablet - fdc | 30,Emtricitabine/Tenofovir Disoproxil Fumarate,300/200mg,Tablet - FDC,30
+etravirine | 100mg | tablet | 120,Etravirine,100mg,Tablet,120
+indinavir | 400mg | capsule | 180,Indinavir,400mg,Capsule,180
+lamivudine | 10mg/ml | oral solution | 240,Lamivudine,10mg/ml,Oral solution,240
+lamivudine | 150mg | tablet | 60,Lamivudine,150mg,Tablet,60
+lamivudine | 300mg | tablet | 30,Lamivudine,300mg,Tablet,30
+lamivudine/nevirapine/stavudine | 150/200/30mg | tablet - fdc | 60,Lamivudine/Nevirapine/Stavudine,150/200/30mg,Tablet - FDC,60
+lamivudine/nevirapine/stavudine | 150/200/40mg | tablet - fdc | 60,Lamivudine/Nevirapine/Stavudine,150/200/40mg,Tablet - FDC,60
+lamivudine/nevirapine/stavudine | 30/50/6mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Nevirapine/Stavudine,30/50/6mg,Chewable/dispersible tablet - FDC,60
+lamivudine/nevirapine/stavudine | 60/100/12mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Nevirapine/Stavudine,60/100/12mg,Chewable/dispersible tablet - FDC,60
+lamivudine/nevirapine/zidovudine | 150/300/200mg | tablet - fdc | 60,Lamivudine/Nevirapine/Zidovudine,150/300/200mg,Tablet - FDC,60
+lamivudine/nevirapine/zidovudine | 30/50/60mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Nevirapine/Zidovudine,30/50/60mg,Chewable/dispersible tablet - FDC,60
+lamivudine/stavudine | 150/30mg | tablet - fdc | 30,Lamivudine/Stavudine,150/30mg,Tablet - FDC,30
+lamivudine/stavudine | 150/30mg | tablet - fdc | 60,Lamivudine/Stavudine,150/30mg,Tablet - FDC,60
+lamivudine/stavudine | 30/6mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Stavudine,30/6mg,Chewable/dispersible tablet - FDC,60
+lamivudine/stavudine | 60/12mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Stavudine,60/12mg,Chewable/dispersible tablet - FDC,60
+lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Lamivudine/Tenofovir Disoproxil Fumarate,300/300mg,Tablet - FDC,30
+lamivudine/zidovudine | 150/300mg | tablet - fdc | 60,Lamivudine/Zidovudine,150/300mg,Tablet - FDC,60
+lamivudine/zidovudine | 30/60mg | chewable/dispersible tablet - fdc | 60,Lamivudine/Zidovudine,30/60mg,Chewable/dispersible tablet - FDC,60
+lamivudine/zidovudine | 30/60mg | tablet - fdc | 60,Lamivudine/Zidovudine,30/60mg,Tablet - FDC,60
+lamivudine/zidovudine+abacavir | 150/300+300mg | tablet - fdc + co-blister | 120,Lamivudine/Zidovudine+Abacavir,150/300+300mg,Tablet - FDC + co-blister,120
+lamivudine/zidovudine+efavirenz | 150/300mg+600mg | tablet - fdc + co-blister | 90,Lamivudine/Zidovudine+Efavirenz,150/300mg+600mg,Tablet - FDC + co-blister,90
+lamivudine/zidovudine+nevirapine | 150/300+200mg | tablet - fdc + co-blister | 120,Lamivudine/Zidovudine+Nevirapine,150/300+200mg,Tablet - FDC + co-blister,120
+lopinavir/ritonavir | 100/25mg | tablet | 60,Lopinavir/Ritonavir,100/25mg,Tablet,60
+lopinavir/ritonavir | 133.3/33.3mg | capsule | 180,Lopinavir/Ritonavir,133.3/33.3mg,Capsule,180
+lopinavir/ritonavir | 200/50mg | tablet | 120,Lopinavir/Ritonavir,200/50mg,Tablet,120
+lopinavir/ritonavir | 80/20mg/ml | oral solution | 160,Lopinavir/Ritonavir,80/20mg/ml,Oral solution,160
+lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,Lopinavir/Ritonavir,80/20mg/ml,Oral solution,300
+nelfinavir as mesilate | 250mg | tablet | 270,Nelfinavir (as mesilate),250mg,Tablet,270
+nelfinavir | 50mg/g | oral powder | 144,Nelfinavir,50mg/g,Oral powder,144
+nevirapine | 10mg/ml | oral suspension | 100,Nevirapine,10mg/ml,Oral suspension,100
+nevirapine | 10mg/ml | oral suspension | 240,Nevirapine,10mg/ml,Oral suspension,240
+nevirapine | 200mg | tablet | 60,Nevirapine,200mg,Tablet,60
+nevirapine | 50mg | chewable/dispersible tablet | 30,Nevirapine,50mg,Chewable/dispersible tablet,30
+nevirapine | 50mg | chewable/dispersible tablet | 60,Nevirapine,50mg,Chewable/dispersible tablet,60
+raltegravir | 400mg | tablet | 60,Raltegravir,400mg,Tablet,60
+ritonavir | 100mg | capsule | 168,Ritonavir,100mg,Capsule,168
+ritonavir | 100mg | capsule | 336,Ritonavir,100mg,Capsule,336
+ritonavir | 100mg | capsule | 84,Ritonavir,100mg,Capsule,84
+ritonavir | 100mg | tablet | 30,Ritonavir,100mg,Tablet,30
+ritonavir | 100mg | tablet | 60,Ritonavir,100mg,Tablet,60
+ritonavir | 80mg/ml | oral solution | 90,Ritonavir,80mg/ml,Oral solution,90
+saquinavir | 200mg | capsule | 270,Saquinavir,200mg,Capsule,270
+saquinavir | 500mg | tablet | 120,Saquinavir,500mg,Tablet,120
+stavudine | 15mg | capsule | 60,Stavudine,15mg,Capsule,60
+stavudine | 1mg/ml | oral solution | 200,Stavudine,1mg/ml,Oral solution,200
+stavudine | 1mg/ml | powder for oral solution | 200,Stavudine,1mg/ml,Powder for oral solution,200
+stavudine | 20mg | capsule | 60,Stavudine,20mg,Capsule,60
+stavudine | 30mg | capsule | 60,Stavudine,30mg,Capsule,60
+stavudine | 40mg | capsule | 60,Stavudine,40mg,Capsule,60
+tenofovir disoproxil fumarate | 300mg | tablet | 30,Tenofovir Disoproxil Fumarate,300mg,Tablet,30
+zidovudine | 100mg | capsule | 100,Zidovudine,100mg,Capsule,100
+zidovudine | 10mg/ml | injection | 5,Zidovudine,10mg/ml,Injection,5
+zidovudine | 10mg/ml | oral solution | 200,Zidovudine,10mg/ml,Oral solution,200
+zidovudine | 10mg/ml | oral solution | 240,Zidovudine,10mg/ml,Oral solution,240
+zidovudine | 300mg | tablet | 60,Zidovudine,300mg,Tablet,60

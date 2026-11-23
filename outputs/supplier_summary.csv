@@ -1,49 +1,49 @@
-supplier_entity,transactions,countries,products,total_value_usd,total_quantity,median_pack_price_usd
-Mylan (formerly Matrix) Nashik,1413,26,23,435676514.31,44512442,10.19
-"Aurobindo Unit III, India",3169,29,37,335536958.82,47843773,7.05
-Hetero Unit III Hyderabad IN,869,26,17,213881678.46,32874346,5.36
-"Cipla, Goa, India",664,21,22,130580065.09,19835757,6.85
-"Strides, Bangalore, India.",540,22,12,84560731.65,20503733,3.75
-ABBVIE Ludwigshafen Germany,366,22,4,50044887.69,1805712,25.76
-"Aurobindo Unit VII, IN",111,16,7,47782596.88,6133120,4.81
-"Aspen-OSD, Port Elizabeth, SA",141,8,4,29691889.96,1141448,26.25
-Cipla Ltd A-42 MIDC Mahar. IN,16,6,2,14680946.45,1306725,33.4
-"Hetero, Jadcherla, unit 5, IN",44,15,5,10405781.42,1743212,4.62
-"MSD, Haarlem, NL",121,11,5,9721459.24,235586,50.0
-"Emcure Plot No.P-2, I.T-B.T. Park, Phase II, MIDC, Hinjwadi, Pune, India",56,12,6,8855352.08,1403881,18.0
-"Cipla, Kurkumbh, India",49,11,1,5587064.75,1150398,4.64
-GSK Mississauga (Canada),55,2,3,5182008.1,476857,9.28
-ABBVIE (Abbott) Logis. UK,219,16,5,5131045.73,145807,30.82
-"Cipla, Patalganga, India",43,13,5,3080869.54,360156,6.0
-"Micro labs, Verna, Goa, India",53,11,5,2947436.0,1203393,2.15
-"Ranbaxy, Paonta Shahib, India",42,12,3,2683753.89,799917,3.35
-"Mylan, H-12 & H-13, India",23,10,3,2431845.39,555117,1.99
-"BMS Meymac, France",148,13,12,2331231.15,168042,9.5
-Gilead(Nycomed) Oranienburg DE,31,10,2,1963384.47,86103,17.0
-Roche Basel,45,9,3,1900528.3800000001,21592,78.64
-GSK Ware (UK),40,3,5,1744992.34,55206,42.864999999999995
-Ranbaxy per Shasun Pharma,9,6,1,1013610.9299999999,219003,4.63
-Roche Madrid,19,8,3,867132.23,8509,81.42
-MSD Elkton USA,9,4,1,854969.72,17150,49.32
-Bristol-Myers Squibb Anagni IT,25,8,9,813925.04,43025,7.0
-"Boehringer Ing., Koropi, GR",13,1,1,557609.14,32247,18.09
-GSK Cape Town Factory (South Africa),21,1,1,365874.25,55412,5.81
-Ranbaxy per Shasun Pharma Ltd,2,2,1,322862.4,67860,4.74
-GSK Aranda,15,1,1,257590.96,18515,13.85
-"MSD Midrand, J'burg, SA",22,1,3,254936.5,14100,18.240000000000002
-Macleods Daman Plant INDIA,7,6,1,253656.91,108905,2.33
-"Janssen-Cilag, Latina, IT",54,4,3,226075.69,4571,47.13
-ABBVIE (Abbott) St. P'burg USA,6,4,3,219579.16,3658,144.0
-ABBVIE (Abbott) France,24,5,3,213793.55,9833,9.66
-ABBVIE Labs North Chicago US,1,1,1,148250.8,4570,32.44
-"MSD Patheon, Canada",3,2,1,126916.76,7483,16.96
-"BMS Evansville, US",16,3,1,81311.7,812,23.84
-"MSD Manati, Puerto Rico, (USA)",8,3,2,71086.22,9793,3.47
-MSD South Granville Australia,2,2,1,68792.54000000001,2122,32.41
-GSK Crawley,6,2,1,55721.12,4589,12.985
-"BI, Ingelheim, Germany",9,1,2,14486.4,720,13.94
-Boehringer Ingelheim Roxane US,6,1,1,9923.59,672,15.585
-"Janssen Ortho LLC, Puerto Rico",2,1,1,9457.2,142,66.6
-GSK Barnard Castle UK,1,1,1,5265.0,75,70.2
-ABBSP,1,1,1,3288.0,80,41.1
-"GSK, U1, Poznan, Poland",3,1,1,935.27,48,19.14
+supplier_entity,transactions,sources,countries,products,total_value_usd,total_quantity,median_pack_price_usd
+Mylan / Matrix Nashik,1413,1,26,23,435676514.31,44512442,10.19
+Aurobindo Unit III,3169,1,29,37,335536958.82,47843773,7.05
+Hetero Unit III Hyderabad,869,1,26,17,213881678.46,32874346,5.36
+Cipla Goa,664,1,21,22,130580065.09,19835757,6.85
+Strides Bangalore,540,1,22,12,84560731.65,20503733,3.75
+ABBVIE Ludwigshafen Germany,366,1,22,4,50044887.69,1805712,25.76
+Aurobindo Unit VII,111,1,16,7,47782596.88,6133120,4.81
+"Aspen-OSD, Port Elizabeth, SA",141,1,8,4,29691889.96,1141448,26.25
+Cipla Ltd A-42 MIDC Mahar. IN,16,1,6,2,14680946.45,1306725,33.4
+"Hetero, Jadcherla, unit 5, IN",44,1,15,5,10405781.42,1743212,4.62
+"MSD, Haarlem, NL",121,1,11,5,9721459.24,235586,50.0
+"Emcure Plot No.P-2, I.T-B.T. Park, Phase II, MIDC, Hinjwadi, Pune, India",56,1,12,6,8855352.08,1403881,18.0
+"Cipla, Kurkumbh, India",49,1,11,1,5587064.75,1150398,4.64
+GSK Mississauga (Canada),55,1,2,3,5182008.1,476857,9.28
+ABBVIE (Abbott) Logis. UK,219,1,16,5,5131045.73,145807,30.82
+"Cipla, Patalganga, India",43,1,13,5,3080869.54,360156,6.0
+"Micro labs, Verna, Goa, India",53,1,11,5,2947436.0,1203393,2.15
+"Ranbaxy, Paonta Shahib, India",42,1,12,3,2683753.89,799917,3.35
+"Mylan, H-12 & H-13, India",23,1,10,3,2431845.39,555117,1.99
+"BMS Meymac, France",148,1,13,12,2331231.15,168042,9.5
+Gilead(Nycomed) Oranienburg DE,31,1,10,2,1963384.47,86103,17.0
+Roche Basel,45,1,9,3,1900528.3800000001,21592,78.64
+GSK Ware (UK),40,1,3,5,1744992.34,55206,42.864999999999995
+Ranbaxy per Shasun Pharma,9,1,6,1,1013610.9299999999,219003,4.63
+Roche Madrid,19,1,8,3,867132.23,8509,81.42
+MSD Elkton USA,9,1,4,1,854969.72,17150,49.32
+Bristol-Myers Squibb Anagni IT,25,1,8,9,813925.04,43025,7.0
+"Boehringer Ing., Koropi, GR",13,1,1,1,557609.14,32247,18.09
+GSK Cape Town Factory (South Africa),21,1,1,1,365874.25,55412,5.81
+Ranbaxy per Shasun Pharma Ltd,2,1,2,1,322862.4,67860,4.74
+GSK Aranda,15,1,1,1,257590.96,18515,13.85
+"MSD Midrand, J'burg, SA",22,1,1,3,254936.5,14100,18.240000000000002
+Macleods Daman Plant INDIA,7,1,6,1,253656.91,108905,2.33
+"Janssen-Cilag, Latina, IT",54,1,4,3,226075.69,4571,47.13
+ABBVIE (Abbott) St. P'burg USA,6,1,4,3,219579.16,3658,144.0
+ABBVIE (Abbott) France,24,1,5,3,213793.55,9833,9.66
+ABBVIE Labs North Chicago US,1,1,1,1,148250.8,4570,32.44
+"MSD Patheon, Canada",3,1,2,1,126916.76,7483,16.96
+"BMS Evansville, US",16,1,3,1,81311.7,812,23.84
+"MSD Manati, Puerto Rico, (USA)",8,1,3,2,71086.22,9793,3.47
+MSD South Granville Australia,2,1,2,1,68792.54000000001,2122,32.41
+GSK Crawley,6,1,2,1,55721.12,4589,12.985
+"BI, Ingelheim, Germany",9,1,1,2,14486.4,720,13.94
+Boehringer Ingelheim Roxane US,6,1,1,1,9923.59,672,15.585
+"Janssen Ortho LLC, Puerto Rico",2,1,1,1,9457.2,142,66.6
+GSK Barnard Castle UK,1,1,1,1,5265.0,75,70.2
+ABBSP,1,1,1,1,3288.0,80,41.1
+"GSK, U1, Poznan, Poland",3,1,1,1,935.27,48,19.14

@@ -1,0 +1,729 @@
+source,source_record_id,country,product_key,supplier_entity,pack_price_usd,historical_median_pack_price,pct_above_market_product_median,alert_type
+SCMS,scms-1,Vietnam,nevirapine | 10mg/ml | oral suspension | 240,Aurobindo Unit III,6.2,1.92,222.91666666666669,price_above_historical_market_median
+SCMS,scms-3,Vietnam,lamivudine | 150mg | tablet | 60,"Ranbaxy, Paonta Shahib, India",3.99,2.35,69.78723404255321,price_above_historical_market_median
+SCMS,scms-4,Vietnam,stavudine | 30mg | capsule | 60,Aurobindo Unit III,3.2,1.45,120.6896551724138,price_above_historical_market_median
+SCMS,scms-6,Zambia,efavirenz | 200mg | capsule | 90,MSD South Granville Australia,32.4,16.0,102.49999999999999,price_above_historical_market_median
+SCMS,scms-32,Vietnam,tenofovir disoproxil fumarate | 300mg | tablet | 30,Gilead(Nycomed) Oranienburg DE,17.0,6.5,161.53846153846155,price_above_historical_market_median
+SCMS,scms-46,Vietnam,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,11.48,4.1,180.00000000000003,price_above_historical_market_median
+SCMS,scms-54,Vietnam,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,13.66,6.5,110.15384615384613,price_above_historical_market_median
+SCMS,scms-65,South Africa,nevirapine | 10mg/ml | oral suspension | 240,"BI, Ingelheim, Germany",13.93,3.15,342.22222222222223,price_above_historical_market_median
+SCMS,scms-66,Vietnam,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,10.19,4.1,148.53658536585365,price_above_historical_market_median
+SCMS,scms-72,Nigeria,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,"MSD, Haarlem, NL",50.4,19.92,153.0120481927711,price_above_historical_market_median
+SCMS,scms-76,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",22.88,7.82,192.58312020460355,price_above_historical_market_median
+SCMS,scms-77,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",22.88,7.82,192.58312020460355,price_above_historical_market_median
+SCMS,scms-80,South Africa,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,ABBVIE (Abbott) Logis. UK,34.39,24.22,41.99009083402147,price_above_historical_market_median
+SCMS,scms-82,Tanzania,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,"MSD, Haarlem, NL",50.4,15.885,217.28045325779038,price_above_historical_market_median
+SCMS,scms-90,Tanzania,lopinavir/ritonavir | 100/25mg | tablet | 60,ABBVIE Ludwigshafen Germany,10.28,5.94,73.06397306397304,price_above_historical_market_median
+SCMS,scms-112,South Africa,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,ABBVIE (Abbott) Logis. UK,36.0,24.22,48.63748967795212,price_above_historical_market_median
+SCMS,scms-118,Rwanda,efavirenz | 600mg | tablet | 30,Hetero Unit III Hyderabad,6.98,4.33,61.20092378752888,price_above_historical_market_median
+SCMS,scms-127,South Africa,lamivudine | 150mg | tablet | 60,Aurobindo Unit III,8.26,5.48,50.72992700729926,price_above_historical_market_median
+SCMS,scms-138,Mozambique,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBSP,41.1,19.71,108.52359208523592,price_above_historical_market_median
+SCMS,scms-140,Rwanda,efavirenz | 600mg | tablet | 30,Cipla Goa,15.2,4.33,251.03926096997688,price_above_historical_market_median
+SCMS,scms-141,Rwanda,abacavir | 300mg | tablet | 60,"Cipla, Patalganga, India",36.1,13.15,174.52471482889734,price_above_historical_market_median
+SCMS,scms-153,Vietnam,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.33,4.1,200.73170731707322,price_above_historical_market_median
+SCMS,scms-156,Rwanda,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",17.0,5.16,229.45736434108528,price_above_historical_market_median
+SCMS,scms-157,South Africa,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,ABBVIE (Abbott) Logis. UK,48.26,24.22,99.25681255161022,price_above_historical_market_median
+SCMS,scms-161,Rwanda,abacavir | 300mg | tablet | 60,Mylan / Matrix Nashik,27.5,13.15,109.12547528517109,price_above_historical_market_median
+SCMS,scms-182,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",21.85,7.82,179.41176470588238,price_above_historical_market_median
+SCMS,scms-184,Vietnam,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,11.48,4.1,180.00000000000003,price_above_historical_market_median
+SCMS,scms-195,South Africa,nevirapine | 10mg/ml | oral suspension | 240,"BI, Ingelheim, Germany",14.53,3.15,361.2698412698412,price_above_historical_market_median
+SCMS,scms-212,Vietnam,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,10.19,4.1,148.53658536585365,price_above_historical_market_median
+SCMS,scms-218,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",23.6,7.82,201.79028132992326,price_above_historical_market_median
+SCMS,scms-219,South Africa,nevirapine | 10mg/ml | oral suspension | 240,"BI, Ingelheim, Germany",13.94,3.15,342.5396825396826,price_above_historical_market_median
+SCMS,scms-227,South Africa,nevirapine | 10mg/ml | oral suspension | 240,"BI, Ingelheim, Germany",13.51,3.15,328.88888888888886,price_above_historical_market_median
+SCMS,scms-234,Nigeria,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,"MSD, Haarlem, NL",50.4,19.92,153.0120481927711,price_above_historical_market_median
+SCMS,scms-252,South Africa,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,ABBVIE (Abbott) Logis. UK,36.0,24.22,48.63748967795212,price_above_historical_market_median
+SCMS,scms-258,Nigeria,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,21.78,88.7052341597796,price_above_historical_market_median
+SCMS,scms-261,Nigeria,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,21.78,88.7052341597796,price_above_historical_market_median
+SCMS,scms-272,Guyana,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,82.19,33.74,143.59810314167157,price_above_historical_market_median
+SCMS,scms-275,Vietnam,tenofovir disoproxil fumarate | 300mg | tablet | 30,Gilead(Nycomed) Oranienburg DE,17.0,6.5,161.53846153846155,price_above_historical_market_median
+SCMS,scms-276,Vietnam,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,4.35,2.43,79.01234567901231,price_above_historical_market_median
+SCMS,scms-277,Vietnam,lamivudine/zidovudine | 150/300mg | tablet - fdc | 60,Aurobindo Unit III,16.9,8.2,106.09756097560977,price_above_historical_market_median
+SCMS,scms-278,Nigeria,lamivudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,4.35,2.2,97.72727272727269,price_above_historical_market_median
+SCMS,scms-279,Nigeria,lamivudine | 150mg | tablet | 60,Aurobindo Unit III,4.2,2.44,72.13114754098362,price_above_historical_market_median
+SCMS,scms-284,Zambia,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.75,11.0,52.27272727272727,price_above_historical_market_median
+SCMS,scms-285,Vietnam,zidovudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,5.05,2.1,140.47619047619045,price_above_historical_market_median
+SCMS,scms-289,Zambia,didanosine | 100mg | chewable/dispersible tablet | 60,"BMS Meymac, France",12.75,7.75,64.51612903225808,price_above_historical_market_median
+SCMS,scms-294,Vietnam,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.33,4.1,200.73170731707322,price_above_historical_market_median
+SCMS,scms-305,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",26.76,7.82,242.1994884910486,price_above_historical_market_median
+SCMS,scms-312,South Africa,efavirenz | 600mg | tablet | 30,"MSD Midrand, J'burg, SA",19.84,11.27,76.04259094942324,price_above_historical_market_median
+SCMS,scms-328,Vietnam,abacavir | 300mg | tablet | 60,Aurobindo Unit III,25.0,12.95,93.05019305019306,price_above_historical_market_median
+SCMS,scms-336,South Africa,nevirapine | 200mg | tablet | 60,Cipla Goa,21.11,13.74,53.63901018922852,price_above_historical_market_median
+SCMS,scms-340,Vietnam,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,12.36,6.5,90.15384615384615,price_above_historical_market_median
+SCMS,scms-341,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,16.19,11.27,43.65572315882878,price_above_historical_market_median
+SCMS,scms-355,Nigeria,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,"MSD, Haarlem, NL",50.4,19.92,153.0120481927711,price_above_historical_market_median
+SCMS,scms-371,Haiti,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,27.5,49.45454545454546,price_above_historical_market_median
+SCMS,scms-382,South Africa,nevirapine | 10mg/ml | oral suspension | 240,"BI, Ingelheim, Germany",10.42,3.15,230.7936507936508,price_above_historical_market_median
+SCMS,scms-399,Côte d'Ivoire,abacavir/lamivudine/zidovudine | 300/150/300mg | tablet - fdc | 60,GSK Ware (UK),53.71,31.0,73.25806451612904,price_above_historical_market_median
+SCMS,scms-401,Vietnam,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,6.5,4.1,58.53658536585367,price_above_historical_market_median
+SCMS,scms-406,South Africa,nevirapine | 200mg | tablet | 60,"Boehringer Ing., Koropi, GR",19.56,13.74,42.35807860262008,price_above_historical_market_median
+SCMS,scms-409,South Africa,nevirapine | 10mg/ml | oral suspension | 240,Aurobindo Unit III,10.94,3.15,247.30158730158732,price_above_historical_market_median
+SCMS,scms-411,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",24.8,7.82,217.13554987212277,price_above_historical_market_median
+SCMS,scms-421,Vietnam,abacavir | 300mg | tablet | 60,Aurobindo Unit III,27.65,12.95,113.51351351351352,price_above_historical_market_median
+SCMS,scms-424,Côte d'Ivoire,stavudine | 20mg | capsule | 60,"BMS Meymac, France",5.64,1.5899999999999999,254.7169811320755,price_above_historical_market_median
+SCMS,scms-430,South Africa,stavudine | 30mg | capsule | 60,"BMS Meymac, France",5.99,3.84,55.98958333333335,price_above_historical_market_median
+SCMS,scms-435,South Africa,nevirapine | 200mg | tablet | 60,"BI, Ingelheim, Germany",23.18,13.74,68.70451237263464,price_above_historical_market_median
+SCMS,scms-459,Vietnam,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,10.24,4.1,149.75609756097566,price_above_historical_market_median
+SCMS,scms-462,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",23.84,7.82,204.85933503836318,price_above_historical_market_median
+SCMS,scms-481,Tanzania,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,"MSD, Haarlem, NL",50.4,15.885,217.28045325779038,price_above_historical_market_median
+SCMS,scms-487,South Africa,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.15,11.27,43.30079858030167,price_above_historical_market_median
+SCMS,scms-494,South Africa,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.51,11.27,46.49511978704528,price_above_historical_market_median
+SCMS,scms-498,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",17.64,7.82,125.57544757033247,price_above_historical_market_median
+SCMS,scms-509,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",21.26,7.82,171.8670076726343,price_above_historical_market_median
+SCMS,scms-512,Rwanda,efavirenz | 600mg | tablet | 30,Hetero Unit III Hyderabad,6.98,4.33,61.20092378752888,price_above_historical_market_median
+SCMS,scms-519,South Africa,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.98,25.76,62.96583850931674,price_above_historical_market_median
+SCMS,scms-526,Côte d'Ivoire,lamivudine | 150mg | tablet | 60,Aurobindo Unit III,3.95,2.385,65.61844863731659,price_above_historical_market_median
+SCMS,scms-527,Côte d'Ivoire,stavudine | 30mg | capsule | 60,Aurobindo Unit III,3.15,1.52,107.23684210526314,price_above_historical_market_median
+SCMS,scms-528,Guyana,stavudine | 15mg | capsule | 60,Aurobindo Unit III,2.35,1.32,78.03030303030303,price_above_historical_market_median
+SCMS,scms-529,Uganda,lamivudine | 150mg | tablet | 60,"Ranbaxy, Paonta Shahib, India",3.35,2.385,40.46121593291405,price_above_historical_market_median
+SCMS,scms-530,Zambia,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,3.61,2.51,43.82470119521913,price_above_historical_market_median
+SCMS,scms-531,Vietnam,lamivudine | 150mg | tablet | 60,"Ranbaxy, Paonta Shahib, India",3.35,2.35,42.553191489361694,price_above_historical_market_median
+SCMS,scms-533,Vietnam,abacavir | 300mg | tablet | 60,Aurobindo Unit III,44.05,12.95,240.15444015444015,price_above_historical_market_median
+SCMS,scms-534,Vietnam,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.75,4.1,308.53658536585374,price_above_historical_market_median
+SCMS,scms-535,Vietnam,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE (Abbott) Logis. UK,180.82,82.19,120.00243338605672,price_above_historical_market_median
+SCMS,scms-549,South Africa,efavirenz | 600mg | tablet | 30,"MSD Midrand, J'burg, SA",21.66,11.27,92.19165927240462,price_above_historical_market_median
+SCMS,scms-575,Vietnam,abacavir | 300mg | tablet | 60,Aurobindo Unit III,25.0,12.95,93.05019305019306,price_above_historical_market_median
+SCMS,scms-576,Vietnam,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,13.66,6.5,110.15384615384613,price_above_historical_market_median
+SCMS,scms-578,South Africa,nevirapine | 200mg | tablet | 60,"BI, Ingelheim, Germany",20.3,13.74,47.74381368267831,price_above_historical_market_median
+SCMS,scms-585,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Gilead(Nycomed) Oranienburg DE,24.61,7.82,214.70588235294116,price_above_historical_market_median
+SCMS,scms-593,Vietnam,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,12.36,6.5,90.15384615384615,price_above_historical_market_median
+SCMS,scms-599,Vietnam,abacavir | 300mg | tablet | 60,Aurobindo Unit III,23.5,12.95,81.46718146718148,price_above_historical_market_median
+SCMS,scms-614,South Africa,nevirapine | 200mg | tablet | 60,Cipla Goa,19.63,13.74,42.867540029112064,price_above_historical_market_median
+SCMS,scms-621,Haiti,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,27.5,49.45454545454546,price_above_historical_market_median
+SCMS,scms-622,Vietnam,didanosine | 100mg | chewable/dispersible tablet | 60,"BMS Meymac, France",12.75,7.75,64.51612903225808,price_above_historical_market_median
+SCMS,scms-633,South Africa,efavirenz | 600mg | tablet | 30,"MSD Midrand, J'burg, SA",16.64,11.27,47.64862466725821,price_above_historical_market_median
+SCMS,scms-638,South Africa,nevirapine | 10mg/ml | oral suspension | 240,Aurobindo Unit III,9.38,3.15,197.77777777777783,price_above_historical_market_median
+SCMS,scms-641,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",21.26,7.82,171.8670076726343,price_above_historical_market_median
+SCMS,scms-645,South Africa,nevirapine | 10mg/ml | oral suspension | 240,Aurobindo Unit III,9.38,3.15,197.77777777777783,price_above_historical_market_median
+SCMS,scms-655,South Africa,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,ABBVIE (Abbott) Logis. UK,41.98,24.22,73.32782824112303,price_above_historical_market_median
+SCMS,scms-659,Vietnam,lamivudine | 150mg | tablet | 60,"Ranbaxy, Paonta Shahib, India",3.99,2.35,69.78723404255321,price_above_historical_market_median
+SCMS,scms-660,Vietnam,efavirenz | 600mg | tablet | 30,Cipla Goa,17.0,4.1,314.6341463414634,price_above_historical_market_median
+SCMS,scms-666,Vietnam,tenofovir disoproxil fumarate | 300mg | tablet | 30,Gilead(Nycomed) Oranienburg DE,17.0,6.5,161.53846153846155,price_above_historical_market_median
+SCMS,scms-684,South Africa,nevirapine | 200mg | tablet | 60,"BI, Ingelheim, Germany",24.24,13.74,76.41921397379912,price_above_historical_market_median
+SCMS,scms-691,South Africa,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,ABBVIE (Abbott) Logis. UK,46.15,24.22,90.54500412881916,price_above_historical_market_median
+SCMS,scms-693,Tanzania,abacavir | 20mg/ml | oral solution | 240,GSK Mississauga (Canada),25.0,15.614999999999998,60.10246557796992,price_above_historical_market_median
+SCMS,scms-700,Vietnam,tenofovir disoproxil fumarate | 300mg | tablet | 30,Gilead(Nycomed) Oranienburg DE,20.69,6.5,218.30769230769232,price_above_historical_market_median
+SCMS,scms-701,South Africa,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,ABBVIE (Abbott) Logis. UK,39.4,24.22,62.67547481420315,price_above_historical_market_median
+SCMS,scms-709,Vietnam,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,13.66,6.5,110.15384615384613,price_above_historical_market_median
+SCMS,scms-712,South Africa,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,ABBVIE (Abbott) Logis. UK,36.99,24.22,52.72502064409581,price_above_historical_market_median
+SCMS,scms-714,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,15.86,11.27,40.72759538598048,price_above_historical_market_median
+SCMS,scms-724,South Africa,nevirapine | 200mg | tablet | 60,Cipla Goa,20.24,13.74,47.307132459970866,price_above_historical_market_median
+SCMS,scms-729,South Africa,nevirapine | 200mg | tablet | 60,Cipla Goa,20.25,13.74,47.379912663755455,price_above_historical_market_median
+SCMS,scms-760,South Africa,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,ABBVIE (Abbott) Logis. UK,35.98,24.22,48.554913294797686,price_above_historical_market_median
+SCMS,scms-782,Vietnam,zidovudine | 300mg | tablet | 60,"Ranbaxy, Paonta Shahib, India",10.84,7.375,46.98305084745762,price_above_historical_market_median
+SCMS,scms-795,South Africa,efavirenz | 200mg | capsule | 90,"MSD Midrand, J'burg, SA",35.2,23.59,49.21576939381096,price_above_historical_market_median
+SCMS,scms-799,Rwanda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.75,4.33,171.36258660508082,price_above_historical_market_median
+SCMS,scms-813,Vietnam,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,11.48,4.1,180.00000000000003,price_above_historical_market_median
+SCMS,scms-828,South Africa,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,ABBVIE (Abbott) Logis. UK,35.46,24.22,46.407927332782826,price_above_historical_market_median
+SCMS,scms-830,Vietnam,abacavir | 300mg | tablet | 60,Aurobindo Unit III,23.5,12.95,81.46718146718148,price_above_historical_market_median
+SCMS,scms-834,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,16.2,11.27,43.74445430346052,price_above_historical_market_median
+SCMS,scms-837,Nigeria,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,"MSD, Haarlem, NL",50.4,19.92,153.0120481927711,price_above_historical_market_median
+SCMS,scms-838,Nigeria,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,"MSD, Haarlem, NL",50.4,19.92,153.0120481927711,price_above_historical_market_median
+SCMS,scms-847,Tanzania,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,"MSD, Haarlem, NL",50.4,15.885,217.28045325779038,price_above_historical_market_median
+SCMS,scms-856,Haiti,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,9.0,4.04,122.7722772277228,price_above_historical_market_median
+SCMS,scms-859,South Africa,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.37,11.27,45.252883762200554,price_above_historical_market_median
+SCMS,scms-872,South Africa,nevirapine | 10mg/ml | oral suspension | 240,"BI, Ingelheim, Germany",10.78,3.15,242.2222222222222,price_above_historical_market_median
+SCMS,scms-886,Nigeria,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,21.78,88.7052341597796,price_above_historical_market_median
+SCMS,scms-896,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,17.02,11.27,51.020408163265316,price_above_historical_market_median
+SCMS,scms-899,Nigeria,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,21.78,88.7052341597796,price_above_historical_market_median
+SCMS,scms-903,Vietnam,abacavir | 300mg | tablet | 60,Aurobindo Unit III,44.5,12.95,243.62934362934365,price_above_historical_market_median
+SCMS,scms-904,Guyana,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,11.05,7.02,57.40740740740742,price_above_historical_market_median
+SCMS,scms-905,Uganda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.75,4.34,285.9447004608295,price_above_historical_market_median
+SCMS,scms-908,Côte d'Ivoire,stavudine | 20mg | capsule | 60,"BMS Meymac, France",5.64,1.5899999999999999,254.7169811320755,price_above_historical_market_median
+SCMS,scms-920,Rwanda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.75,4.33,171.36258660508082,price_above_historical_market_median
+SCMS,scms-926,South Africa,stavudine | 30mg | capsule | 60,"BMS Meymac, France",5.73,3.84,49.21875000000002,price_above_historical_market_median
+SCMS,scms-928,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",25.59,7.82,227.23785166240407,price_above_historical_market_median
+SCMS,scms-932,South Africa,stavudine | 30mg | capsule | 60,"BMS Meymac, France",5.71,3.84,48.69791666666667,price_above_historical_market_median
+SCMS,scms-943,Vietnam,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,11.48,4.1,180.00000000000003,price_above_historical_market_median
+SCMS,scms-944,Vietnam,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,13.66,6.5,110.15384615384613,price_above_historical_market_median
+SCMS,scms-947,Vietnam,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,10.24,4.1,149.75609756097566,price_above_historical_market_median
+SCMS,scms-953,Rwanda,efavirenz | 600mg | tablet | 30,Hetero Unit III Hyderabad,11.17,4.33,157.9676674364896,price_above_historical_market_median
+SCMS,scms-973,Tanzania,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,"MSD, Haarlem, NL",50.4,15.885,217.28045325779038,price_above_historical_market_median
+SCMS,scms-995,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",21.73,7.82,177.8772378516624,price_above_historical_market_median
+SCMS,scms-1009,Vietnam,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,6.5,4.1,58.53658536585367,price_above_historical_market_median
+SCMS,scms-1017,South Africa,zidovudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,7.05,4.9,43.877551020408156,price_above_historical_market_median
+SCMS,scms-1024,Mozambique,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.75,3.81,339.6325459317585,price_above_historical_market_median
+SCMS,scms-1027,Mozambique,tenofovir disoproxil fumarate | 300mg | tablet | 30,Gilead(Nycomed) Oranienburg DE,17.0,3.91,334.78260869565213,price_above_historical_market_median
+SCMS,scms-1028,Zimbabwe,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.25,5.78,181.1418685121107,price_above_historical_market_median
+SCMS,scms-1038,Zambia,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.8,15.04,138.031914893617,price_above_historical_market_median
+SCMS,scms-1043,Côte d'Ivoire,stavudine | 15mg | capsule | 60,Aurobindo Unit III,2.15,1.5,43.333333333333336,price_above_historical_market_median
+SCMS,scms-1045,Zimbabwe,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.25,5.78,181.1418685121107,price_above_historical_market_median
+SCMS,scms-1053,Côte d'Ivoire,efavirenz | 50mg | capsule | 30,"MSD, Haarlem, NL",3.47,2.24,54.91071428571428,price_above_historical_market_median
+SCMS,scms-1063,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Strides Bangalore,16.26,4.22,285.308056872038,price_above_historical_market_median
+SCMS,scms-1083,Nigeria,lamivudine/nevirapine/zidovudine | 150/300/200mg | tablet - fdc | 60,Aurobindo Unit III,20.5,11.22,82.70944741532975,price_above_historical_market_median
+SCMS,scms-1087,Zimbabwe,efavirenz | 600mg | tablet | 30,Cipla Goa,12.42,5.78,114.878892733564,price_above_historical_market_median
+SCMS,scms-1088,Côte d'Ivoire,abacavir/lamivudine/zidovudine | 300/150/300mg | tablet - fdc | 60,GSK Ware (UK),70.0,31.0,125.80645161290325,price_above_historical_market_median
+SCMS,scms-1091,Zimbabwe,efavirenz | 600mg | tablet | 30,Cipla Goa,12.42,5.78,114.878892733564,price_above_historical_market_median
+SCMS,scms-1098,Guyana,efavirenz | 600mg | tablet | 30,Strides Bangalore,12.42,5.78,114.878892733564,price_above_historical_market_median
+SCMS,scms-1116,Côte d'Ivoire,abacavir | 300mg | tablet | 60,Aurobindo Unit III,27.53,17.72,55.36117381489844,price_above_historical_market_median
+SCMS,scms-1120,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,4.75,152.8421052631579,price_above_historical_market_median
+SCMS,scms-1127,Uganda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.42,4.34,186.17511520737327,price_above_historical_market_median
+SCMS,scms-1130,Tanzania,abacavir | 300mg | tablet | 60,Aurobindo Unit III,27.53,15.535,77.21274541358223,price_above_historical_market_median
+SCMS,scms-1138,Haiti,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,27.5,49.45454545454546,price_above_historical_market_median
+SCMS,scms-1147,Uganda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.0,4.34,153.45622119815667,price_above_historical_market_median
+SCMS,scms-1152,Nigeria,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,"MSD, Haarlem, NL",50.4,19.92,153.0120481927711,price_above_historical_market_median
+SCMS,scms-1162,Tanzania,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,12.01,4.45,169.88764044943818,price_above_historical_market_median
+SCMS,scms-1173,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.72,4.75,146.73684210526318,price_above_historical_market_median
+SCMS,scms-1174,Nigeria,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,21.78,88.7052341597796,price_above_historical_market_median
+SCMS,scms-1177,Tanzania,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,12.01,4.45,169.88764044943818,price_above_historical_market_median
+SCMS,scms-1193,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,9.72,4.75,104.63157894736845,price_above_historical_market_median
+SCMS,scms-1197,Côte d'Ivoire,abacavir | 300mg | tablet | 60,Mylan / Matrix Nashik,25.45,17.72,43.62302483069978,price_above_historical_market_median
+SCMS,scms-1200,Tanzania,abacavir | 300mg | tablet | 60,Mylan / Matrix Nashik,25.45,15.535,63.82362407467011,price_above_historical_market_median
+SCMS,scms-1209,Tanzania,abacavir | 300mg | tablet | 60,Aurobindo Unit III,25.45,15.535,63.82362407467011,price_above_historical_market_median
+SCMS,scms-1215,Rwanda,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.8,13.15,172.24334600760454,price_above_historical_market_median
+SCMS,scms-1220,Mozambique,efavirenz | 200mg | capsule | 90,"MSD Manati, Puerto Rico, (USA)",32.4,16.95,91.15044247787611,price_above_historical_market_median
+SCMS,scms-1221,Mozambique,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,19.71,108.52359208523592,price_above_historical_market_median
+SCMS,scms-1224,Mozambique,efavirenz | 200mg | capsule | 90,"MSD Manati, Puerto Rico, (USA)",32.4,16.95,91.15044247787611,price_above_historical_market_median
+SCMS,scms-1225,Mozambique,tenofovir disoproxil fumarate | 300mg | tablet | 30,Gilead(Nycomed) Oranienburg DE,17.0,3.91,334.78260869565213,price_above_historical_market_median
+SCMS,scms-1226,Rwanda,abacavir | 20mg/ml | oral solution | 240,Aurobindo Unit III,21.5,8.5,152.94117647058823,price_above_historical_market_median
+SCMS,scms-1229,Tanzania,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.8,15.535,130.4473768908915,price_above_historical_market_median
+SCMS,scms-1231,Mozambique,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.5,11.36,212.5,price_above_historical_market_median
+SCMS,scms-1233,Côte d'Ivoire,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.8,17.72,102.0316027088036,price_above_historical_market_median
+SCMS,scms-1239,Zambia,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,3.57,2.51,42.23107569721116,price_above_historical_market_median
+SCMS,scms-1243,Côte d'Ivoire,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.8,17.72,102.0316027088036,price_above_historical_market_median
+SCMS,scms-1248,Tanzania,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.8,15.535,130.4473768908915,price_above_historical_market_median
+SCMS,scms-1251,Mozambique,lamivudine/nevirapine/zidovudine | 150/300/200mg | tablet - fdc | 60,Cipla Goa,17.5,9.62,81.91268191268193,price_above_historical_market_median
+SCMS,scms-1268,Uganda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.42,4.34,186.17511520737327,price_above_historical_market_median
+SCMS,scms-1290,Zimbabwe,efavirenz | 600mg | tablet | 30,Cipla Goa,12.42,5.78,114.878892733564,price_above_historical_market_median
+SCMS,scms-1296,Zambia,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,19.5,11.0,77.27272727272727,price_above_historical_market_median
+SCMS,scms-1334,Guyana,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,82.2,33.74,143.62774155305274,price_above_historical_market_median
+SCMS,scms-1373,Haiti,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,11.0,4.45,147.19101123595505,price_above_historical_market_median
+SCMS,scms-1385,Zimbabwe,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,5.78,107.78546712802766,price_above_historical_market_median
+SCMS,scms-1404,Nigeria,efavirenz | 200mg | capsule | 90,Aurobindo Unit III,15.26,9.89,54.29726996966633,price_above_historical_market_median
+SCMS,scms-1412,Uganda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,7.07,4.34,62.90322580645162,price_above_historical_market_median
+SCMS,scms-1424,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.25,4.22,285.0710900473934,price_above_historical_market_median
+SCMS,scms-1425,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.25,4.22,285.0710900473934,price_above_historical_market_median
+SCMS,scms-1427,Mozambique,lamivudine/zidovudine | 150/300mg | tablet - fdc | 60,Aurobindo Unit III,11.14,7.72,44.30051813471503,price_above_historical_market_median
+SCMS,scms-1428,Côte d'Ivoire,tenofovir disoproxil fumarate | 300mg | tablet | 30,Gilead(Nycomed) Oranienburg DE,17.0,5.5,209.0909090909091,price_above_historical_market_median
+SCMS,scms-1433,Zimbabwe,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,24.255000000000003,69.44959802102657,price_above_historical_market_median
+SCMS,scms-1434,Zambia,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.8,15.04,138.031914893617,price_above_historical_market_median
+SCMS,scms-1435,Zambia,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.26,11.0,47.81818181818183,price_above_historical_market_median
+SCMS,scms-1436,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.25,4.22,285.0710900473934,price_above_historical_market_median
+SCMS,scms-1438,Mozambique,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.75,3.81,339.6325459317585,price_above_historical_market_median
+SCMS,scms-1443,Mozambique,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.8,11.36,215.1408450704225,price_above_historical_market_median
+SCMS,scms-1445,Côte d'Ivoire,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.8,17.72,102.0316027088036,price_above_historical_market_median
+SCMS,scms-1449,Côte d'Ivoire,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.8,17.72,102.0316027088036,price_above_historical_market_median
+SCMS,scms-1462,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.26,4.22,285.308056872038,price_above_historical_market_median
+SCMS,scms-1463,Tanzania,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.26,4.45,265.3932584269663,price_above_historical_market_median
+SCMS,scms-1466,Uganda,efavirenz | 600mg | tablet | 30,Strides Bangalore,12.42,4.34,186.17511520737327,price_above_historical_market_median
+SCMS,scms-1468,Zambia,efavirenz | 600mg | tablet | 30,Cipla Goa,19.5,11.0,77.27272727272727,price_above_historical_market_median
+SCMS,scms-1475,Zambia,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,3.57,2.51,42.23107569721116,price_above_historical_market_median
+SCMS,scms-1476,Zimbabwe,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,3.67,2.285,60.61269146608315,price_above_historical_market_median
+SCMS,scms-1477,Nigeria,efavirenz | 200mg | capsule | 90,Aurobindo Unit III,16.0,9.89,61.779575328614754,price_above_historical_market_median
+SCMS,scms-1479,Côte d'Ivoire,abacavir/lamivudine/zidovudine | 300/150/300mg | tablet - fdc | 60,GSK Ware (UK),44.5,31.0,43.5483870967742,price_above_historical_market_median
+SCMS,scms-1483,Uganda,lamivudine/nevirapine/zidovudine | 150/300/200mg | tablet - fdc | 60,Aurobindo Unit III,20.5,11.22,82.70944741532975,price_above_historical_market_median
+SCMS,scms-1488,Côte d'Ivoire,abacavir/lamivudine/zidovudine | 300/150/300mg | tablet - fdc | 60,GSK Ware (UK),70.0,31.0,125.80645161290325,price_above_historical_market_median
+SCMS,scms-1490,Zambia,efavirenz | 600mg | tablet | 30,Cipla Goa,19.5,11.0,77.27272727272727,price_above_historical_market_median
+SCMS,scms-1502,Tanzania,abacavir | 300mg | tablet | 60,Aurobindo Unit III,27.53,15.535,77.21274541358223,price_above_historical_market_median
+SCMS,scms-1509,Haiti,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,4.45,169.88764044943818,price_above_historical_market_median
+SCMS,scms-1513,Nigeria,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,21.78,88.7052341597796,price_above_historical_market_median
+SCMS,scms-1524,Côte d'Ivoire,efavirenz | 200mg | capsule | 90,Aurobindo Unit III,16.0,10.07,58.88778550148957,price_above_historical_market_median
+SCMS,scms-1526,Mozambique,lamivudine/nevirapine/zidovudine | 150/300/200mg | tablet - fdc | 60,Cipla Goa,13.5,9.62,40.332640332640345,price_above_historical_market_median
+SCMS,scms-1528,Zimbabwe,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,12.42,5.78,114.878892733564,price_above_historical_market_median
+SCMS,scms-1542,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,11.72,4.22,177.72511848341236,price_above_historical_market_median
+SCMS,scms-1547,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.72,4.75,146.73684210526318,price_above_historical_market_median
+SCMS,scms-1548,Zimbabwe,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,5.78,107.78546712802766,price_above_historical_market_median
+SCMS,scms-1549,Zimbabwe,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,5.78,107.78546712802766,price_above_historical_market_median
+SCMS,scms-1551,Côte d'Ivoire,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,17.0,5.5,209.0909090909091,price_above_historical_market_median
+SCMS,scms-1565,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.72,4.75,146.73684210526318,price_above_historical_market_median
+SCMS,scms-1574,Uganda,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,9.72,4.34,123.96313364055302,price_above_historical_market_median
+SCMS,scms-1575,Mozambique,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,9.72,3.81,155.1181102362205,price_above_historical_market_median
+SCMS,scms-1580,Zambia,abacavir | 300mg | tablet | 60,Mylan / Matrix Nashik,25.45,15.04,69.2154255319149,price_above_historical_market_median
+SCMS,scms-1582,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,11.5,6.08,89.14473684210526,price_above_historical_market_median
+SCMS,scms-1585,Côte d'Ivoire,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,13.28,5.5,141.45454545454547,price_above_historical_market_median
+SCMS,scms-1586,Namibia,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,4.62,116.45021645021644,price_above_historical_market_median
+SCMS,scms-1593,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,9.72,4.22,130.33175355450243,price_above_historical_market_median
+SCMS,scms-1597,Mozambique,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,9.72,3.81,155.1181102362205,price_above_historical_market_median
+SCMS,scms-1598,Mozambique,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,9.72,3.81,155.1181102362205,price_above_historical_market_median
+SCMS,scms-1599,Zimbabwe,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,10.62,5.78,83.73702422145325,price_above_historical_market_median
+SCMS,scms-1606,Rwanda,tenofovir disoproxil fumarate | 300mg | tablet | 30,Gilead(Nycomed) Oranienburg DE,17.0,5.16,229.45736434108528,price_above_historical_market_median
+SCMS,scms-1608,Côte d'Ivoire,abacavir | 300mg | tablet | 60,Aurobindo Unit III,44.05,17.72,148.58916478555307,price_above_historical_market_median
+SCMS,scms-1611,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.25,4.22,285.0710900473934,price_above_historical_market_median
+SCMS,scms-1617,Rwanda,tenofovir disoproxil fumarate | 300mg | tablet | 30,Gilead(Nycomed) Oranienburg DE,17.0,5.16,229.45736434108528,price_above_historical_market_median
+SCMS,scms-1618,Zambia,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.5,15.04,136.03723404255322,price_above_historical_market_median
+SCMS,scms-1622,Côte d'Ivoire,stavudine | 15mg | capsule | 60,Aurobindo Unit III,2.15,1.5,43.333333333333336,price_above_historical_market_median
+SCMS,scms-1623,Côte d'Ivoire,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.8,17.72,102.0316027088036,price_above_historical_market_median
+SCMS,scms-1624,Côte d'Ivoire,zidovudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,3.95,2.1,88.09523809523809,price_above_historical_market_median
+SCMS,scms-1625,Zambia,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.26,11.0,47.81818181818183,price_above_historical_market_median
+SCMS,scms-1633,Zambia,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,3.67,2.51,46.21513944223108,price_above_historical_market_median
+SCMS,scms-1640,Mozambique,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,19.71,108.52359208523592,price_above_historical_market_median
+SCMS,scms-1643,Zimbabwe,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.26,5.78,181.3148788927336,price_above_historical_market_median
+SCMS,scms-1645,Côte d'Ivoire,abacavir/lamivudine/zidovudine | 300/150/300mg | tablet - fdc | 60,GSK Ware (UK),70.0,31.0,125.80645161290325,price_above_historical_market_median
+SCMS,scms-1650,Zambia,nevirapine | 10mg/ml | oral suspension | 240,Aurobindo Unit III,6.2,1.95,217.94871794871798,price_above_historical_market_median
+SCMS,scms-1662,Zimbabwe,efavirenz | 600mg | tablet | 30,Cipla Goa,12.42,5.78,114.878892733564,price_above_historical_market_median
+SCMS,scms-1664,Nigeria,lamivudine/zidovudine | 150/300mg | tablet - fdc | 60,Aurobindo Unit III,19.5,8.76,122.60273972602742,price_above_historical_market_median
+SCMS,scms-1668,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,4.22,184.5971563981043,price_above_historical_market_median
+SCMS,scms-1669,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Strides Bangalore,12.01,4.22,184.5971563981043,price_above_historical_market_median
+SCMS,scms-1671,Côte d'Ivoire,abacavir/lamivudine/zidovudine | 300/150/300mg | tablet - fdc | 60,GSK Ware (UK),44.5,31.0,43.5483870967742,price_above_historical_market_median
+SCMS,scms-1697,Tanzania,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.42,4.45,179.1011235955056,price_above_historical_market_median
+SCMS,scms-1701,Haiti,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,12.01,4.45,169.88764044943818,price_above_historical_market_median
+SCMS,scms-1706,Tanzania,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.42,4.45,179.1011235955056,price_above_historical_market_median
+SCMS,scms-1709,Tanzania,abacavir | 300mg | tablet | 60,Aurobindo Unit III,27.53,15.535,77.21274541358223,price_above_historical_market_median
+SCMS,scms-1723,Zimbabwe,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,5.78,107.78546712802766,price_above_historical_market_median
+SCMS,scms-1725,Guyana,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,82.2,33.74,143.62774155305274,price_above_historical_market_median
+SCMS,scms-1766,Tanzania,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,12.01,4.45,169.88764044943818,price_above_historical_market_median
+SCMS,scms-1774,Nigeria,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,41.1,2.62,1468.7022900763359,price_above_historical_market_median
+SCMS,scms-1776,Uganda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.0,4.34,153.45622119815667,price_above_historical_market_median
+SCMS,scms-1801,Uganda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,6.85,4.34,57.83410138248848,price_above_historical_market_median
+SCMS,scms-1815,Zambia,abacavir | 300mg | tablet | 60,Mylan / Matrix Nashik,25.45,15.04,69.2154255319149,price_above_historical_market_median
+SCMS,scms-1821,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,6.85,4.22,62.322274881516584,price_above_historical_market_median
+SCMS,scms-1831,Tanzania,abacavir | 300mg | tablet | 60,Aurobindo Unit III,25.45,15.535,63.82362407467011,price_above_historical_market_median
+SCMS,scms-1839,Côte d'Ivoire,tenofovir disoproxil fumarate | 300mg | tablet | 30,Gilead(Nycomed) Oranienburg DE,17.0,5.5,209.0909090909091,price_above_historical_market_median
+SCMS,scms-1847,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.25,4.22,285.0710900473934,price_above_historical_market_median
+SCMS,scms-1848,Côte d'Ivoire,abacavir | 300mg | tablet | 60,Aurobindo Unit III,44.05,17.72,148.58916478555307,price_above_historical_market_median
+SCMS,scms-1852,Mozambique,lamivudine/nevirapine/zidovudine | 150/300/200mg | tablet - fdc | 60,Aurobindo Unit III,17.5,9.62,81.91268191268193,price_above_historical_market_median
+SCMS,scms-1858,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.26,4.22,285.308056872038,price_above_historical_market_median
+SCMS,scms-1859,Tanzania,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.26,4.45,265.3932584269663,price_above_historical_market_median
+SCMS,scms-1876,Tanzania,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.8,15.535,130.4473768908915,price_above_historical_market_median
+SCMS,scms-1877,Mozambique,lamivudine/nevirapine/zidovudine | 150/300/200mg | tablet - fdc | 60,Aurobindo Unit III,17.5,9.62,81.91268191268193,price_above_historical_market_median
+SCMS,scms-1879,Côte d'Ivoire,efavirenz | 50mg | capsule | 30,"MSD, Haarlem, NL",3.47,2.24,54.91071428571428,price_above_historical_market_median
+SCMS,scms-1880,Côte d'Ivoire,efavirenz | 50mg | capsule | 30,"MSD, Haarlem, NL",3.47,2.24,54.91071428571428,price_above_historical_market_median
+SCMS,scms-1883,Zimbabwe,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,3.67,2.285,60.61269146608315,price_above_historical_market_median
+SCMS,scms-1889,Zimbabwe,efavirenz | 600mg | tablet | 30,Cipla Goa,12.42,5.78,114.878892733564,price_above_historical_market_median
+SCMS,scms-1891,Zambia,abacavir | 300mg | tablet | 60,"Cipla, Patalganga, India",27.53,15.04,83.04521276595747,price_above_historical_market_median
+SCMS,scms-1895,Côte d'Ivoire,tenofovir disoproxil fumarate | 300mg | tablet | 30,Gilead(Nycomed) Oranienburg DE,17.0,5.5,209.0909090909091,price_above_historical_market_median
+SCMS,scms-1905,Haiti,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,27.5,49.45454545454546,price_above_historical_market_median
+SCMS,scms-1912,Nigeria,efavirenz | 200mg | capsule | 90,Aurobindo Unit III,16.0,9.89,61.779575328614754,price_above_historical_market_median
+SCMS,scms-1914,Haiti,efavirenz | 600mg | tablet | 30,Strides Bangalore,12.42,4.45,179.1011235955056,price_above_historical_market_median
+SCMS,scms-1918,Rwanda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.42,4.33,186.83602771362584,price_above_historical_market_median
+SCMS,scms-1919,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.42,4.75,161.4736842105263,price_above_historical_market_median
+SCMS,scms-1926,Uganda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.42,4.34,186.17511520737327,price_above_historical_market_median
+SCMS,scms-1935,Nigeria,tenofovir disoproxil fumarate | 300mg | tablet | 30,Gilead(Nycomed) Oranienburg DE,17.0,6.57,158.75190258751903,price_above_historical_market_median
+SCMS,scms-1937,Haiti,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,27.5,49.45454545454546,price_above_historical_market_median
+SCMS,scms-1952,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,4.75,152.8421052631579,price_above_historical_market_median
+SCMS,scms-1957,Zimbabwe,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.42,5.78,114.878892733564,price_above_historical_market_median
+SCMS,scms-1963,Mozambique,lamivudine/nevirapine/zidovudine | 150/300/200mg | tablet - fdc | 60,Aurobindo Unit III,13.5,9.62,40.332640332640345,price_above_historical_market_median
+SCMS,scms-1964,Tanzania,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.42,4.45,179.1011235955056,price_above_historical_market_median
+SCMS,scms-1967,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,4.75,152.8421052631579,price_above_historical_market_median
+SCMS,scms-1973,Haiti,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.0,4.45,147.19101123595505,price_above_historical_market_median
+SCMS,scms-1975,Uganda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.0,4.34,153.45622119815667,price_above_historical_market_median
+SCMS,scms-1983,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,4.75,152.8421052631579,price_above_historical_market_median
+SCMS,scms-1988,Côte d'Ivoire,abacavir | 300mg | tablet | 60,Mylan / Matrix Nashik,25.58,17.72,44.35665914221219,price_above_historical_market_median
+SCMS,scms-1991,Mozambique,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.0,3.81,188.71391076115484,price_above_historical_market_median
+SCMS,scms-2000,Haiti,abacavir | 300mg | tablet | 60,Mylan / Matrix Nashik,25.45,15.535,63.82362407467011,price_above_historical_market_median
+SCMS,scms-2001,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.72,4.75,146.73684210526318,price_above_historical_market_median
+SCMS,scms-2003,Haiti,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.0,4.45,147.19101123595505,price_above_historical_market_median
+SCMS,scms-2008,Nigeria,efavirenz | 200mg | capsule | 90,Aurobindo Unit III,16.0,9.89,61.779575328614754,price_above_historical_market_median
+SCMS,scms-2014,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.72,4.22,177.72511848341236,price_above_historical_market_median
+SCMS,scms-2019,Mozambique,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.0,3.81,188.71391076115484,price_above_historical_market_median
+SCMS,scms-2029,Côte d'Ivoire,efavirenz | 200mg | capsule | 90,Aurobindo Unit III,15.26,10.07,51.539225422045675,price_above_historical_market_median
+SCMS,scms-2039,Zimbabwe,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,10.62,5.78,83.73702422145325,price_above_historical_market_median
+SCMS,scms-2040,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,"Emcure Plot No.P-2, I.T-B.T. Park, Phase II, MIDC, Hinjwadi, Pune, India",9.72,4.22,130.33175355450243,price_above_historical_market_median
+SCMS,scms-2068,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.25,4.22,285.0710900473934,price_above_historical_market_median
+SCMS,scms-2070,Zambia,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.5,15.04,136.03723404255322,price_above_historical_market_median
+SCMS,scms-2072,Mozambique,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.8,11.36,215.1408450704225,price_above_historical_market_median
+SCMS,scms-2073,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.25,4.22,285.0710900473934,price_above_historical_market_median
+SCMS,scms-2074,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.25,4.22,285.0710900473934,price_above_historical_market_median
+SCMS,scms-2078,Côte d'Ivoire,tenofovir disoproxil fumarate | 300mg | tablet | 30,Gilead(Nycomed) Oranienburg DE,17.0,5.5,209.0909090909091,price_above_historical_market_median
+SCMS,scms-2080,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.25,4.22,285.0710900473934,price_above_historical_market_median
+SCMS,scms-2085,Mozambique,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,19.71,108.52359208523592,price_above_historical_market_median
+SCMS,scms-2086,Mozambique,tenofovir disoproxil fumarate | 300mg | tablet | 30,Gilead(Nycomed) Oranienburg DE,17.0,3.91,334.78260869565213,price_above_historical_market_median
+SCMS,scms-2087,Mozambique,lamivudine/nevirapine/zidovudine | 150/300/200mg | tablet - fdc | 60,Aurobindo Unit III,17.5,9.62,81.91268191268193,price_above_historical_market_median
+SCMS,scms-2091,Zimbabwe,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.26,5.78,181.3148788927336,price_above_historical_market_median
+SCMS,scms-2096,Zambia,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,3.57,2.51,42.23107569721116,price_above_historical_market_median
+SCMS,scms-2097,Côte d'Ivoire,stavudine | 15mg | capsule | 60,Aurobindo Unit III,2.15,1.5,43.333333333333336,price_above_historical_market_median
+SCMS,scms-2104,Mozambique,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.5,11.36,212.5,price_above_historical_market_median
+SCMS,scms-2107,Mozambique,tenofovir disoproxil fumarate | 300mg | tablet | 30,Gilead(Nycomed) Oranienburg DE,17.0,3.91,334.78260869565213,price_above_historical_market_median
+SCMS,scms-2108,Mozambique,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,19.71,108.52359208523592,price_above_historical_market_median
+SCMS,scms-2109,Mozambique,efavirenz | 600mg | tablet | 30,Cipla Goa,16.75,3.81,339.6325459317585,price_above_historical_market_median
+SCMS,scms-2121,Côte d'Ivoire,abacavir | 300mg | tablet | 60,Aurobindo Unit III,70.0,17.72,295.03386004514675,price_above_historical_market_median
+SCMS,scms-2134,Zimbabwe,efavirenz | 600mg | tablet | 30,Cipla Goa,12.42,5.78,114.878892733564,price_above_historical_market_median
+SCMS,scms-2135,Zimbabwe,efavirenz | 600mg | tablet | 30,Cipla Goa,12.42,5.78,114.878892733564,price_above_historical_market_median
+SCMS,scms-2138,Zambia,abacavir | 300mg | tablet | 60,Aurobindo Unit III,27.53,15.04,83.04521276595747,price_above_historical_market_median
+SCMS,scms-2140,Zambia,nevirapine | 10mg/ml | oral suspension | 240,Aurobindo Unit III,6.2,1.95,217.94871794871798,price_above_historical_market_median
+SCMS,scms-2149,Tanzania,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.42,4.45,179.1011235955056,price_above_historical_market_median
+SCMS,scms-2152,Uganda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,4.34,176.72811059907835,price_above_historical_market_median
+SCMS,scms-2167,Haiti,abacavir | 300mg | tablet | 60,Mylan / Matrix Nashik,27.53,15.535,77.21274541358223,price_above_historical_market_median
+SCMS,scms-2171,Tanzania,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.42,4.45,179.1011235955056,price_above_historical_market_median
+SCMS,scms-2184,Uganda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,4.34,176.72811059907835,price_above_historical_market_median
+SCMS,scms-2186,Zimbabwe,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,5.78,107.78546712802766,price_above_historical_market_median
+SCMS,scms-2190,Uganda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.0,4.34,153.45622119815667,price_above_historical_market_median
+SCMS,scms-2204,Nigeria,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,13.66,6.57,107.91476407914762,price_above_historical_market_median
+SCMS,scms-2206,Tanzania,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",17.0,6.035,181.6901408450704,price_above_historical_market_median
+SCMS,scms-2208,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.72,4.75,146.73684210526318,price_above_historical_market_median
+SCMS,scms-2214,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.72,4.75,146.73684210526318,price_above_historical_market_median
+SCMS,scms-2223,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,4.75,152.8421052631579,price_above_historical_market_median
+SCMS,scms-2224,Nigeria,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,21.78,88.7052341597796,price_above_historical_market_median
+SCMS,scms-2225,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.0,4.75,131.57894736842107,price_above_historical_market_median
+SCMS,scms-2233,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.0,4.75,131.57894736842107,price_above_historical_market_median
+SCMS,scms-2239,Haiti,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,9.72,4.45,118.42696629213485,price_above_historical_market_median
+SCMS,scms-2240,Haiti,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,9.72,4.45,118.42696629213485,price_above_historical_market_median
+SCMS,scms-2253,Zambia,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,11.5,4.64,147.8448275862069,price_above_historical_market_median
+SCMS,scms-2257,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,"Emcure Plot No.P-2, I.T-B.T. Park, Phase II, MIDC, Hinjwadi, Pune, India",9.72,4.22,130.33175355450243,price_above_historical_market_median
+SCMS,scms-2266,Zambia,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,11.5,4.64,147.8448275862069,price_above_historical_market_median
+SCMS,scms-2267,Zambia,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,11.5,4.64,147.8448275862069,price_above_historical_market_median
+SCMS,scms-2271,Tanzania,abacavir | 300mg | tablet | 60,Aurobindo Unit III,25.45,15.535,63.82362407467011,price_above_historical_market_median
+SCMS,scms-2283,Zimbabwe,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.25,5.78,181.1418685121107,price_above_historical_market_median
+SCMS,scms-2286,Mozambique,zidovudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,3.95,2.1,88.09523809523809,price_above_historical_market_median
+SCMS,scms-2287,Mozambique,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.75,3.81,339.6325459317585,price_above_historical_market_median
+SCMS,scms-2290,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.25,4.22,285.0710900473934,price_above_historical_market_median
+SCMS,scms-2291,Mozambique,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,19.71,108.52359208523592,price_above_historical_market_median
+SCMS,scms-2292,Mozambique,zidovudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,3.95,2.1,88.09523809523809,price_above_historical_market_median
+SCMS,scms-2293,Côte d'Ivoire,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.8,17.72,102.0316027088036,price_above_historical_market_median
+SCMS,scms-2302,Tanzania,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.8,15.535,130.4473768908915,price_above_historical_market_median
+SCMS,scms-2303,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.26,4.22,285.308056872038,price_above_historical_market_median
+SCMS,scms-2305,Zambia,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.26,11.0,47.81818181818183,price_above_historical_market_median
+SCMS,scms-2306,Mozambique,zidovudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,3.95,2.1,88.09523809523809,price_above_historical_market_median
+SCMS,scms-2312,Mozambique,zidovudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,3.95,2.1,88.09523809523809,price_above_historical_market_median
+SCMS,scms-2313,Côte d'Ivoire,efavirenz | 50mg | capsule | 30,"MSD, Haarlem, NL",3.47,2.24,54.91071428571428,price_above_historical_market_median
+SCMS,scms-2316,Tanzania,efavirenz | 200mg | capsule | 90,MSD South Granville Australia,32.42,20.645,57.03560184063938,price_above_historical_market_median
+SCMS,scms-2324,Zambia,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.26,11.0,47.81818181818183,price_above_historical_market_median
+SCMS,scms-2325,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.42,4.75,161.4736842105263,price_above_historical_market_median
+SCMS,scms-2331,Côte d'Ivoire,didanosine | 200mg | chewable/dispersible tablet | 60,Aurobindo Unit III,38.36,15.5,147.48387096774192,price_above_historical_market_median
+SCMS,scms-2332,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Strides Bangalore,12.42,4.22,194.31279620853084,price_above_historical_market_median
+SCMS,scms-2341,Nigeria,lamivudine/nevirapine/zidovudine | 150/300/200mg | tablet - fdc | 60,Aurobindo Unit III,20.5,11.22,82.70944741532975,price_above_historical_market_median
+SCMS,scms-2344,Mozambique,lamivudine/nevirapine/zidovudine | 150/300/200mg | tablet - fdc | 60,Aurobindo Unit III,13.5,9.62,40.332640332640345,price_above_historical_market_median
+SCMS,scms-2361,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,4.75,152.8421052631579,price_above_historical_market_median
+SCMS,scms-2366,Tanzania,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,4.45,169.88764044943818,price_above_historical_market_median
+SCMS,scms-2370,Mozambique,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.42,3.81,225.98425196850394,price_above_historical_market_median
+SCMS,scms-2375,Nigeria,efavirenz | 200mg | capsule | 90,Aurobindo Unit III,16.0,9.89,61.779575328614754,price_above_historical_market_median
+SCMS,scms-2390,Haiti,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,27.5,49.45454545454546,price_above_historical_market_median
+SCMS,scms-2394,Tanzania,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.42,4.45,179.1011235955056,price_above_historical_market_median
+SCMS,scms-2411,Mozambique,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,3.81,215.2230971128609,price_above_historical_market_median
+SCMS,scms-2412,Mozambique,lamivudine/nevirapine/zidovudine | 150/300/200mg | tablet - fdc | 60,Aurobindo Unit III,13.5,9.62,40.332640332640345,price_above_historical_market_median
+SCMS,scms-2416,Uganda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.0,4.34,153.45622119815667,price_above_historical_market_median
+SCMS,scms-2421,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.72,4.75,146.73684210526318,price_above_historical_market_median
+SCMS,scms-2422,Haiti,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.0,4.45,147.19101123595505,price_above_historical_market_median
+SCMS,scms-2423,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,11.0,4.75,131.57894736842107,price_above_historical_market_median
+SCMS,scms-2429,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,10.62,4.22,151.65876777251185,price_above_historical_market_median
+SCMS,scms-2443,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,11.5,6.08,89.14473684210526,price_above_historical_market_median
+SCMS,scms-2453,Namibia,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,4.62,116.45021645021644,price_above_historical_market_median
+SCMS,scms-2456,Zambia,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,11.5,4.64,147.8448275862069,price_above_historical_market_median
+SCMS,scms-2469,Tanzania,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",17.0,6.035,181.6901408450704,price_above_historical_market_median
+SCMS,scms-2473,Tanzania,abacavir | 300mg | tablet | 60,Mylan / Matrix Nashik,25.45,15.535,63.82362407467011,price_above_historical_market_median
+SCMS,scms-2481,Zambia,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.25,11.0,47.72727272727273,price_above_historical_market_median
+SCMS,scms-2484,Zambia,nevirapine | 200mg | tablet | 60,"Ranbaxy, Paonta Shahib, India",3.57,2.51,42.23107569721116,price_above_historical_market_median
+SCMS,scms-2490,Zambia,lamivudine | 150mg | tablet | 60,"Ranbaxy, Paonta Shahib, India",3.31,2.33,42.06008583690988,price_above_historical_market_median
+SCMS,scms-2493,Côte d'Ivoire,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.25,4.22,285.0710900473934,price_above_historical_market_median
+SCMS,scms-2500,Côte d'Ivoire,tenofovir disoproxil fumarate | 300mg | tablet | 30,Gilead(Nycomed) Oranienburg DE,17.0,5.5,209.0909090909091,price_above_historical_market_median
+SCMS,scms-2502,Tanzania,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.26,4.45,265.3932584269663,price_above_historical_market_median
+SCMS,scms-2505,Côte d'Ivoire,zidovudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,3.95,2.1,88.09523809523809,price_above_historical_market_median
+SCMS,scms-2507,Côte d'Ivoire,abacavir | 300mg | tablet | 60,Aurobindo Unit III,35.8,17.72,102.0316027088036,price_above_historical_market_median
+SCMS,scms-2514,Tanzania,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.26,4.45,265.3932584269663,price_above_historical_market_median
+SCMS,scms-2517,Mozambique,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.75,3.81,339.6325459317585,price_above_historical_market_median
+SCMS,scms-2519,Côte d'Ivoire,abacavir | 300mg | tablet | 60,"Cipla, Patalganga, India",27.53,17.72,55.36117381489844,price_above_historical_market_median
+SCMS,scms-2528,Zambia,nevirapine | 10mg/ml | oral suspension | 240,Aurobindo Unit III,6.2,1.95,217.94871794871798,price_above_historical_market_median
+SCMS,scms-2532,Mozambique,efavirenz | 600mg | tablet | 30,Cipla Goa,12.42,3.81,225.98425196850394,price_above_historical_market_median
+SCMS,scms-2537,Guyana,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,82.2,33.74,143.62774155305274,price_above_historical_market_median
+SCMS,scms-2538,Côte d'Ivoire,abacavir | 20mg/ml | oral solution | 240,Aurobindo Unit III,25.0,13.7,82.48175182481752,price_above_historical_market_median
+SCMS,scms-2542,Côte d'Ivoire,abacavir/lamivudine/zidovudine | 300/150/300mg | tablet - fdc | 60,GSK Ware (UK),70.0,31.0,125.80645161290325,price_above_historical_market_median
+SCMS,scms-2546,Mozambique,ritonavir | 100mg | capsule | 84,ABBVIE (Abbott) Logis. UK,38.36,10.335,271.1659409772617,price_above_historical_market_median
+SCMS,scms-2555,Mozambique,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.42,3.81,225.98425196850394,price_above_historical_market_median
+SCMS,scms-2559,Côte d'Ivoire,abacavir | 300mg | tablet | 60,Aurobindo Unit III,27.53,17.72,55.36117381489844,price_above_historical_market_median
+SCMS,scms-2562,Zimbabwe,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,12.42,5.78,114.878892733564,price_above_historical_market_median
+SCMS,scms-2575,Haiti,abacavir | 300mg | tablet | 60,Mylan / Matrix Nashik,27.53,15.535,77.21274541358223,price_above_historical_market_median
+SCMS,scms-2577,Zimbabwe,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.42,5.78,114.878892733564,price_above_historical_market_median
+SCMS,scms-2583,Nigeria,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",17.0,6.57,158.75190258751903,price_above_historical_market_median
+SCMS,scms-2584,Mozambique,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.42,3.81,225.98425196850394,price_above_historical_market_median
+SCMS,scms-2606,Nigeria,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.1,21.78,88.7052341597796,price_above_historical_market_median
+SCMS,scms-2610,Tanzania,abacavir | 300mg | tablet | 60,Aurobindo Unit III,27.53,15.535,77.21274541358223,price_above_historical_market_median
+SCMS,scms-2612,Zimbabwe,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,5.78,107.78546712802766,price_above_historical_market_median
+SCMS,scms-2619,Zimbabwe,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,12.01,5.78,107.78546712802766,price_above_historical_market_median
+SCMS,scms-2624,Côte d'Ivoire,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,13.28,5.5,141.45454545454547,price_above_historical_market_median
+SCMS,scms-2634,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,9.72,4.75,104.63157894736845,price_above_historical_market_median
+SCMS,scms-2641,Nigeria,efavirenz | 200mg | capsule | 90,Aurobindo Unit III,15.26,9.89,54.29726996966633,price_above_historical_market_median
+SCMS,scms-2649,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,10.8,4.75,127.36842105263158,price_above_historical_market_median
+SCMS,scms-2668,Uganda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,6.85,4.34,57.83410138248848,price_above_historical_market_median
+SCMS,scms-2702,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,27.83,16.09,72.96457426973275,price_above_historical_market_median
+SCMS,scms-2705,Rwanda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.75,5.35,63.55140186915889,price_above_historical_market_median
+SCMS,scms-2709,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,13.82,7.82,76.72634271099743,price_above_historical_market_median
+SCMS,scms-2719,Vietnam,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,6.5,4.1,58.53658536585367,price_above_historical_market_median
+SCMS,scms-2729,Rwanda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.95,5.35,104.67289719626169,price_above_historical_market_median
+SCMS,scms-2768,Vietnam,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,6.5,4.1,58.53658536585367,price_above_historical_market_median
+SCMS,scms-2808,Rwanda,efavirenz/lamivudine/tenofovir disoproxil fumarate | 600/300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,17.48,11.629999999999999,50.30094582975067,price_above_historical_market_median
+SCMS,scms-2819,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,16.08,11.27,42.679680567879316,price_above_historical_market_median
+SCMS,scms-2834,South Africa,efavirenz | 600mg | tablet | 30,Hetero Unit III Hyderabad,16.73,11.27,48.4472049689441,price_above_historical_market_median
+SCMS,scms-2855,Rwanda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.5,5.35,58.878504672897215,price_above_historical_market_median
+SCMS,scms-2857,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,19.05,11.27,69.03283052351377,price_above_historical_market_median
+SCMS,scms-2872,Tanzania,didanosine | 100mg | chewable/dispersible tablet | 60,Bristol-Myers Squibb Anagni IT,12.75,7.75,64.51612903225808,price_above_historical_market_median
+SCMS,scms-2889,South Africa,nevirapine | 10mg/ml | oral suspension | 240,Boehringer Ingelheim Roxane US,15.65,3.15,396.82539682539687,price_above_historical_market_median
+SCMS,scms-2949,South Africa,efavirenz | 600mg | tablet | 30,Hetero Unit III Hyderabad,16.73,11.27,48.4472049689441,price_above_historical_market_median
+SCMS,scms-2954,South Africa,lamivudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,7.89,5.56,41.90647482014389,price_above_historical_market_median
+SCMS,scms-2956,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Aurobindo Unit III,21.19,7.82,170.97186700767267,price_above_historical_market_median
+SCMS,scms-2988,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,25.52,16.09,58.60783095090119,price_above_historical_market_median
+SCMS,scms-3015,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",26.74,7.82,241.94373401534523,price_above_historical_market_median
+SCMS,scms-3038,South Africa,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,ABBVIE (Abbott) Logis. UK,40.75,24.22,68.24938067712635,price_above_historical_market_median
+SCMS,scms-3053,South Africa,lamivudine | 150mg | tablet | 60,Aurobindo Unit III,9.14,5.48,66.7883211678832,price_above_historical_market_median
+SCMS,scms-3076,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Hetero Unit III Hyderabad,20.82,7.82,166.24040920716112,price_above_historical_market_median
+SCMS,scms-3087,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,13.82,7.82,76.72634271099743,price_above_historical_market_median
+SCMS,scms-3089,Nigeria,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,36.16,21.78,66.02387511478418,price_above_historical_market_median
+SCMS,scms-3103,South Africa,lamivudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,7.89,5.56,41.90647482014389,price_above_historical_market_median
+SCMS,scms-3104,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,13.81,7.82,76.59846547314577,price_above_historical_market_median
+SCMS,scms-3108,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Aurobindo Unit III,22.6,7.82,189.00255754475705,price_above_historical_market_median
+SCMS,scms-3112,Uganda,raltegravir | 400mg | tablet | 60,"MSD, Haarlem, NL",91.5,55.5,64.86486486486487,price_above_historical_market_median
+SCMS,scms-3124,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Hetero Unit III Hyderabad,18.69,7.82,139.00255754475705,price_above_historical_market_median
+SCMS,scms-3132,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,19.81,11.27,75.77639751552793,price_above_historical_market_median
+SCMS,scms-3146,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,27.11,16.09,68.4897451833437,price_above_historical_market_median
+SCMS,scms-3192,South Africa,lamivudine | 150mg | tablet | 60,Hetero Unit III Hyderabad,9.85,5.48,79.74452554744525,price_above_historical_market_median
+SCMS,scms-3198,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,19.12,7.82,144.5012787723785,price_above_historical_market_median
+SCMS,scms-3208,South Africa,lamivudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,8.0,5.56,43.88489208633095,price_above_historical_market_median
+SCMS,scms-3223,Vietnam,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,6.5,4.1,58.53658536585367,price_above_historical_market_median
+SCMS,scms-3224,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Hetero Unit III Hyderabad,20.82,7.82,166.24040920716112,price_above_historical_market_median
+SCMS,scms-3245,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,14.85,7.82,89.89769820971867,price_above_historical_market_median
+SCMS,scms-3248,Vietnam,ritonavir | 100mg | capsule | 336,ABBVIE (Abbott) Logis. UK,306.88,206.51,48.60297322163576,price_above_historical_market_median
+SCMS,scms-3272,South Africa,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,46.99,25.76,82.41459627329193,price_above_historical_market_median
+SCMS,scms-3274,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",25.74,7.82,229.15601023017896,price_above_historical_market_median
+SCMS,scms-3316,South Africa,lamivudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,8.0,5.56,43.88489208633095,price_above_historical_market_median
+SCMS,scms-3322,Rwanda,tenofovir disoproxil fumarate | 300mg | tablet | 30,Aurobindo Unit III,8.56,5.16,65.89147286821706,price_above_historical_market_median
+SCMS,scms-3341,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",28.86,7.82,269.05370843989766,price_above_historical_market_median
+SCMS,scms-3353,South Africa,efavirenz | 600mg | tablet | 30,Hetero Unit III Hyderabad,16.57,11.27,47.02750665483586,price_above_historical_market_median
+SCMS,scms-3358,Rwanda,tenofovir disoproxil fumarate | 300mg | tablet | 30,Aurobindo Unit III,8.56,5.16,65.89147286821706,price_above_historical_market_median
+SCMS,scms-3359,South Africa,lamivudine | 150mg | tablet | 60,Aurobindo Unit III,9.14,5.48,66.7883211678832,price_above_historical_market_median
+SCMS,scms-3376,South Africa,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,40.56,25.76,57.45341614906832,price_above_historical_market_median
+SCMS,scms-3382,Uganda,raltegravir | 400mg | tablet | 60,"MSD, Haarlem, NL",91.5,55.5,64.86486486486487,price_above_historical_market_median
+SCMS,scms-3422,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,19.05,11.27,69.03283052351377,price_above_historical_market_median
+SCMS,scms-3424,Rwanda,tenofovir disoproxil fumarate | 300mg | tablet | 30,Aurobindo Unit III,8.56,5.16,65.89147286821706,price_above_historical_market_median
+SCMS,scms-3427,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,16.08,11.27,42.679680567879316,price_above_historical_market_median
+SCMS,scms-3432,South Africa,lamivudine | 150mg | tablet | 60,GSK Ware (UK),11.74,5.48,114.23357664233573,price_above_historical_market_median
+SCMS,scms-3436,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Aurobindo Unit III,22.6,7.82,189.00255754475705,price_above_historical_market_median
+SCMS,scms-3453,South Africa,lamivudine | 150mg | tablet | 60,GSK Cape Town Factory (South Africa),11.5,5.48,109.85401459854015,price_above_historical_market_median
+SCMS,scms-3464,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,23.36,16.09,45.183343691734,price_above_historical_market_median
+SCMS,scms-3477,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",27.33,7.82,249.48849104859332,price_above_historical_market_median
+SCMS,scms-3494,South Africa,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,ABBVIE (Abbott) Logis. UK,41.49,24.22,71.30470685383983,price_above_historical_market_median
+SCMS,scms-3511,Uganda,etravirine | 100mg | tablet | 120,"Janssen-Cilag, Latina, IT",84.3,55.5,51.891891891891895,price_above_historical_market_median
+SCMS,scms-3557,Côte d'Ivoire,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,"MSD, Haarlem, NL",50.4,19.92,153.0120481927711,price_above_historical_market_median
+SCMS,scms-3582,South Africa,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,46.99,25.76,82.41459627329193,price_above_historical_market_median
+SCMS,scms-3594,Uganda,raltegravir | 400mg | tablet | 60,"MSD, Haarlem, NL",91.5,55.5,64.86486486486487,price_above_historical_market_median
+SCMS,scms-3604,South Africa,lamivudine | 150mg | tablet | 60,Hetero Unit III Hyderabad,9.85,5.48,79.74452554744525,price_above_historical_market_median
+SCMS,scms-3614,South Africa,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,17.35,11.27,53.94853593611359,price_above_historical_market_median
+SCMS,scms-3682,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,19.36,11.27,71.7834960070985,price_above_historical_market_median
+SCMS,scms-3685,South Africa,lamivudine | 150mg | tablet | 60,Hetero Unit III Hyderabad,9.76,5.48,78.10218978102188,price_above_historical_market_median
+SCMS,scms-3699,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",26.74,7.82,241.94373401534523,price_above_historical_market_median
+SCMS,scms-3714,South Africa,abacavir | 20mg/ml | oral solution | 240,Aurobindo Unit III,27.42,19.0,44.31578947368422,price_above_historical_market_median
+SCMS,scms-3717,South Africa,zidovudine | 300mg | tablet | 60,Mylan / Matrix Nashik,27.11,16.09,68.4897451833437,price_above_historical_market_median
+SCMS,scms-3744,Côte d'Ivoire,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,"MSD, Haarlem, NL",50.4,19.92,153.0120481927711,price_above_historical_market_median
+SCMS,scms-3761,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Hetero Unit III Hyderabad,20.82,7.82,166.24040920716112,price_above_historical_market_median
+SCMS,scms-3789,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Hetero Unit III Hyderabad,20.82,7.82,166.24040920716112,price_above_historical_market_median
+SCMS,scms-3799,South Africa,nevirapine | 10mg/ml | oral suspension | 240,Boehringer Ingelheim Roxane US,12.83,3.15,307.3015873015873,price_above_historical_market_median
+SCMS,scms-3815,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,19.05,11.27,69.03283052351377,price_above_historical_market_median
+SCMS,scms-3822,South Africa,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,19.58,13.74,42.50363901018921,price_above_historical_market_median
+SCMS,scms-3866,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,19.12,7.82,144.5012787723785,price_above_historical_market_median
+SCMS,scms-3894,South Africa,zidovudine | 100mg | capsule | 100,Cipla Goa,24.0,14.2,69.01408450704227,price_above_historical_market_median
+SCMS,scms-3899,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",28.56,7.82,265.2173913043478,price_above_historical_market_median
+SCMS,scms-3910,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,13.82,7.82,76.72634271099743,price_above_historical_market_median
+SCMS,scms-3916,South Africa,efavirenz | 600mg | tablet | 30,Hetero Unit III Hyderabad,16.57,11.27,47.02750665483586,price_above_historical_market_median
+SCMS,scms-3968,South Africa,efavirenz | 200mg | capsule | 90,Aurobindo Unit III,33.33,23.59,41.288681644764736,price_above_historical_market_median
+SCMS,scms-3997,Uganda,etravirine | 100mg | tablet | 120,"Janssen-Cilag, Latina, IT",87.46,55.5,57.58558558558558,price_above_historical_market_median
+SCMS,scms-3999,South Africa,lamivudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,7.89,5.56,41.90647482014389,price_above_historical_market_median
+SCMS,scms-4012,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",28.21,7.82,260.7416879795396,price_above_historical_market_median
+SCMS,scms-4013,South Africa,lamivudine | 150mg | tablet | 60,GSK Cape Town Factory (South Africa),10.87,5.48,98.35766423357661,price_above_historical_market_median
+SCMS,scms-4021,South Africa,nevirapine | 200mg | tablet | 60,"Boehringer Ing., Koropi, GR",20.31,13.74,47.81659388646287,price_above_historical_market_median
+SCMS,scms-4023,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,13.82,7.82,76.72634271099743,price_above_historical_market_median
+SCMS,scms-4025,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,13.82,7.82,76.72634271099743,price_above_historical_market_median
+SCMS,scms-4045,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,17.67,11.27,56.7879325643301,price_above_historical_market_median
+SCMS,scms-4056,South Africa,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,19.58,13.74,42.50363901018921,price_above_historical_market_median
+SCMS,scms-4060,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,19.12,7.82,144.5012787723785,price_above_historical_market_median
+SCMS,scms-4131,South Africa,lamivudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,7.89,5.56,41.90647482014389,price_above_historical_market_median
+SCMS,scms-4163,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,19.6,11.27,73.91304347826089,price_above_historical_market_median
+SCMS,scms-4188,South Africa,etravirine | 100mg | tablet | 120,"Janssen-Cilag, Latina, IT",39.07,27.51,42.02108324245728,price_above_historical_market_median
+SCMS,scms-4230,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Aurobindo Unit III,22.6,7.82,189.00255754475705,price_above_historical_market_median
+SCMS,scms-4243,South Africa,abacavir | 20mg/ml | oral solution | 240,Aurobindo Unit III,27.04,19.0,42.3157894736842,price_above_historical_market_median
+SCMS,scms-4257,South Africa,lamivudine | 150mg | tablet | 60,Aurobindo Unit III,10.23,5.48,86.6788321167883,price_above_historical_market_median
+SCMS,scms-4273,South Africa,efavirenz | 600mg | tablet | 30,Hetero Unit III Hyderabad,16.73,11.27,48.4472049689441,price_above_historical_market_median
+SCMS,scms-4313,South Africa,efavirenz | 50mg | capsule | 30,Aurobindo Unit III,4.22,3.01,40.19933554817277,price_above_historical_market_median
+SCMS,scms-4319,South Africa,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,19.72,13.74,43.5225618631732,price_above_historical_market_median
+SCMS,scms-4323,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Cipla Goa,20.56,7.82,162.9156010230179,price_above_historical_market_median
+SCMS,scms-4325,Vietnam,abacavir | 300mg | tablet | 60,Aurobindo Unit III,18.9,12.95,45.945945945945944,price_above_historical_market_median
+SCMS,scms-4352,Rwanda,abacavir | 300mg | tablet | 60,Aurobindo Unit III,19.33,13.15,46.99619771863117,price_above_historical_market_median
+SCMS,scms-4370,Guyana,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,82.2,33.74,143.62774155305274,price_above_historical_market_median
+SCMS,scms-4372,South Africa,lamivudine | 150mg | tablet | 60,Aurobindo Unit III,9.14,5.48,66.7883211678832,price_above_historical_market_median
+SCMS,scms-4400,Rwanda,abacavir | 300mg | tablet | 60,Aurobindo Unit III,19.33,13.15,46.99619771863117,price_above_historical_market_median
+SCMS,scms-4410,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Aurobindo Unit III,22.6,7.82,189.00255754475705,price_above_historical_market_median
+SCMS,scms-4428,South Africa,lamivudine | 150mg | tablet | 60,GSK Cape Town Factory (South Africa),8.78,5.48,60.218978102189745,price_above_historical_market_median
+SCMS,scms-4436,South Africa,lamivudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,8.0,5.56,43.88489208633095,price_above_historical_market_median
+SCMS,scms-4437,South Africa,lamivudine | 150mg | tablet | 60,Aurobindo Unit III,9.14,5.48,66.7883211678832,price_above_historical_market_median
+SCMS,scms-4442,South Africa,lamivudine | 150mg | tablet | 60,Hetero Unit III Hyderabad,9.76,5.48,78.10218978102188,price_above_historical_market_median
+SCMS,scms-4474,South Africa,efavirenz | 600mg | tablet | 30,Hetero Unit III Hyderabad,16.57,11.27,47.02750665483586,price_above_historical_market_median
+SCMS,scms-4475,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Aurobindo Unit III,20.56,7.82,162.9156010230179,price_above_historical_market_median
+SCMS,scms-4491,South Africa,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,19.72,13.74,43.5225618631732,price_above_historical_market_median
+SCMS,scms-4496,South Africa,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,43.58,25.76,69.17701863354036,price_above_historical_market_median
+SCMS,scms-4535,South Africa,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,19.58,13.74,42.50363901018921,price_above_historical_market_median
+SCMS,scms-4539,South Africa,abacavir | 20mg/ml | oral solution | 240,Aurobindo Unit III,27.04,19.0,42.3157894736842,price_above_historical_market_median
+SCMS,scms-4547,South Africa,nevirapine | 10mg/ml | oral suspension | 240,Boehringer Ingelheim Roxane US,15.81,3.15,401.9047619047619,price_above_historical_market_median
+SCMS,scms-4569,South Africa,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,19.58,13.74,42.50363901018921,price_above_historical_market_median
+SCMS,scms-4570,Uganda,etravirine | 100mg | tablet | 120,"Janssen-Cilag, Latina, IT",82.07,55.5,47.87387387387385,price_above_historical_market_median
+SCMS,scms-4587,Guyana,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,82.2,33.74,143.62774155305274,price_above_historical_market_median
+SCMS,scms-4590,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,14.85,7.82,89.89769820971867,price_above_historical_market_median
+SCMS,scms-4613,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Aurobindo Unit III,20.56,7.82,162.9156010230179,price_above_historical_market_median
+SCMS,scms-4659,South Africa,abacavir | 20mg/ml | oral solution | 240,Aurobindo Unit III,27.42,19.0,44.31578947368422,price_above_historical_market_median
+SCMS,scms-4664,Uganda,raltegravir | 400mg | tablet | 60,"MSD, Haarlem, NL",91.5,55.5,64.86486486486487,price_above_historical_market_median
+SCMS,scms-4721,South Africa,lamivudine | 150mg | tablet | 60,Aurobindo Unit III,9.71,5.48,77.18978102189782,price_above_historical_market_median
+SCMS,scms-4731,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,17.67,11.27,56.7879325643301,price_above_historical_market_median
+SCMS,scms-4738,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,24.71,16.09,53.57364822871349,price_above_historical_market_median
+SCMS,scms-4748,Côte d'Ivoire,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,"MSD, Haarlem, NL",50.4,19.92,153.0120481927711,price_above_historical_market_median
+SCMS,scms-4776,South Africa,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,ABBVIE (Abbott) Logis. UK,48.35,24.22,99.62840627580513,price_above_historical_market_median
+SCMS,scms-4781,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,24.95,16.09,55.065257924176514,price_above_historical_market_median
+SCMS,scms-4802,Rwanda,efavirenz/lamivudine/tenofovir disoproxil fumarate | 600/300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,17.48,11.629999999999999,50.30094582975067,price_above_historical_market_median
+SCMS,scms-4828,South Africa,lamivudine | 150mg | tablet | 60,Aurobindo Unit III,9.14,5.48,66.7883211678832,price_above_historical_market_median
+SCMS,scms-4832,South Africa,zidovudine | 300mg | tablet | 60,Mylan / Matrix Nashik,27.11,16.09,68.4897451833437,price_above_historical_market_median
+SCMS,scms-4847,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,16.08,11.27,42.679680567879316,price_above_historical_market_median
+SCMS,scms-4857,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,24.95,16.09,55.065257924176514,price_above_historical_market_median
+SCMS,scms-4861,South Africa,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,19.72,13.74,43.5225618631732,price_above_historical_market_median
+SCMS,scms-4862,Rwanda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Hetero Unit III Hyderabad,9.36,5.35,74.95327102803739,price_above_historical_market_median
+SCMS,scms-4866,South Africa,lamivudine | 150mg | tablet | 60,GSK Cape Town Factory (South Africa),10.28,5.48,87.59124087591239,price_above_historical_market_median
+SCMS,scms-4886,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,14.85,7.82,89.89769820971867,price_above_historical_market_median
+SCMS,scms-4901,South Africa,abacavir | 20mg/ml | oral solution | 240,Aurobindo Unit III,27.42,19.0,44.31578947368422,price_above_historical_market_median
+SCMS,scms-4930,South Africa,abacavir | 20mg/ml | oral solution | 240,Aurobindo Unit III,27.04,19.0,42.3157894736842,price_above_historical_market_median
+SCMS,scms-4945,Uganda,raltegravir | 400mg | tablet | 60,"MSD, Haarlem, NL",91.5,55.5,64.86486486486487,price_above_historical_market_median
+SCMS,scms-4963,South Africa,abacavir | 20mg/ml | oral solution | 240,GSK Mississauga (Canada),35.51,19.0,86.89473684210525,price_above_historical_market_median
+SCMS,scms-4968,Vietnam,ritonavir | 100mg | capsule | 336,ABBVIE (Abbott) Logis. UK,306.88,206.51,48.60297322163576,price_above_historical_market_median
+SCMS,scms-4975,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,25.24,16.09,56.867619639527646,price_above_historical_market_median
+SCMS,scms-5018,South Africa,nevirapine | 10mg/ml | oral suspension | 240,Boehringer Ingelheim Roxane US,15.53,3.15,393.015873015873,price_above_historical_market_median
+SCMS,scms-5019,South Africa,nevirapine | 200mg | tablet | 60,Cipla Goa,22.77,13.74,65.72052401746724,price_above_historical_market_median
+SCMS,scms-5029,Côte d'Ivoire,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,"MSD, Haarlem, NL",50.4,19.92,153.0120481927711,price_above_historical_market_median
+SCMS,scms-5041,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,26.11,16.09,62.2747047855811,price_above_historical_market_median
+SCMS,scms-5056,Côte d'Ivoire,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,"MSD, Haarlem, NL",50.4,19.92,153.0120481927711,price_above_historical_market_median
+SCMS,scms-5072,Rwanda,abacavir | 300mg | tablet | 60,Aurobindo Unit III,19.33,13.15,46.99619771863117,price_above_historical_market_median
+SCMS,scms-5082,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,24.95,16.09,55.065257924176514,price_above_historical_market_median
+SCMS,scms-5159,South Africa,efavirenz | 600mg | tablet | 30,Hetero Unit III Hyderabad,16.73,11.27,48.4472049689441,price_above_historical_market_median
+SCMS,scms-5183,South Africa,lamivudine | 150mg | tablet | 60,Aurobindo Unit III,9.71,5.48,77.18978102189782,price_above_historical_market_median
+SCMS,scms-5236,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,19.05,11.27,69.03283052351377,price_above_historical_market_median
+SCMS,scms-5247,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,18.07,7.82,131.07416879795397,price_above_historical_market_median
+SCMS,scms-5264,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,24.95,16.09,55.065257924176514,price_above_historical_market_median
+SCMS,scms-5268,South Africa,nevirapine | 200mg | tablet | 60,"Boehringer Ing., Koropi, GR",20.31,13.74,47.81659388646287,price_above_historical_market_median
+SCMS,scms-5272,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,19.12,7.82,144.5012787723785,price_above_historical_market_median
+SCMS,scms-5299,Côte d'Ivoire,abacavir/lamivudine/zidovudine | 300/150/300mg | tablet - fdc | 60,GSK Ware (UK),53.71,31.0,73.25806451612904,price_above_historical_market_median
+SCMS,scms-5316,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,26.11,16.09,62.2747047855811,price_above_historical_market_median
+SCMS,scms-5336,South Africa,nevirapine | 10mg/ml | oral suspension | 240,Boehringer Ingelheim Roxane US,15.64,3.15,396.5079365079365,price_above_historical_market_median
+SCMS,scms-5349,Rwanda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Hetero Unit III Hyderabad,9.36,5.35,74.95327102803739,price_above_historical_market_median
+SCMS,scms-5353,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,14.85,7.82,89.89769820971867,price_above_historical_market_median
+SCMS,scms-5365,Rwanda,lamivudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,2.93,1.85,58.37837837837838,price_above_historical_market_median
+SCMS,scms-5369,Vietnam,ritonavir | 100mg | capsule | 336,ABBVIE (Abbott) Logis. UK,306.88,206.51,48.60297322163576,price_above_historical_market_median
+SCMS,scms-5415,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,13.82,7.82,76.72634271099743,price_above_historical_market_median
+SCMS,scms-5441,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,19.05,11.27,69.03283052351377,price_above_historical_market_median
+SCMS,scms-5452,South Africa,lamivudine | 150mg | tablet | 60,Aurobindo Unit III,9.14,5.48,66.7883211678832,price_above_historical_market_median
+SCMS,scms-5466,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,24.95,16.09,55.065257924176514,price_above_historical_market_median
+SCMS,scms-5473,Rwanda,abacavir | 300mg | tablet | 60,Aurobindo Unit III,19.33,13.15,46.99619771863117,price_above_historical_market_median
+SCMS,scms-5474,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,24.95,16.09,55.065257924176514,price_above_historical_market_median
+SCMS,scms-5491,South Africa,nevirapine | 200mg | tablet | 60,Cipla Goa,22.53,13.74,63.973799126637566,price_above_historical_market_median
+SCMS,scms-5492,South Africa,efavirenz | 600mg | tablet | 30,Hetero Unit III Hyderabad,16.57,11.27,47.02750665483586,price_above_historical_market_median
+SCMS,scms-5607,South Africa,lamivudine | 150mg | tablet | 60,Hetero Unit III Hyderabad,9.76,5.48,78.10218978102188,price_above_historical_market_median
+SCMS,scms-5616,South Africa,nevirapine | 200mg | tablet | 60,Cipla Goa,22.25,13.74,61.93595342066958,price_above_historical_market_median
+SCMS,scms-5622,South Africa,abacavir | 20mg/ml | oral solution | 240,Aurobindo Unit III,27.04,19.0,42.3157894736842,price_above_historical_market_median
+SCMS,scms-5626,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,19.12,7.82,144.5012787723785,price_above_historical_market_median
+SCMS,scms-5635,South Africa,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,ABBVIE (Abbott) Logis. UK,40.56,24.22,67.46490503715938,price_above_historical_market_median
+SCMS,scms-5641,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Hetero Unit III Hyderabad,18.69,7.82,139.00255754475705,price_above_historical_market_median
+SCMS,scms-5650,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,27.11,16.09,68.4897451833437,price_above_historical_market_median
+SCMS,scms-5652,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Aurobindo Unit III,22.6,7.82,189.00255754475705,price_above_historical_market_median
+SCMS,scms-5677,South Africa,zidovudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,8.09,4.9,65.10204081632651,price_above_historical_market_median
+SCMS,scms-5692,South Africa,nevirapine | 200mg | tablet | 60,"Boehringer Ing., Koropi, GR",21.56,13.74,56.91411935953419,price_above_historical_market_median
+SCMS,scms-5724,South Africa,lamivudine | 150mg | tablet | 60,Hetero Unit III Hyderabad,9.85,5.48,79.74452554744525,price_above_historical_market_median
+SCMS,scms-5743,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,18.07,7.82,131.07416879795397,price_above_historical_market_median
+SCMS,scms-5779,South Africa,lamivudine | 150mg | tablet | 60,Hetero Unit III Hyderabad,9.76,5.48,78.10218978102188,price_above_historical_market_median
+SCMS,scms-5802,Vietnam,efavirenz | 600mg | tablet | 30,Mylan / Matrix Nashik,6.5,4.1,58.53658536585367,price_above_historical_market_median
+SCMS,scms-5822,Rwanda,efavirenz/lamivudine/tenofovir disoproxil fumarate | 600/300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,17.48,11.629999999999999,50.30094582975067,price_above_historical_market_median
+SCMS,scms-5825,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",28.94,7.82,270.07672634271097,price_above_historical_market_median
+SCMS,scms-5827,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,19.05,11.27,69.03283052351377,price_above_historical_market_median
+SCMS,scms-5864,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Aurobindo Unit III,19.02,7.82,143.22250639386186,price_above_historical_market_median
+SCMS,scms-5904,Côte d'Ivoire,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,"MSD, Haarlem, NL",50.4,19.92,153.0120481927711,price_above_historical_market_median
+SCMS,scms-5995,South Africa,lamivudine | 150mg | tablet | 60,Hetero Unit III Hyderabad,9.76,5.48,78.10218978102188,price_above_historical_market_median
+SCMS,scms-6006,South Africa,efavirenz | 600mg | tablet | 30,Hetero Unit III Hyderabad,16.73,11.27,48.4472049689441,price_above_historical_market_median
+SCMS,scms-6010,South Africa,zidovudine | 300mg | tablet | 60,Mylan / Matrix Nashik,27.11,16.09,68.4897451833437,price_above_historical_market_median
+SCMS,scms-6059,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,14.85,7.82,89.89769820971867,price_above_historical_market_median
+SCMS,scms-6080,South Africa,lamivudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,8.0,5.56,43.88489208633095,price_above_historical_market_median
+SCMS,scms-6090,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,24.71,16.09,53.57364822871349,price_above_historical_market_median
+SCMS,scms-6121,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,27.83,16.09,72.96457426973275,price_above_historical_market_median
+SCMS,scms-6140,South Africa,efavirenz | 600mg | tablet | 30,Hetero Unit III Hyderabad,16.57,11.27,47.02750665483586,price_above_historical_market_median
+SCMS,scms-6155,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",25.74,7.82,229.15601023017896,price_above_historical_market_median
+SCMS,scms-6168,South Africa,lamivudine | 150mg | tablet | 60,GSK Cape Town Factory (South Africa),10.87,5.48,98.35766423357661,price_above_historical_market_median
+SCMS,scms-6193,South Africa,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,19.58,13.74,42.50363901018921,price_above_historical_market_median
+SCMS,scms-6199,South Africa,efavirenz | 200mg | capsule | 90,Aurobindo Unit III,47.18,23.59,100.0,price_above_historical_market_median
+SCMS,scms-6219,South Africa,lamivudine | 10mg/ml | oral solution | 240,Aurobindo Unit III,7.89,5.56,41.90647482014389,price_above_historical_market_median
+SCMS,scms-6223,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,27.83,16.09,72.96457426973275,price_above_historical_market_median
+SCMS,scms-6231,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,24.95,16.09,55.065257924176514,price_above_historical_market_median
+SCMS,scms-6234,Rwanda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.95,5.35,104.67289719626169,price_above_historical_market_median
+SCMS,scms-6264,South Africa,nevirapine | 10mg/ml | oral suspension | 240,Boehringer Ingelheim Roxane US,15.46,3.15,390.79365079365084,price_above_historical_market_median
+SCMS,scms-6268,South Africa,zidovudine | 300mg | tablet | 60,Mylan / Matrix Nashik,27.11,16.09,68.4897451833437,price_above_historical_market_median
+SCMS,scms-6273,South Africa,lamivudine | 150mg | tablet | 60,GSK Cape Town Factory (South Africa),11.5,5.48,109.85401459854015,price_above_historical_market_median
+SCMS,scms-6296,South Africa,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,16.45,11.27,45.962732919254655,price_above_historical_market_median
+SCMS,scms-6318,South Africa,efavirenz | 600mg | tablet | 30,Cipla Goa,18.76,11.27,66.45962732919257,price_above_historical_market_median
+SCMS,scms-6330,South Africa,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,41.49,25.76,61.063664596273284,price_above_historical_market_median
+SCMS,scms-6334,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,Hetero Unit III Hyderabad,20.82,7.82,166.24040920716112,price_above_historical_market_median
+SCMS,scms-6336,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,25.24,16.09,56.867619639527646,price_above_historical_market_median
+SCMS,scms-6368,South Africa,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,ABBVIE (Abbott) Logis. UK,46.99,24.22,94.01321222130473,price_above_historical_market_median
+SCMS,scms-6369,Uganda,etravirine | 100mg | tablet | 120,"Janssen-Cilag, Latina, IT",83.98,55.5,51.315315315315324,price_above_historical_market_median
+SCMS,scms-6373,South Africa,lamivudine | 150mg | tablet | 60,Hetero Unit III Hyderabad,9.85,5.48,79.74452554744525,price_above_historical_market_median
+SCMS,scms-6386,South Africa,abacavir | 20mg/ml | oral solution | 240,Aurobindo Unit III,27.04,19.0,42.3157894736842,price_above_historical_market_median
+SCMS,scms-6403,South Africa,raltegravir | 400mg | tablet | 60,"MSD, Haarlem, NL",93.38,65.75,42.02281368821292,price_above_historical_market_median
+SCMS,scms-6406,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,28.23,16.09,75.4505904288378,price_above_historical_market_median
+SCMS,scms-6411,Rwanda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.95,5.35,104.67289719626169,price_above_historical_market_median
+SCMS,scms-6413,South Africa,lamivudine | 150mg | tablet | 60,Hetero Unit III Hyderabad,9.85,5.48,79.74452554744525,price_above_historical_market_median
+SCMS,scms-6446,South Africa,zidovudine | 300mg | tablet | 60,Aurobindo Unit III,27.83,16.09,72.96457426973275,price_above_historical_market_median
+SCMS,scms-6450,South Africa,ritonavir | 80mg/ml | oral solution | 90,ABBVIE (Abbott) France,14.16,7.2,96.66666666666666,price_above_historical_market_median
+SCMS,scms-6478,South Africa,lamivudine | 150mg | tablet | 60,Aurobindo Unit III,10.23,5.48,86.6788321167883,price_above_historical_market_median
+SCMS,scms-6492,South Africa,nevirapine | 200mg | tablet | 60,Aurobindo Unit III,19.72,13.74,43.5225618631732,price_above_historical_market_median
+SCMS,scms-6500,South Africa,tenofovir disoproxil fumarate | 300mg | tablet | 30,"Aspen-OSD, Port Elizabeth, SA",18.95,7.82,142.32736572890025,price_above_historical_market_median
+SCMS,scms-6516,South Africa,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,ABBVIE (Abbott) Logis. UK,43.58,24.22,79.93393889347647,price_above_historical_market_median
+SCMS,scms-6518,South Africa,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,ABBVIE (Abbott) Logis. UK,43.58,24.22,79.93393889347647,price_above_historical_market_median
+SCMS,scms-6538,South Africa,abacavir | 20mg/ml | oral solution | 240,Aurobindo Unit III,27.42,19.0,44.31578947368422,price_above_historical_market_median
+SCMS,scms-6579,South Africa,nevirapine | 200mg | tablet | 60,"Boehringer Ing., Koropi, GR",20.31,13.74,47.81659388646287,price_above_historical_market_median
+SCMS,scms-6594,Mozambique,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,8.53,3.91,118.15856777493603,price_above_historical_market_median
+SCMS,scms-6598,Mozambique,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,5.78,3.81,51.706036745406834,price_above_historical_market_median
+SCMS,scms-6610,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,6.08,64.4736842105263,price_above_historical_market_median
+SCMS,scms-6645,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,6.08,64.4736842105263,price_above_historical_market_median
+SCMS,scms-6654,Guyana,abacavir | 300mg | tablet | 60,Mylan / Matrix Nashik,16.44,11.46,43.455497382198956,price_above_historical_market_median
+SCMS,scms-6655,Zambia,emtricitabine/tenofovir disoproxil fumarate | 200/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,11.75,7.694999999999999,52.696556205328136,price_above_historical_market_median
+SCMS,scms-6674,Zimbabwe,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.82,4.7,87.6595744680851,price_above_historical_market_median
+SCMS,scms-6691,Zambia,emtricitabine/tenofovir disoproxil fumarate | 200/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.92,7.694999999999999,41.910331384015606,price_above_historical_market_median
+SCMS,scms-6694,Zimbabwe,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.63,4.7,83.61702127659576,price_above_historical_market_median
+SCMS,scms-6747,Tanzania,efavirenz | 50mg | capsule | 30,Aurobindo Unit III,2.24,1.56,43.58974358974359,price_above_historical_market_median
+SCMS,scms-7113,Dominican Republic,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,9.63,5.54,73.82671480144406,price_above_historical_market_median
+SCMS,scms-7141,Rwanda,abacavir | 20mg/ml | oral solution | 240,Aurobindo Unit III,13.7,8.5,61.176470588235276,price_above_historical_market_median
+SCMS,scms-7177,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.63,6.08,41.94078947368423,price_above_historical_market_median
+SCMS,scms-7191,Tanzania,efavirenz/lamivudine/tenofovir disoproxil fumarate | 600/300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,17.08,11.01,55.13169845594912,price_above_historical_market_median
+SCMS,scms-7205,Tanzania,efavirenz | 50mg | capsule | 30,Aurobindo Unit III,2.24,1.56,43.58974358974359,price_above_historical_market_median
+SCMS,scms-7268,Rwanda,abacavir | 20mg/ml | oral solution | 240,Aurobindo Unit III,12.5,8.5,47.058823529411775,price_above_historical_market_median
+SCMS,scms-7471,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,6.85,4.75,44.21052631578946,price_above_historical_market_median
+SCMS,scms-7475,Uganda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,5.36,86.56716417910447,price_above_historical_market_median
+SCMS,scms-7480,Côte d'Ivoire,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,8.53,5.5,55.09090909090908,price_above_historical_market_median
+SCMS,scms-7482,Uganda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,5.36,86.56716417910447,price_above_historical_market_median
+SCMS,scms-7483,Zambia,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,4.64,115.51724137931036,price_above_historical_market_median
+SCMS,scms-7501,Tanzania,tenofovir disoproxil fumarate | 300mg | tablet | 30,Cipla Goa,8.53,6.035,41.34217067108532,price_above_historical_market_median
+SCMS,scms-7514,Côte d'Ivoire,tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,8.14,5.5,48.00000000000002,price_above_historical_market_median
+SCMS,scms-7516,Zambia,abacavir | 300mg | tablet | 60,Mylan / Matrix Nashik,21.42,15.04,42.420212765957466,price_above_historical_market_median
+SCMS,scms-7518,Guyana,emtricitabine/tenofovir disoproxil fumarate | 200/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,11.75,5.805,102.41171403962102,price_above_historical_market_median
+SCMS,scms-7523,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,6.08,64.4736842105263,price_above_historical_market_median
+SCMS,scms-7571,Zambia,emtricitabine/tenofovir disoproxil fumarate | 200/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,11.75,7.694999999999999,52.696556205328136,price_above_historical_market_median
+SCMS,scms-7593,Zambia,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,19.92,13.69,45.50766983199417,price_above_historical_market_median
+SCMS,scms-7599,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.82,6.08,45.065789473684205,price_above_historical_market_median
+SCMS,scms-7602,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.82,6.08,45.065789473684205,price_above_historical_market_median
+SCMS,scms-7609,Tanzania,emtricitabine/tenofovir disoproxil fumarate | 200/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.54,5.87,79.557069846678,price_above_historical_market_median
+SCMS,scms-7613,Uganda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.82,5.36,64.55223880597015,price_above_historical_market_median
+SCMS,scms-7616,Zambia,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,19.92,13.69,45.50766983199417,price_above_historical_market_median
+SCMS,scms-7625,Uganda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.23,5.36,53.54477611940298,price_above_historical_market_median
+SCMS,scms-7631,Zimbabwe,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.63,4.7,83.61702127659576,price_above_historical_market_median
+SCMS,scms-7985,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,6.08,64.4736842105263,price_above_historical_market_median
+SCMS,scms-8047,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.82,6.08,45.065789473684205,price_above_historical_market_median
+SCMS,scms-8053,Zambia,emtricitabine/tenofovir disoproxil fumarate | 200/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.92,7.694999999999999,41.910331384015606,price_above_historical_market_median
+SCMS,scms-8054,Zambia,emtricitabine/tenofovir disoproxil fumarate | 200/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.92,7.694999999999999,41.910331384015606,price_above_historical_market_median
+SCMS,scms-8098,Zambia,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,19.92,13.69,45.50766983199417,price_above_historical_market_median
+SCMS,scms-8109,Tanzania,emtricitabine/tenofovir disoproxil fumarate | 200/300mg | tablet - fdc | 30,Aurobindo Unit III,8.97,5.87,52.81090289608179,price_above_historical_market_median
+SCMS,scms-8112,Tanzania,efavirenz/lamivudine/tenofovir disoproxil fumarate | 600/300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,17.08,11.01,55.13169845594912,price_above_historical_market_median
+SCMS,scms-8142,Burundi,emtricitabine/tenofovir disoproxil fumarate | 200/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.75,6.07,44.15156507413509,price_above_historical_market_median
+SCMS,scms-8146,Rwanda,abacavir | 20mg/ml | oral solution | 240,Aurobindo Unit III,12.5,8.5,47.058823529411775,price_above_historical_market_median
+SCMS,scms-8424,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,6.08,64.4736842105263,price_above_historical_market_median
+SCMS,scms-8541,Uganda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.82,5.36,64.55223880597015,price_above_historical_market_median
+SCMS,scms-8545,Zimbabwe,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.63,4.7,83.61702127659576,price_above_historical_market_median
+SCMS,scms-8899,Uganda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,5.36,86.56716417910447,price_above_historical_market_median
+SCMS,scms-8919,Uganda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,5.36,86.56716417910447,price_above_historical_market_median
+SCMS,scms-8926,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,6.08,64.4736842105263,price_above_historical_market_median
+SCMS,scms-8946,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,6.08,64.4736842105263,price_above_historical_market_median
+SCMS,scms-8947,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,6.08,64.4736842105263,price_above_historical_market_median
+SCMS,scms-8976,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,9.63,6.08,58.38815789473686,price_above_historical_market_median
+SCMS,scms-9054,Burundi,lopinavir/ritonavir | 200/50mg | tablet | 120,ABBVIE Ludwigshafen Germany,33.74,20.52,64.42495126705654,price_above_historical_market_median
+SCMS,scms-9336,Uganda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,5.36,86.56716417910447,price_above_historical_market_median
+SCMS,scms-9337,Uganda,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,6.85,4.34,57.83410138248848,price_above_historical_market_median
+SCMS,scms-9391,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,6.08,64.4736842105263,price_above_historical_market_median
+SCMS,scms-9446,Haiti,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.82,4.62,90.90909090909092,price_above_historical_market_median
+SCMS,scms-9452,Zimbabwe,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.82,4.7,87.6595744680851,price_above_historical_market_median
+SCMS,scms-9495,Uganda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.23,5.36,53.54477611940298,price_above_historical_market_median
+SCMS,scms-9566,"Congo, DRC",tenofovir disoproxil fumarate | 300mg | tablet | 30,Mylan / Matrix Nashik,5.5,3.91,40.66496163682864,price_above_historical_market_median
+SCMS,scms-9841,Nigeria,efavirenz | 600mg | tablet | 30,Aurobindo Unit III,6.85,4.75,44.21052631578946,price_above_historical_market_median
+SCMS,scms-9851,Uganda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,5.36,86.56716417910447,price_above_historical_market_median
+SCMS,scms-9857,Uganda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,5.36,86.56716417910447,price_above_historical_market_median
+SCMS,scms-9882,Uganda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,10.0,5.36,86.56716417910447,price_above_historical_market_median
+SCMS,scms-9955,Zambia,emtricitabine/tenofovir disoproxil fumarate | 200/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,11.75,7.694999999999999,52.696556205328136,price_above_historical_market_median
+SCMS,scms-9996,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.82,6.08,45.065789473684205,price_above_historical_market_median
+SCMS,scms-10006,Uganda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.23,5.36,53.54477611940298,price_above_historical_market_median
+SCMS,scms-10010,Zimbabwe,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.23,4.7,75.1063829787234,price_above_historical_market_median
+SCMS,scms-10024,Rwanda,abacavir | 20mg/ml | oral solution | 240,Aurobindo Unit III,12.5,8.5,47.058823529411775,price_above_historical_market_median
