@@ -19,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -39,5 +41,6 @@ jobs:
             echo "No output changes"
           else
             git commit -m "Refresh procurement intelligence outputs"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
