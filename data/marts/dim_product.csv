@@ -85,6 +85,7 @@ etravirine | 100mg | tablet | 120,Etravirine,100mg,Tablet,120.0
 hepatitis b assays | bioline hbsag wb 30s/kit 01fk10w |  | 30.0,Hepatitis B assays,Bioline HBsAg WB 30s/kit [01FK10W],,30.0
 hepatitis b assays | murex hbsag v3 with confirm. v3 96s 480s 9f80-01 9f80-05 2g27-01 |  | 480.0,Hepatitis B assays,"Murex HBsAg V3 with Confirm. V3 96s, 480s [9F80-01, 9F80-05, 2G27-01]",,480.0
 hepatitis c assays | bioline hcv 30s 02fk10 |  | 1.0,Hepatitis C assays,"Bioline HCV, 30s [02FK10]",,1.0
+hepatitis c assays | bioline hcv 30s 02fk10 |  | 30.0,Hepatitis C assays,"Bioline HCV, 30s [02FK10]",,30.0
 hepatitis c assays | murex anti-hcv version 4.0 96s 480s 7f51-01 7f51-02 |  | 480.0,Hepatitis C assays,"Murex anti-HCV (version 4.0), 96s, 480s [7F51-01, 7F51-02]",,480.0
 hepatitis c assays | xpert hcv viral load 10 cartridges gxhcv-vl-ce-10 |  | 10.0,Hepatitis C assays,"Xpert® HCV Viral Load, 10 cartridges [GXHCV-VL-CE-10]",,10.0
 hiv cd4 testing consumables/test kits | bd tritest d3/d4/d45 with trucount tubes 50 tests 1 ml 342444 |  | 50.0,HIV CD4 testing consumables/test kits,"BD Tritest СD3/СD4/СD45 with Trucount Tubes, 50 tests, 1 ml [342444]",,50.0
@@ -97,6 +98,7 @@ hiv rdt and eia | first response hiv 1-2-0 v3.0 card test i05frc30 |  | 30.0,HIV
 hiv rdt and eia | first response hiv 1-2-0 v3.0 card test i05frc30 |  | 5.0,HIV RDT and EIA,First Response HIV 1-2-0 v3.0 Card Test [I05FRC30],,5.0
 hiv rdt and eia | hiv 1+2 determine 7d23 |  | 100.0,HIV RDT and EIA,HIV 1+2 Determine [7D23],,100.0
 hiv rdt and eia | oraquick advance rapid hiv-1/2 |  | 1.0,HIV RDT and EIA,OraQuick ADVANCE Rapid HIV-1/2,,1.0
+hiv rdt and eia | oraquick advance rapid hiv-1/2-1001-0284. |  | 25.0,HIV RDT and EIA,OraQuick ADVANCE Rapid HIV-1/2-1001-0284.,,25.0
 hiv rdt and eia | oraquick hiv 1/2 -rapid antibody test 5x4-0010 5x4-0012 |  | 25.0,HIV RDT and EIA,"OraQuick HIV 1/2 -Rapid Antibody Test [5X4-0010, 5X4-0012]",,25.0
 hiv rdt and eia | oraquick hiv 1/2 -rapid antibody test 5x4-0010 5x4-0012 |  | 250.0,HIV RDT and EIA,"OraQuick HIV 1/2 -Rapid Antibody Test [5X4-0010, 5X4-0012]",,250.0
 hiv rdt and eia | sd bioline hiv-1/2 3.0 03fk10 |  | 25.0,HIV RDT and EIA,SD Bioline HIV-1/2 3.0 [03FK10],,25.0
@@ -215,6 +217,7 @@ streptomycin | 1g | powder for inj | 1.0,Streptomycin,1g,powder for inj,1.0
 syphilis tests | bioline syphilis 3.0 30s 06fk10 |  | 25.0,Syphilis tests,"Bioline Syphilis 3.0, 30s [06FK10]",,25.0
 syphilis tests | syphilis rpr test- ntp 100s 50001 pqr |  | 100.0,Syphilis tests,"Syphilis RPR test- NTP, 100s [50001] PQR",,100.0
 tb cat. i+iii patient kit a | 4-fdc 6x28tabsr150/h75/z400/e275+2-fdc 12x28tabs r150/h75 | tab | 1.0,TB Cat. I+III Patient Kit A,4-FDC 6x28tabs(R150/H75/Z400/E275)+2-FDC 12x28tabs (R150/H75),tab,1.0
+tb molecular diagnostics | cepheid xpert mtb/rif kit 10s 50s cgxmtbrif |  | 50.0,TB molecular diagnostics,"Cepheid Xpert MTB/RIF kit (10s, 50s) [CGXMTBRIF]",,50.0
 tb molecular diagnostics | cepheid xpert mtb/rif ultra 50s gxmtb/rif-ultra-50 |  | 50.0,TB molecular diagnostics,Cepheid Xpert MTB/RIF Ultra (50s) [GXMTB/RIF-ULTRA-50],,50.0
 tb molecular diagnostics | cepheid xpert mtb/xdr kit 10s gxmtb/xdr-10 |  | 10.0,TB molecular diagnostics,Cepheid Xpert MTB/XDR kit (10s) [GXMTB/XDR-10],,10.0
 tb molecular diagnostics | genotype mtbdrsl version 2.0 31796a |  | 96.0,TB molecular diagnostics,GenoType MTBDRsl Version 2.0 [31796A],,96.0

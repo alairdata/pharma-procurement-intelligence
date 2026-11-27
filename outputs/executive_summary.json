@@ -1,10 +1,10 @@
 {
-  "records_analyzed": 9291,
+  "records_analyzed": 9302,
   "sources_healthy": 2,
   "countries": 33,
   "suppliers": 122,
-  "product_formulations": 235,
-  "total_procurement_value_usd": 2075054228.31,
+  "product_formulations": 238,
+  "total_procurement_value_usd": 2095488287.83,
   "signal_groups_scored": 430,
   "top_review_signals": [
     {
@@ -165,8 +165,8 @@
       "top_supplier": "Strides Bangalore",
       "value_rank": 0.9255813953488372,
       "dispersion_rank": 0.9534883720930233,
-      "concentration_rank": 0.413953488372093,
-      "review_priority_score": 78.2
+      "concentration_rank": 0.4116279069767442,
+      "review_priority_score": 78.1
     },
     {
       "country": "Kenya",
@@ -192,6 +192,29 @@
       "review_priority_score": 77.9
     },
     {
+      "country": "Kenya",
+      "product_key": "dolutegravir + lamivudine + tenofovir df - fdc | 50mg+300mg+300mg | tab | 90.0",
+      "transactions": 18,
+      "sources": 1,
+      "total_quantity": 7269906.0,
+      "total_value_usd": 67441968.4,
+      "median_pack_price_usd": 9.09,
+      "p25_pack_price_usd": 8.4,
+      "p75_pack_price_usd": 12.24,
+      "min_pack_price_usd": 7.29,
+      "max_pack_price_usd": 14.724,
+      "supplier_count": 4,
+      "iqr_pack_price_usd": 3.84,
+      "normalized_price_dispersion": 0.42244224422442245,
+      "supplier_hhi": 0.5800521335573277,
+      "top_supplier_share": 0.7262627346446192,
+      "top_supplier": "Hetero labs Limited",
+      "value_rank": 0.9930232558139535,
+      "dispersion_rank": 0.8372093023255814,
+      "concentration_rank": 0.4511627906976744,
+      "review_priority_score": 77.6
+    },
+    {
       "country": "South Africa",
       "product_key": "lopinavir/ritonavir | 200/50mg | tablet | 120",
       "transactions": 27,
@@ -213,29 +236,6 @@
       "dispersion_rank": 0.8232558139534883,
       "concentration_rank": 0.8418604651162791,
       "review_priority_score": 76.8
-    },
-    {
-      "country": "South Africa",
-      "product_key": "tenofovir disoproxil fumarate | 300mg | tablet | 30",
-      "transactions": 129,
-      "sources": 1,
-      "total_quantity": 4562832.0,
-      "total_value_usd": 32009102.85,
-      "median_pack_price_usd": 7.82,
-      "p25_pack_price_usd": 6.65,
-      "p75_pack_price_usd": 20.56,
-      "min_pack_price_usd": 6.47,
-      "max_pack_price_usd": 28.94,
-      "supplier_count": 6,
-      "iqr_pack_price_usd": 13.909999999999998,
-      "normalized_price_dispersion": 1.7787723785166238,
-      "supplier_hhi": 0.4841526352539607,
-      "top_supplier_share": 0.5123228419380706,
-      "top_supplier": "Cipla Goa",
-      "value_rank": 0.9767441860465116,
-      "dispersion_rank": 0.9883720930232558,
-      "concentration_rank": 0.2651162790697674,
-      "review_priority_score": 76.7
     }
   ]
 }

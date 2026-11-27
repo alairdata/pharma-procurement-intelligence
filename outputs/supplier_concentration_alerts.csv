@@ -16,10 +16,10 @@ Uganda,raltegravir | 400mg | tablet | 60,1,1.0,1.0,"MSD, Haarlem, NL",73.3,suppl
 South Africa,nevirapine | 10mg/ml | oral suspension | 240,3,0.959728914382761,0.9795178885120487,Aurobindo Unit III,73.2,supplier_concentration
 Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 18 | tab | 18.0,3,0.6463169712655684,0.7759519181567611,IPCA Laboratories Ltd,72.5,supplier_concentration
 Nigeria,efavirenz | 200mg | capsule | 90,1,1.0,1.0,Aurobindo Unit III,71.0,supplier_concentration
-Kenya,dolutegravir + lamivudine + tenofovir df - fdc | 50mg+300mg+300mg | tab | 30.0,2,0.7019779011780356,0.8177875872167095,Mylan Laboratories,70.7,supplier_concentration
 Zambia,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,4,0.6305786465878235,0.7776176752787867,Mylan / Matrix Nashik,70.6,supplier_concentration
+Kenya,dolutegravir + lamivudine + tenofovir df - fdc | 50mg+300mg+300mg | tab | 30.0,2,0.7019779011780356,0.8177875872167095,Mylan Laboratories,70.6,supplier_concentration
 Mozambique,lamivudine/nevirapine/stavudine | 150/200/30mg | tablet - fdc | 60,3,0.6184723148280614,0.7557317048557757,Strides Bangalore,70.5,supplier_concentration
-Kenya,tb molecular diagnostics | cepheid xpert mtb/rif ultra 50s gxmtb/rif-ultra-50 |  | 50.0,1,1.0,1.0,Cepheid,69.9,supplier_concentration
+Kenya,tb molecular diagnostics | cepheid xpert mtb/rif ultra 50s gxmtb/rif-ultra-50 |  | 50.0,1,1.0,1.0,Cepheid,70.0,supplier_concentration
 South Africa,efavirenz | 200mg | capsule | 90,2,0.7922428666972874,0.8822583332625251,Aurobindo Unit III,69.7,supplier_concentration
 Nigeria,emtricitabine/tenofovir disoproxil fumarate | 200/300mg | tablet - fdc | 30,3,0.6241568034114277,0.759078351561955,Mylan / Matrix Nashik,69.6,supplier_concentration
 Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 12 | dispers tab | 360.0,1,1.0,1.0,Novartis Pharma,69.4,supplier_concentration
@@ -34,10 +34,9 @@ Namibia,efavirenz | 600mg | tablet | 30,3,0.6977551875682863,0.8260768930526222,
 Côte d'Ivoire,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,1,1.0,1.0,ABBVIE (Abbott) Logis. UK,67.7,supplier_concentration
 Kenya,abacavir+lamivudine - fdc | 600mg+300mg | tab | 30.0,2,0.8669978378663383,0.9283677379695735,Hetero labs Limited,67.0,supplier_concentration
 South Africa,lamivudine/zidovudine | 150/300mg | tablet - fdc | 60,4,0.6859510177861583,0.8134697348987016,Aurobindo Unit III,66.5,supplier_concentration
-Kenya,atazanavir+ritonavir - fdc | 300mg+100mg | tab | 30.0,2,0.8489421067267577,0.9176973226672381,Mylan Laboratories,66.4,supplier_concentration
 Kenya,lamivudine+nevirapine+stavudine - fdc | 150mg+200mg+30mg | tab | 60.0,2,0.6352740789741447,0.7600712200284229,Cipla Ltd,66.2,supplier_concentration
 Mozambique,saquinavir | 200mg | capsule | 270,1,1.0,1.0,Roche Basel,66.0,supplier_concentration
-Kenya,olyset | rectangular |  | 1.0,1,1.0,1.0,A to Z textile Mills Limited,65.5,supplier_concentration
+Kenya,olyset | rectangular |  | 1.0,1,1.0,1.0,A to Z textile Mills Limited,65.4,supplier_concentration
 Uganda,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,1,1.0,1.0,Mylan / Matrix Nashik,64.6,supplier_concentration
 Kenya,nevirapine nvp | 10mg/ml | oral liquid | 100.0,2,0.7250551234505349,0.8354512807029769,Aurobindo Pharma Ltd,64.5,supplier_concentration
 Nigeria,efavirenz | 200mg | tablet | 90,1,1.0,1.0,Strides Bangalore,64.2,supplier_concentration
@@ -52,18 +51,19 @@ Nigeria,nevirapine | 10mg/ml | oral suspension | 240,1,1.0,1.0,Aurobindo Unit II
 Zambia,abacavir | 20mg/ml | oral solution | 240,1,1.0,1.0,Aurobindo Unit III,62.7,supplier_concentration
 Kenya,hiv rdt and eia | hiv 1+2 determine 7d23 |  | 100.0,1,1.0,1.0,"Alere Medical Co. Ltd., Japan",62.1,supplier_concentration
 Nigeria,abacavir | 300mg | tablet | 60,2,0.7707970237109663,0.8679653677392523,Mylan / Matrix Nashik,62.1,supplier_concentration
-Kenya,lamivudine+nevirapine+zidovudine - fdc | 30mg+50mg+60mg | dispers tab | 60.0,2,0.9394833761443002,0.9687661336659786,Mylan Laboratories,61.9,supplier_concentration
+Kenya,lamivudine+nevirapine+zidovudine - fdc | 30mg+50mg+60mg | dispers tab | 60.0,2,0.9394833761443002,0.9687661336659786,Mylan Laboratories,62.0,supplier_concentration
 South Africa,abacavir | 300mg | tablet | 60,2,0.6552775781488853,0.7786373791766688,Aurobindo Unit III,61.9,supplier_concentration
+Kenya,atazanavir+ritonavir - fdc | 300mg+100mg | tab | 30.0,2,0.8632440508929655,0.9261713569052744,Mylan Laboratories,61.6,supplier_concentration
 Tanzania,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,1,1.0,1.0,ABBVIE (Abbott) Logis. UK,61.5,supplier_concentration
 Haiti,abacavir | 20mg/ml | oral solution | 240,1,1.0,1.0,Aurobindo Unit III,61.0,supplier_concentration
 Nigeria,emtricitabine/tenofovir disoproxil fumarate | 300/200mg | tablet - fdc | 30,1,1.0,1.0,"Aspen-OSD, Port Elizabeth, SA",60.5,supplier_concentration
-Kenya,capreomycin | 1g | powder for inj | 1.0,2,0.8116070939710971,0.8947195801902263,Vianex S.A.,60.5,supplier_concentration
+Kenya,capreomycin | 1g | powder for inj | 1.0,2,0.8116070939710971,0.8947195801902263,Vianex S.A.,60.4,supplier_concentration
 South Africa,zidovudine | 10mg/ml | oral solution | 240,1,1.0,1.0,Aurobindo Unit III,60.4,supplier_concentration
 Nigeria,efavirenz/emtricitabine/tenofovir disoproxil fumarate | 600/200/300mg | tablet - fdc | 30,3,0.7568374398176426,0.8636366943270818,Mylan / Matrix Nashik,60.3,supplier_concentration
 Vietnam,ritonavir | 100mg | capsule | 336,2,0.9835113729534264,0.9916865734151312,ABBVIE (Abbott) Logis. UK,60.3,supplier_concentration
 South Africa,didanosine | 100mg | chewable/dispersible tablet | 60,1,1.0,1.0,"BMS Meymac, France",60.1,supplier_concentration
-Kenya,zidovudine azt or zdv | 10mg/ml | oral liquid | 240.0,2,0.8625251051957037,0.9257494011714542,Aurobindo Pharma Ltd,59.5,supplier_concentration
-Kenya,isoniazid | 300mg | tab | 672.0,1,1.0,1.0,Macleods Pharmaceuticals Ltd,59.1,supplier_concentration
+Kenya,zidovudine azt or zdv | 10mg/ml | oral liquid | 240.0,2,0.8625251051957037,0.9257494011714542,Aurobindo Pharma Ltd,59.4,supplier_concentration
+Kenya,isoniazid | 300mg | tab | 672.0,1,1.0,1.0,Macleods Pharmaceuticals Ltd,59.2,supplier_concentration
 Côte d'Ivoire,atazanavir/ritonavir | 300/100mg | tablet | 30,1,1.0,1.0,Mylan / Matrix Nashik,59.1,supplier_concentration
 Tanzania,lamivudine/nevirapine/stavudine | 150/200/30mg | tablet - fdc | 60,1,1.0,1.0,Cipla Goa,58.5,supplier_concentration
 Côte d'Ivoire,efavirenz | 200mg | capsule | 90,1,1.0,1.0,Aurobindo Unit III,58.3,supplier_concentration
@@ -78,16 +78,16 @@ South Africa,ritonavir | 80mg/ml | oral solution | 90,1,1.0,1.0,ABBVIE (Abbott) 
 Kenya,abacavir+lamivudine - fdc | 60mg+30mg | tab | 60.0,1,1.0,1.0,Mylan Laboratories,56.6,supplier_concentration
 Haiti,efavirenz | 200mg | capsule | 90,2,0.7087413868096437,0.8230645344274451,Aurobindo Unit III,56.5,supplier_concentration
 Mozambique,nevirapine | 200mg | tablet | 60,6,0.5998563616349313,0.7658749971636576,Hetero Unit III Hyderabad,56.4,supplier_concentration
-Guyana,abacavir | 20mg/ml | oral solution | 240,1,1.0,1.0,Aurobindo Unit III,56.4,supplier_concentration
+Guyana,abacavir | 20mg/ml | oral solution | 240,1,1.0,1.0,Aurobindo Unit III,56.3,supplier_concentration
+Tanzania,lamivudine/nevirapine/zidovudine | 30/50/60mg | chewable/dispersible tablet - fdc | 60,2,0.8851411056893581,0.9388286144324217,Mylan / Matrix Nashik,56.1,supplier_concentration
 Kenya,lopinavir+ritonavir - fdc | 80mg+20mg/ml | oral liquid | 300.0,1,1.0,1.0,AbbVie (ex Abbott),56.0,supplier_concentration
-Tanzania,lamivudine/nevirapine/zidovudine | 30/50/60mg | chewable/dispersible tablet - fdc | 60,2,0.8851411056893581,0.9388286144324217,Mylan / Matrix Nashik,56.0,supplier_concentration
 South Africa,didanosine ec | 400mg | delayed-release capsules - blister | 30,1,1.0,1.0,"BMS Meymac, France",56.0,supplier_concentration
+Ethiopia,lamivudine/zidovudine | 150/300mg | tablet - fdc | 60,2,0.9415896531463814,0.9698881000548861,Aurobindo Unit III,55.9,supplier_concentration
 South Africa,emtricitabine/tenofovir disoproxil fumarate | 200/300mg | tablet - fdc | 30,1,1.0,1.0,Aurobindo Unit III,55.9,supplier_concentration
-Ethiopia,lamivudine/zidovudine | 150/300mg | tablet - fdc | 60,2,0.9415896531463814,0.9698881000548861,Aurobindo Unit III,55.8,supplier_concentration
 South Africa,etravirine | 100mg | tablet | 120,1,1.0,1.0,"Janssen-Cilag, Latina, IT",55.6,supplier_concentration
 South Africa,atazanavir | 150mg | capsule | 60,1,1.0,1.0,"BMS Evansville, US",55.5,supplier_concentration
-Côte d'Ivoire,lamivudine/stavudine | 150/30mg | tablet - fdc | 60,3,0.7458926970447043,0.8575764921460904,Mylan / Matrix Nashik,55.3,supplier_concentration
-Tanzania,efavirenz | 200mg | tablet | 90,1,1.0,1.0,Strides Bangalore,55.0,supplier_concentration
+Côte d'Ivoire,lamivudine/stavudine | 150/30mg | tablet - fdc | 60,3,0.7458926970447043,0.8575764921460904,Mylan / Matrix Nashik,55.2,supplier_concentration
+Tanzania,efavirenz | 200mg | tablet | 90,1,1.0,1.0,Strides Bangalore,55.1,supplier_concentration
 Zimbabwe,lamivudine/zidovudine | 30/60mg | tablet - fdc | 60,2,0.7438296457651417,0.8491630319529414,Mylan / Matrix Nashik,54.9,supplier_concentration
 Rwanda,nevirapine | 10mg/ml | oral suspension | 240,1,1.0,1.0,Aurobindo Unit III,54.8,supplier_concentration
 South Africa,didanosine | 400mg | delayed-release capsules | 30,1,1.0,1.0,Aurobindo Unit III,54.5,supplier_concentration
@@ -104,9 +104,9 @@ South Africa,stavudine | 1mg/ml | powder for oral solution | 200,1,1.0,1.0,"BMS 
 South Africa,emtricitabine/tenofovir disoproxil fumarate | 300/200mg | tablet - fdc | 30,2,0.8700058144322578,0.9301196429089572,"Aspen-OSD, Port Elizabeth, SA",50.8,supplier_concentration
 Uganda,tenofovir disoproxil fumarate | 300mg | tablet | 30,2,0.666420508340491,0.7884618764589968,Mylan / Matrix Nashik,50.7,supplier_concentration
 Côte d'Ivoire,stavudine | 15mg | capsule | 60,1,1.0,1.0,Aurobindo Unit III,50.7,supplier_concentration
-Kenya,lopinavir+ritonavir - fdc | 100mg+25mg | tab | 60.0,1,1.0,1.0,Macleods Pharmaceuticals Ltd,50.6,supplier_concentration
 Ghana,efavirenz | 600mg | tablet | 30,1,1.0,1.0,Strides Bangalore,50.5,supplier_concentration
-Tanzania,lamivudine/zidovudine | 30/60mg | chewable/dispersible tablet - fdc | 60,1,1.0,1.0,Cipla Goa,50.4,supplier_concentration
+Kenya,lopinavir+ritonavir - fdc | 100mg+25mg | tab | 60.0,1,1.0,1.0,Macleods Pharmaceuticals Ltd,50.5,supplier_concentration
+Tanzania,lamivudine/zidovudine | 30/60mg | chewable/dispersible tablet - fdc | 60,1,1.0,1.0,Cipla Goa,50.5,supplier_concentration
 Vietnam,didanosine | 100mg | chewable/dispersible tablet | 60,2,0.8675629392081132,0.9286974103071496,Aurobindo Unit III,50.2,supplier_concentration
 Guyana,lamivudine/zidovudine | 150/300mg | tablet - fdc | 60,2,0.8040494382678893,0.8899034741239742,Aurobindo Unit III,50.0,supplier_concentration
 Ethiopia,stavudine | 30mg | capsule | 60,1,1.0,1.0,Aurobindo Unit III,49.9,supplier_concentration
@@ -115,7 +115,7 @@ Ethiopia,zidovudine | 300mg | tablet | 60,1,1.0,1.0,Aurobindo Unit III,49.8,supp
 Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 8 | tab | 24.0,1,1.0,1.0,Ajanta Pharma,49.6,supplier_concentration
 Rwanda,abacavir/lamivudine | 600/300mg | tablet - fdc | 30,2,0.8276986979466312,0.9047830887936348,Mylan / Matrix Nashik,49.4,supplier_concentration
 Côte d'Ivoire,abacavir | 20mg/ml | oral solution | 240,1,1.0,1.0,Aurobindo Unit III,49.3,supplier_concentration
-Mozambique,zidovudine | 10mg/ml | oral solution | 240,1,1.0,1.0,Aurobindo Unit III,49.1,supplier_concentration
+Mozambique,zidovudine | 10mg/ml | oral solution | 240,1,1.0,1.0,Aurobindo Unit III,49.2,supplier_concentration
 "Congo, DRC",efavirenz | 200mg | tablet | 90,1,1.0,1.0,Strides Bangalore,49.1,supplier_concentration
 Côte d'Ivoire,didanosine | 200mg | chewable/dispersible tablet | 60,1,1.0,1.0,Aurobindo Unit III,48.7,supplier_concentration
 Nigeria,lamivudine/zidovudine+nevirapine | 150/300+200mg | tablet - fdc + co-blister | 120,1,1.0,1.0,"Aspen-OSD, Port Elizabeth, SA",48.6,supplier_concentration
@@ -127,15 +127,15 @@ Nigeria,lamivudine/zidovudine+efavirenz | 150/300mg+600mg | tablet - fdc + co-bl
 Guyana,zidovudine | 300mg | tablet | 60,3,0.7799946335757678,0.8762023600370291,Aurobindo Unit III,47.9,supplier_concentration
 South Africa,abacavir | 300mg | tablet - blister | 60,1,1.0,1.0,GSK Ware (UK),47.6,supplier_concentration
 South Africa,stavudine | 20mg | capsule | 60,2,0.9098185930359342,0.952669080585329,"BMS Meymac, France",47.5,supplier_concentration
-Kenya,raltegravir | 400mg | tab | 60.0,1,1.0,1.0,Merck Sharp & Dohme Limited,47.2,supplier_concentration
-Uganda,abacavir/lamivudine | 600/300mg | tablet - fdc | 30,2,0.8814111561039268,0.9366984978815057,Mylan / Matrix Nashik,47.0,supplier_concentration
+Kenya,raltegravir | 400mg | tab | 60.0,1,1.0,1.0,Merck Sharp & Dohme Limited,47.3,supplier_concentration
+Uganda,abacavir/lamivudine | 600/300mg | tablet - fdc | 30,2,0.8814111561039268,0.9366984978815057,Mylan / Matrix Nashik,47.1,supplier_concentration
 South Africa,ritonavir | 100mg | capsule | 84,1,1.0,1.0,ABBVIE (Abbott) Logis. UK,47.0,supplier_concentration
 Côte d'Ivoire,emtricitabine/tenofovir disoproxil fumarate | 300/200mg | tablet - fdc | 30,1,1.0,1.0,"Aspen-OSD, Port Elizabeth, SA",46.5,supplier_concentration
-Tanzania,lopinavir/ritonavir | 100/25mg | tablet | 60,1,1.0,1.0,ABBVIE Ludwigshafen Germany,46.4,supplier_concentration
+Tanzania,lopinavir/ritonavir | 100/25mg | tablet | 60,1,1.0,1.0,ABBVIE Ludwigshafen Germany,46.5,supplier_concentration
 Haiti,stavudine | 20mg | capsule | 60,1,1.0,1.0,Aurobindo Unit III,46.4,supplier_concentration
 Côte d'Ivoire,saquinavir | 200mg | capsule | 270,1,1.0,1.0,Roche Basel,46.3,supplier_concentration
 Kenya,hiv rdt and eia | first response hiv 1-2-0 v3.0 card test i05frc30 |  | 30.0,1,1.0,1.0,"Premier Medical Corporation Ltd (Daman and Sarigam, India)",46.2,supplier_concentration
-Haiti,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,1,1.0,1.0,ABBVIE (Abbott) Logis. UK,45.8,supplier_concentration
+Haiti,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,1,1.0,1.0,ABBVIE (Abbott) Logis. UK,45.9,supplier_concentration
 South Africa,zidovudine | 10mg/ml | oral solution | 200,1,1.0,1.0,GSK Mississauga (Canada),45.7,supplier_concentration
 "Congo, DRC",efavirenz | 600mg | tablet | 30,3,0.7299099265730828,0.8445595893820085,Strides Bangalore,45.6,supplier_concentration
 Rwanda,abacavir/lamivudine | 60/30mg | chewable/dispersible tablet - fdc | 60,1,1.0,1.0,"Cipla, Patalganga, India",45.4,supplier_concentration
@@ -149,50 +149,50 @@ Uganda,emtricitabine/tenofovir disoproxil fumarate | 200/300mg | tablet - fdc | 
 Côte d'Ivoire,nevirapine | 10mg/ml | oral suspension | 240,1,1.0,1.0,Aurobindo Unit III,44.3,supplier_concentration
 "Congo, DRC",efavirenz/lamivudine/tenofovir disoproxil fumarate | 600/300/300mg | tablet - fdc | 30,2,0.6594447419532222,0.782351502522319,Mylan / Matrix Nashik,44.0,supplier_concentration
 Rwanda,didanosine | 400mg | delayed-release capsules | 30,1,1.0,1.0,Aurobindo Unit III,44.0,supplier_concentration
-Guyana,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,1,1.0,1.0,ABBVIE (Abbott) Logis. UK,43.7,supplier_concentration
-Haiti,zidovudine | 100mg | capsule | 100,1,1.0,1.0,Aurobindo Unit III,43.4,supplier_concentration
+Guyana,lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,1,1.0,1.0,ABBVIE (Abbott) Logis. UK,43.8,supplier_concentration
+Haiti,zidovudine | 100mg | capsule | 100,1,1.0,1.0,Aurobindo Unit III,43.5,supplier_concentration
 Zambia,efavirenz | 200mg | capsule | 90,2,0.9735313060830362,0.986585709861601,Aurobindo Unit III,43.2,supplier_concentration
-Kenya,pas sodium | 4g | granules | 120.0,1,1.0,1.0,Jacobus,43.1,supplier_concentration
+Kenya,pas sodium | 4g | granules | 120.0,1,1.0,1.0,Jacobus,43.2,supplier_concentration
 Ethiopia,didanosine | 250mg | delayed-release capsules | 30,1,1.0,1.0,Aurobindo Unit III,42.5,supplier_concentration
+Nigeria,abacavir/lamivudine | 60/30mg | tablet - fdc | 60,2,0.688657401038178,0.8071297779751891,Mylan / Matrix Nashik,42.5,supplier_concentration
 Mozambique,abacavir | 20mg/ml | oral solution | 240,1,1.0,1.0,Aurobindo Unit III,42.5,supplier_concentration
 Tanzania,didanosine | 100mg | chewable/dispersible tablet | 60,2,0.8027140918021121,0.8890463287335533,Aurobindo Unit III,42.4,supplier_concentration
 Côte d'Ivoire,didanosine | 50mg | chewable/dispersible tablet | 60,1,1.0,1.0,"BMS Meymac, France",42.4,supplier_concentration
-Nigeria,abacavir/lamivudine | 60/30mg | tablet - fdc | 60,2,0.688657401038178,0.8071297779751891,Mylan / Matrix Nashik,42.4,supplier_concentration
 Côte d'Ivoire,efavirenz | 30mg/ml | oral solution | 180,2,0.9739649641785646,0.9868084655070024,"MSD, Haarlem, NL",41.8,supplier_concentration
+Haiti,zidovudine | 10mg/ml | oral solution | 240,2,0.9618153072796987,0.9805285149081678,Aurobindo Unit III,41.8,supplier_concentration
 Zimbabwe,efavirenz | 200mg | tablet | 90,1,1.0,1.0,Strides Bangalore,41.7,supplier_concentration
-Haiti,zidovudine | 10mg/ml | oral solution | 240,2,0.9618153072796987,0.9805285149081678,Aurobindo Unit III,41.7,supplier_concentration
 Rwanda,didanosine | 250mg | delayed-release capsules | 30,1,1.0,1.0,Aurobindo Unit III,41.7,supplier_concentration
 Kenya,mask/respirator type unknown | disposable medical non- sterile mask |  | 50.0,1,1.0,1.0,Private Enterprise AZK/ACP,41.2,supplier_concentration
 Tanzania,nevirapine | 10mg/ml | oral suspension | 100,1,1.0,1.0,Aurobindo Unit III,41.1,supplier_concentration
 Nigeria,stavudine | 30mg | capsule | 60,2,0.983509660445278,0.9916857026827596,Aurobindo Unit III,41.1,supplier_concentration
 Tanzania,lamivudine/nevirapine/stavudine | 30/50/6mg | chewable/dispersible tablet - fdc | 60,1,1.0,1.0,Cipla Goa,40.8,supplier_concentration
 Uganda,nevirapine | 10mg/ml | oral suspension | 100,1,1.0,1.0,Aurobindo Unit III,40.8,supplier_concentration
+Côte d'Ivoire,lamivudine | 10mg/ml | oral solution | 240,2,0.7290620837587134,0.8384243517824282,Aurobindo Unit III,40.6,supplier_concentration
 Guyana,stavudine | 15mg | capsule | 60,1,1.0,1.0,Aurobindo Unit III,40.6,supplier_concentration
-Côte d'Ivoire,lamivudine | 10mg/ml | oral solution | 240,2,0.7290620837587134,0.8384243517824282,Aurobindo Unit III,40.5,supplier_concentration
 Vietnam,zidovudine | 300mg | tablet | 60,5,0.5901697811117114,0.7545428305757571,Mylan / Matrix Nashik,40.5,supplier_concentration
 Uganda,nevirapine | 10mg/ml | oral suspension | 240,1,1.0,1.0,Aurobindo Unit III,40.4,supplier_concentration
 South Africa,lopinavir/ritonavir | 100/25mg | tablet | 60,1,1.0,1.0,ABBVIE Ludwigshafen Germany,40.4,supplier_concentration
 Uganda,abacavir/lamivudine | 60/30mg | tablet - fdc | 60,2,0.8134698215493135,0.8958976013752252,Mylan / Matrix Nashik,40.2,supplier_concentration
 Vietnam,ritonavir | 100mg | tablet | 30,1,1.0,1.0,ABBVIE Ludwigshafen Germany,40.1,supplier_concentration
 Guyana,lamivudine | 10mg/ml | oral solution | 240,2,0.700230647732963,0.8164100565191971,Aurobindo Unit III,39.6,supplier_concentration
+Mozambique,ritonavir | 100mg | capsule | 84,2,0.8434414359993574,0.9143919859259813,ABBVIE (Abbott) Logis. UK,39.0,supplier_concentration
 Haiti,tenofovir disoproxil fumarate | 300mg | tablet | 30,2,0.6276539942799231,0.7526400545043511,Mylan / Matrix Nashik,39.0,supplier_concentration
 Côte d'Ivoire,ritonavir | 100mg | tablet | 60,1,1.0,1.0,ABBVIE Ludwigshafen Germany,38.9,supplier_concentration
-Mozambique,ritonavir | 100mg | capsule | 84,2,0.8434414359993574,0.9143919859259813,ABBVIE (Abbott) Logis. UK,38.9,supplier_concentration
 Vietnam,lamivudine/nevirapine/zidovudine | 30/50/60mg | chewable/dispersible tablet - fdc | 60,2,0.8341680430497096,0.9087591240875912,Mylan / Matrix Nashik,38.7,supplier_concentration
 Zimbabwe,lamivudine/stavudine | 150/30mg | tablet - fdc | 30,1,1.0,1.0,Cipla Goa,38.7,supplier_concentration
 Rwanda,efavirenz | 200mg | tablet | 90,1,1.0,1.0,Strides Bangalore,38.6,supplier_concentration
-Guyana,zidovudine | 100mg | capsule | 100,1,1.0,1.0,Aurobindo Unit III,38.4,supplier_concentration
+Guyana,zidovudine | 100mg | capsule | 100,1,1.0,1.0,Aurobindo Unit III,38.5,supplier_concentration
 Guyana,lamivudine | 150mg | tablet | 60,3,0.6215032999102982,0.7715145518087382,Aurobindo Unit III,38.4,supplier_concentration
 Côte d'Ivoire,didanosine | 200mg | delayed-release capsules | 30,1,1.0,1.0,Aurobindo Unit III,38.2,supplier_concentration
-South Africa,didanosine | 25mg | chewable/dispersible tablet | 60,1,1.0,1.0,"BMS Meymac, France",37.9,supplier_concentration
-Haiti,lamivudine | 10mg/ml | oral solution | 240,3,0.6756712130764397,0.8025186881783859,Aurobindo Unit III,37.7,supplier_concentration
-Vietnam,nevirapine | 10mg/ml | oral suspension | 240,1,1.0,1.0,Aurobindo Unit III,37.7,supplier_concentration
-Guyana,nevirapine | 10mg/ml | oral suspension | 240,1,1.0,1.0,Aurobindo Unit III,37.4,supplier_concentration
+South Africa,didanosine | 25mg | chewable/dispersible tablet | 60,1,1.0,1.0,"BMS Meymac, France",38.0,supplier_concentration
+Haiti,lamivudine | 10mg/ml | oral solution | 240,3,0.6756712130764397,0.8025186881783859,Aurobindo Unit III,37.8,supplier_concentration
+Vietnam,nevirapine | 10mg/ml | oral suspension | 240,1,1.0,1.0,Aurobindo Unit III,37.8,supplier_concentration
+Guyana,nevirapine | 10mg/ml | oral suspension | 240,1,1.0,1.0,Aurobindo Unit III,37.5,supplier_concentration
 Ethiopia,zidovudine | 10mg/ml | oral solution | 240,1,1.0,1.0,Aurobindo Unit III,37.3,supplier_concentration
 Nigeria,lamivudine/stavudine | 150/30mg | tablet - fdc | 60,2,0.7751193431111663,0.8708903767362846,Mylan / Matrix Nashik,37.2,supplier_concentration
 Zimbabwe,lamivudine/stavudine | 30/6mg | chewable/dispersible tablet - fdc | 60,1,1.0,1.0,Cipla Goa,36.9,supplier_concentration
-Côte d'Ivoire,zidovudine | 10mg/ml | oral solution | 240,2,0.8559678636572476,0.9218814191554587,Aurobindo Unit III,36.8,supplier_concentration
 Mozambique,indinavir | 400mg | capsule | 180,2,0.6384750676109657,0.7631302601478646,"MSD, Haarlem, NL",36.8,supplier_concentration
+Côte d'Ivoire,zidovudine | 10mg/ml | oral solution | 240,2,0.8559678636572476,0.9218814191554587,Aurobindo Unit III,36.7,supplier_concentration
 "Congo, DRC",nevirapine | 10mg/ml | oral suspension | 240,1,1.0,1.0,Aurobindo Unit III,36.5,supplier_concentration
 Uganda,emtricitabine/tenofovir disoproxil fumarate | 300/200mg | tablet - fdc | 30,2,0.8541164167670579,0.9207828518173345,"Aspen-OSD, Port Elizabeth, SA",36.2,supplier_concentration
 Tanzania,ritonavir | 100mg | capsule | 336,1,1.0,1.0,ABBVIE (Abbott) Logis. UK,35.7,supplier_concentration
@@ -213,9 +213,9 @@ Vietnam,didanosine | 250mg | delayed-release capsules | 30,1,1.0,1.0,Aurobindo U
 Vietnam,zidovudine | 10mg/ml | oral solution | 240,1,1.0,1.0,Aurobindo Unit III,31.9,supplier_concentration
 "Congo, DRC",lopinavir/ritonavir | 80/20mg/ml | oral solution | 300,1,1.0,1.0,ABBVIE (Abbott) Logis. UK,31.5,supplier_concentration
 Haiti,didanosine | 200mg | chewable/dispersible tablet | 60,1,1.0,1.0,Aurobindo Unit III,31.4,supplier_concentration
-Uganda,stavudine | 30mg | capsule | 60,2,0.7819720536000367,0.8754810605077417,Aurobindo Unit III,31.2,supplier_concentration
+Uganda,stavudine | 30mg | capsule | 60,2,0.7819720536000367,0.8754810605077417,Aurobindo Unit III,31.3,supplier_concentration
 Vietnam,didanosine | 25mg | chewable/dispersible tablet | 60,2,0.9293404510972556,0.9633251833740831,"BMS Meymac, France",30.2,supplier_concentration
-Mozambique,stavudine | 30mg | capsule | 60,2,0.7239803020843281,0.8346492955949019,Aurobindo Unit III,29.9,supplier_concentration
+Mozambique,stavudine | 30mg | capsule | 60,2,0.7239803020843281,0.8346492955949019,Aurobindo Unit III,30.0,supplier_concentration
 Guyana,zidovudine | 10mg/ml | oral solution | 240,1,1.0,1.0,Aurobindo Unit III,29.9,supplier_concentration
 "Congo, DRC",nevirapine | 50mg | chewable/dispersible tablet | 30,1,1.0,1.0,Aurobindo Unit III,29.7,supplier_concentration
 Guyana,efavirenz | 200mg | tablet | 90,1,1.0,1.0,Strides Bangalore,29.4,supplier_concentration

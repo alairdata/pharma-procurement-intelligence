@@ -727,38 +727,38 @@ SCMS,scms-9996,Nigeria,lamivudine/tenofovir disoproxil fumarate | 300/300mg | ta
 SCMS,scms-10006,Uganda,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.23,5.36,53.54477611940298,price_above_historical_market_median
 SCMS,scms-10010,Zimbabwe,lamivudine/tenofovir disoproxil fumarate | 300/300mg | tablet - fdc | 30,Mylan / Matrix Nashik,8.23,4.7,75.1063829787234,price_above_historical_market_median
 SCMS,scms-10024,Rwanda,abacavir | 20mg/ml | oral solution | 240,Aurobindo Unit III,12.5,8.5,47.058823529411775,price_above_historical_market_median
-Global Fund PQR,pqr-26,Kenya,darunavir tcm | 600mg | tab | 60.0,Janssen,71.3,43.28,64.74121996303141,price_above_historical_market_median
+Global Fund PQR,pqr-26,Kenya,darunavir tcm | 600mg | tab | 60.0,Janssen,71.3,43.24,64.89361702127658,price_above_historical_market_median
 Global Fund PQR,pqr-72,Kenya,lamivudine+nevirapine+zidovudine - fdc | 150mg+200mg+300mg | tab | 60.0,Cipla Ltd,11.85,8.290000000000001,42.943305186972225,price_above_historical_market_median
-Global Fund PQR,pqr-118,Kenya,efavirenz efv | 600mg | tab | 30.0,Emcure Pharmaceuticals Limited,10.760000000000002,5.78,86.15916955017302,price_above_historical_market_median
-Global Fund PQR,pqr-119,Kenya,efavirenz efv | 600mg | tab | 30.0,Emcure Pharmaceuticals Limited,10.76,5.78,86.159169550173,price_above_historical_market_median
+Global Fund PQR,pqr-119,Kenya,efavirenz efv | 600mg | tab | 30.0,Emcure Pharmaceuticals Limited,10.760000000000002,5.78,86.15916955017302,price_above_historical_market_median
 Global Fund PQR,pqr-120,Kenya,efavirenz efv | 600mg | tab | 30.0,Emcure Pharmaceuticals Limited,10.76,5.78,86.159169550173,price_above_historical_market_median
-Global Fund PQR,pqr-198,Kenya,efavirenz efv | 600mg | tab | 30.0,Emcure Pharmaceuticals Limited,10.760000000000002,5.78,86.15916955017302,price_above_historical_market_median
-Global Fund PQR,pqr-300,Kenya,efavirenz+lamivudine+tenofovir - fdc | 600mg+300mg+300mg | tab | 30.0,Mylan Laboratories,14.9,8.96,66.29464285714283,price_above_historical_market_median
-Global Fund PQR,pqr-332,Kenya,artesunate | 60mg | powder for inj | 1.0,Guilin Pharmaceutical Co. Ltd-FOSUN Pharma,6.690185081699346,3.9400925408496725,69.79766369285889,price_above_historical_market_median
-Global Fund PQR,pqr-356,Kenya,malaria rdt p.f. | sd bioline malaria ag pf 25s 05fk50 |  | 25.0,"Standard Diagnostics, Inc.Giheung-ku, Republic of Korea",16.3,11.620000000000001,40.275387263339056,price_above_historical_market_median
-Global Fund PQR,pqr-370,Kenya,lamivudine+nevirapine+zidovudine - fdc | 150mg+200mg+300mg | tab | 60.0,Sun Pharmaceuticals (formerly: Ranbaxy),11.82,8.290000000000001,42.58142340168878,price_above_historical_market_median
-Global Fund PQR,pqr-371,Kenya,lamivudine+nevirapine+zidovudine - fdc | 150mg+200mg+300mg | tab | 60.0,Sun Pharmaceuticals (formerly: Ranbaxy),11.82,8.290000000000001,42.58142340168878,price_above_historical_market_median
-Global Fund PQR,pqr-372,Kenya,lamivudine+nevirapine+zidovudine - fdc | 150mg+200mg+300mg | tab | 60.0,Sun Pharmaceuticals (formerly: Ranbaxy),11.82,8.290000000000001,42.58142340168878,price_above_historical_market_median
-Global Fund PQR,pqr-394,Kenya,darunavir tcm | 600mg | tab | 60.0,Janssen,86.4,43.28,99.63031423290205,price_above_historical_market_median
-Global Fund PQR,pqr-410,Kenya,efavirenz efv | 600mg | tab | 30.0,Emcure Pharmaceuticals Limited,10.76,5.78,86.159169550173,price_above_historical_market_median
-Global Fund PQR,pqr-426,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 6 | tab | 6.0,Ajanta Pharma,8.7,0.29,2900.0,price_above_historical_market_median
-Global Fund PQR,pqr-435,Kenya,dolutegravir + lamivudine + tenofovir df - fdc | 50mg+300mg+300mg | tab | 90.0,Macleods Pharmaceuticals Ltd,14.724,9.09,61.98019801980199,price_above_historical_market_median
-Global Fund PQR,pqr-526,Kenya,dolutegravir + lamivudine + tenofovir df - fdc | 50mg+300mg+300mg | tab | 90.0,Macleods Pharmaceuticals Ltd,14.724,9.09,61.98019801980199,price_above_historical_market_median
-Global Fund PQR,pqr-540,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 18 | tab | 18.0,Ajanta Pharma,1.2,0.58,106.89655172413795,price_above_historical_market_median
-Global Fund PQR,pqr-541,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 24 | tab | 24.0,Ajanta Pharma,2.4,0.6395,275.29319781078965,price_above_historical_market_median
-Global Fund PQR,pqr-545,Kenya,efavirenz efv | 600mg | tab | 30.0,Emcure Pharmaceuticals Limited,10.76,5.78,86.159169550173,price_above_historical_market_median
-Global Fund PQR,pqr-574,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 18 | tab | 18.0,Ajanta Pharma,1.2,0.58,106.89655172413795,price_above_historical_market_median
-Global Fund PQR,pqr-575,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 24 | tab | 24.0,Ajanta Pharma,2.4,0.6395,275.29319781078965,price_above_historical_market_median
-Global Fund PQR,pqr-592,Kenya,darunavir tcm | 600mg | tab | 60.0,Janssen,71.3,43.28,64.74121996303141,price_above_historical_market_median
-Global Fund PQR,pqr-625,Kenya,dolutegravir as sodium salt | 50mg | tab | 30.0,Aurobindo Pharma Ltd,3.15,1.08,191.66666666666666,price_above_historical_market_median
-Global Fund PQR,pqr-647,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 18 | tab | 18.0,Ajanta Pharma,1.2,0.58,106.89655172413795,price_above_historical_market_median
-Global Fund PQR,pqr-648,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 24 | tab | 24.0,Ajanta Pharma,2.4,0.6395,275.29319781078965,price_above_historical_market_median
-Global Fund PQR,pqr-661,Kenya,capreomycin | 1g | powder for inj | 1.0,Vianex S.A.,5.58,3.78,47.61904761904763,price_above_historical_market_median
-Global Fund PQR,pqr-665,Kenya,levofloxacin | 500mg | tab | 100.0,Cipla Ltd,7.5,4.91,52.74949083503056,price_above_historical_market_median
-Global Fund PQR,pqr-669,Kenya,lamivudine+nevirapine+zidovudine - fdc | 150mg+200mg+300mg | tab | 60.0,Sun Pharmaceuticals (formerly: Ranbaxy),11.82,8.290000000000001,42.58142340168878,price_above_historical_market_median
-Global Fund PQR,pqr-670,Kenya,lamivudine+nevirapine+zidovudine - fdc | 150mg+200mg+300mg | tab | 60.0,Sun Pharmaceuticals (formerly: Ranbaxy),11.82,8.290000000000001,42.58142340168878,price_above_historical_market_median
-Global Fund PQR,pqr-677,Kenya,efavirenz+lamivudine+tenofovir - fdc | 600mg+300mg+300mg | tab | 30.0,Mylan Laboratories,14.9,8.96,66.29464285714283,price_above_historical_market_median
-Global Fund PQR,pqr-712,Kenya,yorkool ln | rectangular |  | 1.0,YORKOOL (TYK) INTERNATIONAL LIMITED,3.61,2.35,53.617021276595736,price_above_historical_market_median
-Global Fund PQR,pqr-728,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 18 | tab | 18.0,Ajanta Pharma,1.2,0.58,106.89655172413795,price_above_historical_market_median
-Global Fund PQR,pqr-729,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 24 | tab | 24.0,Ajanta Pharma,2.4,0.6395,275.29319781078965,price_above_historical_market_median
-Global Fund PQR,pqr-741,Kenya,lopinavir+ritonavir - fdc | 200mg+50mg | tab | 120.0,Mylan Laboratories,26.84,18.655,43.87563655856337,price_above_historical_market_median
+Global Fund PQR,pqr-121,Kenya,efavirenz efv | 600mg | tab | 30.0,Emcure Pharmaceuticals Limited,10.76,5.78,86.159169550173,price_above_historical_market_median
+Global Fund PQR,pqr-199,Kenya,efavirenz efv | 600mg | tab | 30.0,Emcure Pharmaceuticals Limited,10.760000000000002,5.78,86.15916955017302,price_above_historical_market_median
+Global Fund PQR,pqr-304,Kenya,efavirenz+lamivudine+tenofovir - fdc | 600mg+300mg+300mg | tab | 30.0,Mylan Laboratories,14.9,8.96,66.29464285714283,price_above_historical_market_median
+Global Fund PQR,pqr-338,Kenya,artesunate | 60mg | powder for inj | 1.0,Guilin Pharmaceutical Co. Ltd-FOSUN Pharma,6.690185081699346,3.9400925408496725,69.79766369285889,price_above_historical_market_median
+Global Fund PQR,pqr-362,Kenya,malaria rdt p.f. | sd bioline malaria ag pf 25s 05fk50 |  | 25.0,"Standard Diagnostics, Inc.Giheung-ku, Republic of Korea",16.3,11.620000000000001,40.275387263339056,price_above_historical_market_median
+Global Fund PQR,pqr-376,Kenya,lamivudine+nevirapine+zidovudine - fdc | 150mg+200mg+300mg | tab | 60.0,Sun Pharmaceuticals (formerly: Ranbaxy),11.82,8.290000000000001,42.58142340168878,price_above_historical_market_median
+Global Fund PQR,pqr-377,Kenya,lamivudine+nevirapine+zidovudine - fdc | 150mg+200mg+300mg | tab | 60.0,Sun Pharmaceuticals (formerly: Ranbaxy),11.82,8.290000000000001,42.58142340168878,price_above_historical_market_median
+Global Fund PQR,pqr-378,Kenya,lamivudine+nevirapine+zidovudine - fdc | 150mg+200mg+300mg | tab | 60.0,Sun Pharmaceuticals (formerly: Ranbaxy),11.82,8.290000000000001,42.58142340168878,price_above_historical_market_median
+Global Fund PQR,pqr-401,Kenya,darunavir tcm | 600mg | tab | 60.0,Janssen,86.4,43.24,99.81498612395929,price_above_historical_market_median
+Global Fund PQR,pqr-417,Kenya,efavirenz efv | 600mg | tab | 30.0,Emcure Pharmaceuticals Limited,10.76,5.78,86.159169550173,price_above_historical_market_median
+Global Fund PQR,pqr-433,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 6 | tab | 6.0,Ajanta Pharma,8.7,0.29,2900.0,price_above_historical_market_median
+Global Fund PQR,pqr-442,Kenya,dolutegravir + lamivudine + tenofovir df - fdc | 50mg+300mg+300mg | tab | 90.0,Macleods Pharmaceuticals Ltd,14.724,9.09,61.98019801980199,price_above_historical_market_median
+Global Fund PQR,pqr-533,Kenya,dolutegravir + lamivudine + tenofovir df - fdc | 50mg+300mg+300mg | tab | 90.0,Macleods Pharmaceuticals Ltd,14.724,9.09,61.98019801980199,price_above_historical_market_median
+Global Fund PQR,pqr-547,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 18 | tab | 18.0,Ajanta Pharma,1.2,0.58,106.89655172413795,price_above_historical_market_median
+Global Fund PQR,pqr-548,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 24 | tab | 24.0,Ajanta Pharma,2.4,0.6395,275.29319781078965,price_above_historical_market_median
+Global Fund PQR,pqr-552,Kenya,efavirenz efv | 600mg | tab | 30.0,Emcure Pharmaceuticals Limited,10.76,5.78,86.159169550173,price_above_historical_market_median
+Global Fund PQR,pqr-585,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 18 | tab | 18.0,Ajanta Pharma,1.2,0.58,106.89655172413795,price_above_historical_market_median
+Global Fund PQR,pqr-586,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 24 | tab | 24.0,Ajanta Pharma,2.4,0.6395,275.29319781078965,price_above_historical_market_median
+Global Fund PQR,pqr-603,Kenya,darunavir tcm | 600mg | tab | 60.0,Janssen,71.3,43.24,64.89361702127658,price_above_historical_market_median
+Global Fund PQR,pqr-636,Kenya,dolutegravir as sodium salt | 50mg | tab | 30.0,Aurobindo Pharma Ltd,3.15,1.08,191.66666666666666,price_above_historical_market_median
+Global Fund PQR,pqr-658,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 18 | tab | 18.0,Ajanta Pharma,1.2,0.58,106.89655172413795,price_above_historical_market_median
+Global Fund PQR,pqr-659,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 24 | tab | 24.0,Ajanta Pharma,2.4,0.6395,275.29319781078965,price_above_historical_market_median
+Global Fund PQR,pqr-672,Kenya,capreomycin | 1g | powder for inj | 1.0,Vianex S.A.,5.58,3.78,47.61904761904763,price_above_historical_market_median
+Global Fund PQR,pqr-676,Kenya,levofloxacin | 500mg | tab | 100.0,Cipla Ltd,7.5,4.91,52.74949083503056,price_above_historical_market_median
+Global Fund PQR,pqr-680,Kenya,lamivudine+nevirapine+zidovudine - fdc | 150mg+200mg+300mg | tab | 60.0,Sun Pharmaceuticals (formerly: Ranbaxy),11.82,8.290000000000001,42.58142340168878,price_above_historical_market_median
+Global Fund PQR,pqr-681,Kenya,lamivudine+nevirapine+zidovudine - fdc | 150mg+200mg+300mg | tab | 60.0,Sun Pharmaceuticals (formerly: Ranbaxy),11.82,8.290000000000001,42.58142340168878,price_above_historical_market_median
+Global Fund PQR,pqr-688,Kenya,efavirenz+lamivudine+tenofovir - fdc | 600mg+300mg+300mg | tab | 30.0,Mylan Laboratories,14.9,8.96,66.29464285714283,price_above_historical_market_median
+Global Fund PQR,pqr-723,Kenya,yorkool ln | rectangular |  | 1.0,YORKOOL (TYK) INTERNATIONAL LIMITED,3.61,2.35,53.617021276595736,price_above_historical_market_median
+Global Fund PQR,pqr-739,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 18 | tab | 18.0,Ajanta Pharma,1.2,0.58,106.89655172413795,price_above_historical_market_median
+Global Fund PQR,pqr-740,Kenya,artemether+lumefantrine - fdc | 20mg+120mg - 24 | tab | 24.0,Ajanta Pharma,2.4,0.6395,275.29319781078965,price_above_historical_market_median
+Global Fund PQR,pqr-752,Kenya,lopinavir+ritonavir - fdc | 200mg+50mg | tab | 120.0,Mylan Laboratories,26.84,18.655,43.87563655856337,price_above_historical_market_median
